@@ -5,34 +5,6 @@ const CORE = [
 "cardOrder": 99,
 "origin": "jokbo",
 "type": "single",
-"topic": "가금콜레라 원인체 그람음성 단간균(여러 질병 통합)",
-"q": "다음 조류질병에 대한 설명 중 옳은 것은?",
-"choices": [
-"①파라티푸스 원인체는 S. pullorum, S. typhimurium이다.",
-"②대장균은 혈청형이 하나여서 백신으로 충분히 예방 가능하다.",
-"③가금콜레라는 그람양성구균인 Pasteurella multocida가 유발하는 패혈성 전염병이다.",
-"④추백리는 어린 병아리의 항문주위에 석고 모양 흰색 분변이 관찰된다.",
-"⑤가금티푸스는 사람에서 식중독 유발, 공중 보건학적으로 중요하다."
-],
-"answer": [
-4
-],
-"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 본 문항은 여러 조류질병 통합 문항으로, 가금콜레라 관련 선지는 ③이다. ②문항 포인트: 가금콜레라 원인체의 그람 염색성·형태. ③정답근거: 정답은 ④(추백리 — 가금콜레라 범위 밖, 살모넬라 챕터)이며, 가금콜레라 선지 ③은 '그람양성구균'이라 틀렸다 — P. multocida는 그람 음성 단간균(rod)이다(교재 p.211~212). ④오답 소거(가금콜레라 한정): ③ '그람양성구균'(✗) → 그람 음성 간균. ①②⑤는 살모넬라·대장균 등 타 챕터 지식(본 가금콜레라 강의안 밖)으로 ④가 정답이나, 가금콜레라 챕터 관점에서 ③의 그람 염색·형태 오류만 명확히 판정 가능. ⑤함정: '구균(coccus)'으로 적어 간균(rod)과 혼동 유도 — P. multocida는 양단염색 '간균'.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 32
-},
-{
-"part": "18가금콜레라",
-"unit": "18가금콜레라-1",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
 "topic": "Fowl Cholera 원인체 = P. multocida",
 "q": "What is the causative agent of Fowl Cholera?",
 "choices": [
@@ -53,22 +25,58 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
+"id": 32
+},
+{
+"part": "18가금콜레라",
+"unit": "18가금콜레라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Fowl cholera 옳은 설명(급성 패혈증·그람음성·연령↑감수성↑)",
+"q": "Fowl cholera에 대한 설명으로 옳은 것은?",
+"choices": [
+"①병원체는 그람 양성 구균인 Pasteurella multocida이다.",
+"②급성 패혈증을 일으킨다.",
+"③혈청형이 다양하여 백신이 권장되지 않는다.",
+"④난계대 감염이 일어난다.",
+"⑤산란계에서 연령이 증가할수록 감수성은 감소한다."
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 가금콜레라는 P. multocida에 의한 급성 혹은 만성 패혈증성 전염병이다 (교재 p.211). ②문항 포인트: 원인체 성상·패혈증·백신·난계대·연령별 감수성을 종합 판단. ③정답근거: ② '급성 패혈증을 일으킨다'가 옳다 — 급성 발병 시 패혈증성 쇼크로 폐사한다(p.213). ④오답 소거: ①그람 양성 구균(✗) → 그람 음성 간균(p.211~212). ③혈청형이 다양해 백신 권장 안 됨(✗) → 협막 혈청형은 5개(A,B,D,E,F)로 많지 않고 유행 지역에서 박테린·생백신이 권장된다(p.212, p.217). ④난계대 감염(✗) → 거의 일어나지 않음(p.213, p.217). ⑤연령↑→감수성 감소(✗) → 닭은 연령이 높을수록 감수성이 증가해 16주령 이하는 저항성, 19주령 이상 산란계에서 고폐사(p.213). ⑤함정: 포유류 상식으로 '어릴수록 약하다'고 오인하기 쉬우나 가금콜레라는 반대(연령↑→감수성↑).",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
 "id": 33
 },
 {
 "part": "18가금콜레라",
-"unit": "18가금콜레라-1",
+"unit": "18가금콜레라-2",
 "cardOrder": 99,
 "origin": "jokbo",
-"type": "short",
-"topic": "가금콜레라 원인균 쓰기(주관식)",
-"q": "가금콜레라의 원인균을 쓰시오.",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: Pasteurella multocida / **Claude 재판정**: Pasteurella multocida (일치)\n①배경: 가금콜레라(Fowl Cholera; Pasteurellosis)의 원인체는 Pasteurellaceae 과에 속하는 그람 음성·비운동성·양단염색성 간균 Pasteurella multocida이다 (교재 p.211~212). ②문항 포인트: 원인균 학명 정확히 기재. ③모범답안: **Pasteurella multocida** (P. multocida). ④부연: 핵산 상동성에 따라 subsp. multocida·septica·gallicida 3아종으로 나뉘고, 협막 혈청형은 A·B·D·E·F 5개이다(p.212). ⑤함정: 종소명 multocida 철자·속명 Pasteurella를 정확히 써야 하며, 사람 콜레라 원인체(Vibrio cholerae)와 혼동하면 오답.",
-"exam": "2021-기말",
+"type": "single",
+"topic": "가금콜레라 급성·만성 패혈증성 정의(여러 질병 통합)",
+"q": "조류 세균성 질병에 관한 설명으로 옳지 않은 것은?",
+"choices": [
+"①가금콜레라는 조류에 발생하는 급성 또는 만성 패혈증성 전염병이다.",
+"②M.gallisepticum은 닭에서 일반적으로 급성호흡기 증상을 나타내며, 칠면조에서는 부비감염을 유발한다.",
+"③전염성 코라이자는 닭에서 다발하며, 주로 비강 및 상부호흡기에 감염된다.",
+"④C.botulinum은 독소를 생산하는데 신경독으로 마비를 유발한다.",
+"⑤조류결핵은 만성소모성 질환으로 항산성 막대균이다."
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 본 문항의 가금콜레라 선지(①)는 '급성 또는 만성 패혈증성 전염병'으로 교재 p.211 정의와 정확히 일치한다. ②문항 포인트: 옳지 않은 설명 찾기. ③정답근거: 정답은 ②(MG는 급성이 아닌 만성 호흡기 증상 — MG 챕터). 가금콜레라 선지 ①은 옳은 설명이다(P. multocida에 의한 급성·만성 패혈증성 전염병, p.211). ④오답 소거(가금콜레라 한정): ① 가금콜레라 정의는 정확(✓)하므로 오답(틀린 선지)이 아니다. ②③④⑤는 MG·코라이자·보툴리즘·조류결핵 등 타 챕터로, 정답 ②는 MG 만성/급성 오류이며 가금콜레라 선지 ①은 정답 후보가 아님. ⑤함정: 가금콜레라가 '급성 또는 만성' 둘 다 가능하다는 점(①)을 모르면 ①을 틀린 선지로 오인할 수 있으나, 교재상 둘 다 맞다(p.211, p.214).",
+"exam": "2025-기말",
 "exams": [
-"2021-기말"
+"2025-기말"
 ],
 "freq": 1,
 "flag": false,
@@ -102,6 +110,54 @@ const CORE = [
 },
 {
 "part": "18가금콜레라",
+"unit": "18가금콜레라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "가금콜레라 원인균 쓰기(주관식)",
+"q": "가금콜레라의 원인균을 쓰시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Pasteurella multocida / **Claude 재판정**: Pasteurella multocida (일치)\n①배경: 가금콜레라(Fowl Cholera; Pasteurellosis)의 원인체는 Pasteurellaceae 과에 속하는 그람 음성·비운동성·양단염색성 간균 Pasteurella multocida이다 (교재 p.211~212). ②문항 포인트: 원인균 학명 정확히 기재. ③모범답안: **Pasteurella multocida** (P. multocida). ④부연: 핵산 상동성에 따라 subsp. multocida·septica·gallicida 3아종으로 나뉘고, 협막 혈청형은 A·B·D·E·F 5개이다(p.212). ⑤함정: 종소명 multocida 철자·속명 Pasteurella를 정확히 써야 하며, 사람 콜레라 원인체(Vibrio cholerae)와 혼동하면 오답.",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 37
+},
+{
+"part": "18가금콜레라",
+"unit": "18가금콜레라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "가금콜레라 원인체 그람음성 단간균(여러 질병 통합)",
+"q": "다음 조류질병에 대한 설명 중 옳은 것은?",
+"choices": [
+"①파라티푸스 원인체는 S. pullorum, S. typhimurium이다.",
+"②대장균은 혈청형이 하나여서 백신으로 충분히 예방 가능하다.",
+"③가금콜레라는 그람양성구균인 Pasteurella multocida가 유발하는 패혈성 전염병이다.",
+"④추백리는 어린 병아리의 항문주위에 석고 모양 흰색 분변이 관찰된다.",
+"⑤가금티푸스는 사람에서 식중독 유발, 공중 보건학적으로 중요하다."
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 본 문항은 여러 조류질병 통합 문항으로, 가금콜레라 관련 선지는 ③이다. ②문항 포인트: 가금콜레라 원인체의 그람 염색성·형태. ③정답근거: 정답은 ④(추백리 — 가금콜레라 범위 밖, 살모넬라 챕터)이며, 가금콜레라 선지 ③은 '그람양성구균'이라 틀렸다 — P. multocida는 그람 음성 단간균(rod)이다(교재 p.211~212). ④오답 소거(가금콜레라 한정): ③ '그람양성구균'(✗) → 그람 음성 간균. ①②⑤는 살모넬라·대장균 등 타 챕터 지식(본 가금콜레라 강의안 밖)으로 ④가 정답이나, 가금콜레라 챕터 관점에서 ③의 그람 염색·형태 오류만 명확히 판정 가능. ⑤함정: '구균(coccus)'으로 적어 간균(rod)과 혼동 유도 — P. multocida는 양단염색 '간균'.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 38
+},
+{
+"part": "18가금콜레라",
 "unit": "18가금콜레라-2",
 "cardOrder": 99,
 "origin": "jokbo",
@@ -118,62 +174,6 @@ const CORE = [
 4
 ],
 "explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 본 문항은 여러 세균성 질병의 일반 설명에서 틀린 것을 고르는 통합 문항으로, 가금콜레라 선지(④)가 핵심이다. ②전염성 코라이자가 상부 호흡기에 국한된다는 점은 가금콜레라 감별진단에서도 다뤄진다 (교재 p.217). ②문항 포인트: 가금콜레라의 전파 경로 — 난계대(수직 전파) 여부. ③정답근거: ④에서 '그람 음성 간균 Pasteurella multocida가 일으키는 패혈성 전염병'까지는 맞지만 '난계대이다'가 틀렸다. 만성 감염 닭의 계란을 통한 감염은 실험적으로 일어나지 않아 난계대 감염은 매우 드물며(p.213), 부화장·난계대 감염이 거의 없다(p.217). 따라서 ④가 '틀린' 선지로 정답. ④오답 소거: ①②③은 본 챕터(가금콜레라) 강의안 범위 밖(살모넬라·코라이자·클로스트리듐)이나, 문항이 묻는 핵심은 ④의 난계대 오류이며 ④만으로 정답 확정 가능. ⑤함정: '그람 음성 간균·패혈성'은 맞기에 끝의 '난계대이다'를 놓치기 쉬움 — 가금콜레라의 대표적 함정 포인트.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 37
-},
-{
-"part": "18가금콜레라",
-"unit": "18가금콜레라-2",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
-"topic": "Fowl cholera 옳은 설명(급성 패혈증·그람음성·연령↑감수성↑)",
-"q": "Fowl cholera에 대한 설명으로 옳은 것은?",
-"choices": [
-"①병원체는 그람 양성 구균인 Pasteurella multocida이다.",
-"②급성 패혈증을 일으킨다.",
-"③혈청형이 다양하여 백신이 권장되지 않는다.",
-"④난계대 감염이 일어난다.",
-"⑤산란계에서 연령이 증가할수록 감수성은 감소한다."
-],
-"answer": [
-2
-],
-"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 가금콜레라는 P. multocida에 의한 급성 혹은 만성 패혈증성 전염병이다 (교재 p.211). ②문항 포인트: 원인체 성상·패혈증·백신·난계대·연령별 감수성을 종합 판단. ③정답근거: ② '급성 패혈증을 일으킨다'가 옳다 — 급성 발병 시 패혈증성 쇼크로 폐사한다(p.213). ④오답 소거: ①그람 양성 구균(✗) → 그람 음성 간균(p.211~212). ③혈청형이 다양해 백신 권장 안 됨(✗) → 협막 혈청형은 5개(A,B,D,E,F)로 많지 않고 유행 지역에서 박테린·생백신이 권장된다(p.212, p.217). ④난계대 감염(✗) → 거의 일어나지 않음(p.213, p.217). ⑤연령↑→감수성 감소(✗) → 닭은 연령이 높을수록 감수성이 증가해 16주령 이하는 저항성, 19주령 이상 산란계에서 고폐사(p.213). ⑤함정: 포유류 상식으로 '어릴수록 약하다'고 오인하기 쉬우나 가금콜레라는 반대(연령↑→감수성↑).",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 38
-},
-{
-"part": "18가금콜레라",
-"unit": "18가금콜레라-2",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
-"topic": "가금콜레라 급성·만성 패혈증성 정의(여러 질병 통합)",
-"q": "조류 세균성 질병에 관한 설명으로 옳지 않은 것은?",
-"choices": [
-"①가금콜레라는 조류에 발생하는 급성 또는 만성 패혈증성 전염병이다.",
-"②M.gallisepticum은 닭에서 일반적으로 급성호흡기 증상을 나타내며, 칠면조에서는 부비감염을 유발한다.",
-"③전염성 코라이자는 닭에서 다발하며, 주로 비강 및 상부호흡기에 감염된다.",
-"④C.botulinum은 독소를 생산하는데 신경독으로 마비를 유발한다.",
-"⑤조류결핵은 만성소모성 질환으로 항산성 막대균이다."
-],
-"answer": [
-2
-],
-"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 본 문항의 가금콜레라 선지(①)는 '급성 또는 만성 패혈증성 전염병'으로 교재 p.211 정의와 정확히 일치한다. ②문항 포인트: 옳지 않은 설명 찾기. ③정답근거: 정답은 ②(MG는 급성이 아닌 만성 호흡기 증상 — MG 챕터). 가금콜레라 선지 ①은 옳은 설명이다(P. multocida에 의한 급성·만성 패혈증성 전염병, p.211). ④오답 소거(가금콜레라 한정): ① 가금콜레라 정의는 정확(✓)하므로 오답(틀린 선지)이 아니다. ②③④⑤는 MG·코라이자·보툴리즘·조류결핵 등 타 챕터로, 정답 ②는 MG 만성/급성 오류이며 가금콜레라 선지 ①은 정답 후보가 아님. ⑤함정: 가금콜레라가 '급성 또는 만성' 둘 다 가능하다는 점(①)을 모르면 ①을 틀린 선지로 오인할 수 있으나, 교재상 둘 다 맞다(p.211, p.214).",
 "exam": "2025-기말",
 "exams": [
 "2025-기말"
@@ -509,56 +509,6 @@ const CORE = [
 },
 {
 "part": "20마이코",
-"unit": "20마이코-1",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
-"topic": "원인체 공통 특성 — 세포벽 없음·분류·형태·염색",
-"q": "Which one is NOT a poultry specific Mycoplasma?",
-"choices": [
-"① Mycoplasma Gallisepticum",
-"② Mycoplasma hyopneumoniae",
-"③ Mycoplasma synoviae",
-"④ Mycoplasma iowae",
-"⑤ Mycoplasma meleagridis"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: 2 / **Claude 재판정**: 2 (일치)\n\n①배경: 교재 p.227은 가금 병원성 마이코플라즈마로 M. gallisepticum, M. synoviae, M. iowae, M. meleagridis 4종을 든다.\n②포인트: 가금 특이종이 '아닌' 것 고르기.\n③정답근거: ② M. hyopneumoniae는 돼지 폐렴 원인체로 가금 종이 아니다(교재 4종 목록에 없음).\n④오답 소거: ①③④⑤✗(모두 교재 p.227의 가금 병원성 4종).\n⑤함정: hyopneumoniae(hyo=돼지)의 접두어로 숙주를 구분. 2024-기말·2023-기말·2022-중간에 동일 문항 반복 출제된 최빈출.",
-"exam": "2024-기말",
-"exams": [
-"2024-기말",
-"2023-기말",
-"2022-중간"
-],
-"freq": 3,
-"flag": false,
-"flagReason": "",
-"id": 111
-},
-{
-"part": "20마이코",
-"unit": "20마이코-2",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "short",
-"topic": "배양·생화학·저항성 — 혈청·NAD·페놀레드·적혈구 응집",
-"q": "MG를 세포배양 시, 성장에 필요한 동물 혈청을 쓰시오.",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: 10~15% heat inactivated swine/avian/horse serum / **Claude 재판정**: 말 또는 돼지 혈청(10~15%) (대체로 일치)\n\n모범답안: MG 배양에는 콜레스테롤을 함유한 **10~15% 동물 혈청**, 구체적으로 **말(horse) 또는 돼지(swine) 혈청**이 필요하다. (MG는 MS와 달리 NAD는 불필요.)\n\n근거: 교재 p.227 \"M. gallisepticum과 M. meleagridis를 배양하기 위해서는 말 또는 돼지 혈청이 필요하지만, M. synoviae는 돼지 혈청뿐만 아니라 NAD도 필요하다\"; \"콜레스테롤을 함유한 10~15%의 동물 혈청을 첨가한 배지\". 족보답의 'avian serum'은 교재 ch20에 명시되지 않으나, '말 또는 돼지 혈청 10~15%'는 교재로 확실히 뒷받침된다.",
-"exam": "2022-중간",
-"exams": [
-"2022-중간"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 116
-},
-{
-"part": "20마이코",
 "unit": "20마이코-3",
 "cardOrder": 99,
 "origin": "jokbo",
@@ -585,7 +535,7 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 118
+"id": 111
 },
 {
 "part": "20마이코",
@@ -612,7 +562,57 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 131
+"id": 124
+},
+{
+"part": "20마이코",
+"unit": "20마이코-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "배양·생화학·저항성 — 혈청·NAD·페놀레드·적혈구 응집",
+"q": "MG를 세포배양 시, 성장에 필요한 동물 혈청을 쓰시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 10~15% heat inactivated swine/avian/horse serum / **Claude 재판정**: 말 또는 돼지 혈청(10~15%) (대체로 일치)\n\n모범답안: MG 배양에는 콜레스테롤을 함유한 **10~15% 동물 혈청**, 구체적으로 **말(horse) 또는 돼지(swine) 혈청**이 필요하다. (MG는 MS와 달리 NAD는 불필요.)\n\n근거: 교재 p.227 \"M. gallisepticum과 M. meleagridis를 배양하기 위해서는 말 또는 돼지 혈청이 필요하지만, M. synoviae는 돼지 혈청뿐만 아니라 NAD도 필요하다\"; \"콜레스테롤을 함유한 10~15%의 동물 혈청을 첨가한 배지\". 족보답의 'avian serum'은 교재 ch20에 명시되지 않으나, '말 또는 돼지 혈청 10~15%'는 교재로 확실히 뒷받침된다.",
+"exam": "2022-중간",
+"exams": [
+"2022-중간"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 135
+},
+{
+"part": "20마이코",
+"unit": "20마이코-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "원인체 공통 특성 — 세포벽 없음·분류·형태·염색",
+"q": "Which one is NOT a poultry specific Mycoplasma?",
+"choices": [
+"① Mycoplasma Gallisepticum",
+"② Mycoplasma hyopneumoniae",
+"③ Mycoplasma synoviae",
+"④ Mycoplasma iowae",
+"⑤ Mycoplasma meleagridis"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: 2 / **Claude 재판정**: 2 (일치)\n\n①배경: 교재 p.227은 가금 병원성 마이코플라즈마로 M. gallisepticum, M. synoviae, M. iowae, M. meleagridis 4종을 든다.\n②포인트: 가금 특이종이 '아닌' 것 고르기.\n③정답근거: ② M. hyopneumoniae는 돼지 폐렴 원인체로 가금 종이 아니다(교재 4종 목록에 없음).\n④오답 소거: ①③④⑤✗(모두 교재 p.227의 가금 병원성 4종).\n⑤함정: hyopneumoniae(hyo=돼지)의 접두어로 숙주를 구분. 2024-기말·2023-기말·2022-중간에 동일 문항 반복 출제된 최빈출.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2022-중간"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 137
 },
 {
 "part": "20마이코",
@@ -721,28 +721,26 @@ const CORE = [
 },
 {
 "part": "21클로스트리디움",
-"unit": "21클로스트리디움-1",
+"unit": "21클로스트리디움-3",
 "cardOrder": 99,
 "origin": "jokbo",
-"type": "single",
-"topic": "Clostridium 종합 — 4대 질병 옳은 설명 고르기",
-"q": "조류의 클로스트리디움 질병에 대한 설명으로 옳은 것은?",
+"type": "ox",
+"topic": "C. perfringens는 UE 원인체? (OX·궤양성장염 원인체 혼동)",
+"q": "Clostridium perfringens is causative agent of ulcerative enteritis. (O/X)",
 "choices": [
-"①원인체는 그람 음성으로 협기성 및 아포를 형성하는 구균이다.",
-"②장내 세균총의 변화나 면역억압은 괴사성장염의 발생증가와 상관관계가 없다.",
-"③보툴리즘은 원인체의 과도한 증식에 의한 패혈증으로 주로 폐사한다.",
-"④콕시듐 감염은 괴사성장염의 발생을 억제한다.",
-"⑤궤양성 장염은 간의 비대와 괴사, 비장의 출혈을 동반한 장에 특징적인 궤양을 나타낸다."
+"O (맞음)",
+"X (틀림)"
 ],
 "answer": [
-5
+2
 ],
-"explain": "**족보답**: 5 / **Claude 재판정**: 5 (일치)\n\n①배경: 클로스트리디움은 그람 양성·혐기성·아포 형성 간균이며(교재 p.239), 4대 질병(보툴리즘·UE·NE·GD) 전반의 핵심 사실을 묻는 종합 문항이다. ②포인트: 각 선지의 균 특성·발병기전·병변을 교재와 대조한다. ③정답근거: ⑤ 궤양성장염은 \"간은 황색, 검은색의 큰 병변\", \"비장은 비대해지고 출혈\", 장의 특징적 궤양을 나타낸다(교재 p.245)로 옳다. ④오답소거: ① 그람 '음성'·'구균'이 틀림 — 그람 양성·간균(p.239) ✗. ② 교재 p.248 \"장 내 세균총의 변화나 ... 면역억압 시 괴사성장염이 흔히 발생\" — 상관관계 있음 ✗. ③ 보툴리즘은 신경독 섭취에 의한 마비성 질병이지 패혈증이 아니며 C. botulinum 자체는 병원성이 없다(p.240) ✗. ④ 콕시듐은 장점막 손상으로 NE를 '악화'시킨다(p.248) — 억제가 아님 ✗. ⑤함정: ①의 '그람 음성 구균', ④의 '억제'(실제 악화), ③의 '패혈증'(실제 마비)이 단골 함정. 균 특성 4요소(그람양성·혐기성·아포·간균)를 정확히 외워야 한다.",
-"exam": "2025-기말",
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: 같은 회차(2022-기말)에 표현만 다른 동일 취지 OX가 두 번(#36·#37) 출제되었다. 궤양성장염(ulcerative enteritis, UE)의 원인체는 C. colinum이다(교재 p.244 \"궤양성장염은 클로스트리디움 콜리넘(Clostridium colinum)에 의한 급성 질병\"). ②포인트: UE의 원인체가 C. perfringens인지 C. colinum인지를 가린다. ③정답근거: C. perfringens는 괴사성장염(NE)·괴저성피부염(GD)의 원인체이지 궤양성장염의 원인체가 아니므로 진술은 거짓(X) → 정답 ②. ④오답소거: O(①)는 원인체를 혼동한 오답이다. ⑤함정: 교재 p.244에 따르면 과거 궤양성장염이 \"C. perfringens로 오인\"된 역사가 있어 이 함정이 출제된다. UE=C. colinum, NE=C. perfringens를 확실히 구분해야 한다.",
+"exam": "2022-기말",
 "exams": [
-"2025-기말"
+"2022-기말",
+"2022-기말"
 ],
-"freq": 1,
+"freq": 2,
 "flag": false,
 "flagReason": "",
 "id": 177
@@ -773,33 +771,35 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 178
+"id": 179
 },
 {
 "part": "21클로스트리디움",
-"unit": "21클로스트리디움-3",
+"unit": "21클로스트리디움-1",
 "cardOrder": 99,
 "origin": "jokbo",
-"type": "ox",
-"topic": "C. perfringens는 UE 원인체? (OX·궤양성장염 원인체 혼동)",
-"q": "Clostridium perfringens is causative agent of ulcerative enteritis. (O/X)",
+"type": "single",
+"topic": "Clostridium 종합 — 4대 질병 옳은 설명 고르기",
+"q": "조류의 클로스트리디움 질병에 대한 설명으로 옳은 것은?",
 "choices": [
-"O (맞음)",
-"X (틀림)"
+"①원인체는 그람 음성으로 협기성 및 아포를 형성하는 구균이다.",
+"②장내 세균총의 변화나 면역억압은 괴사성장염의 발생증가와 상관관계가 없다.",
+"③보툴리즘은 원인체의 과도한 증식에 의한 패혈증으로 주로 폐사한다.",
+"④콕시듐 감염은 괴사성장염의 발생을 억제한다.",
+"⑤궤양성 장염은 간의 비대와 괴사, 비장의 출혈을 동반한 장에 특징적인 궤양을 나타낸다."
 ],
 "answer": [
-2
+5
 ],
-"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: 같은 회차(2022-기말)에 표현만 다른 동일 취지 OX가 두 번(#36·#37) 출제되었다. 궤양성장염(ulcerative enteritis, UE)의 원인체는 C. colinum이다(교재 p.244 \"궤양성장염은 클로스트리디움 콜리넘(Clostridium colinum)에 의한 급성 질병\"). ②포인트: UE의 원인체가 C. perfringens인지 C. colinum인지를 가린다. ③정답근거: C. perfringens는 괴사성장염(NE)·괴저성피부염(GD)의 원인체이지 궤양성장염의 원인체가 아니므로 진술은 거짓(X) → 정답 ②. ④오답소거: O(①)는 원인체를 혼동한 오답이다. ⑤함정: 교재 p.244에 따르면 과거 궤양성장염이 \"C. perfringens로 오인\"된 역사가 있어 이 함정이 출제된다. UE=C. colinum, NE=C. perfringens를 확실히 구분해야 한다.",
-"exam": "2022-기말",
+"explain": "**족보답**: 5 / **Claude 재판정**: 5 (일치)\n\n①배경: 클로스트리디움은 그람 양성·혐기성·아포 형성 간균이며(교재 p.239), 4대 질병(보툴리즘·UE·NE·GD) 전반의 핵심 사실을 묻는 종합 문항이다. ②포인트: 각 선지의 균 특성·발병기전·병변을 교재와 대조한다. ③정답근거: ⑤ 궤양성장염은 \"간은 황색, 검은색의 큰 병변\", \"비장은 비대해지고 출혈\", 장의 특징적 궤양을 나타낸다(교재 p.245)로 옳다. ④오답소거: ① 그람 '음성'·'구균'이 틀림 — 그람 양성·간균(p.239) ✗. ② 교재 p.248 \"장 내 세균총의 변화나 ... 면역억압 시 괴사성장염이 흔히 발생\" — 상관관계 있음 ✗. ③ 보툴리즘은 신경독 섭취에 의한 마비성 질병이지 패혈증이 아니며 C. botulinum 자체는 병원성이 없다(p.240) ✗. ④ 콕시듐은 장점막 손상으로 NE를 '악화'시킨다(p.248) — 억제가 아님 ✗. ⑤함정: ①의 '그람 음성 구균', ④의 '억제'(실제 악화), ③의 '패혈증'(실제 마비)이 단골 함정. 균 특성 4요소(그람양성·혐기성·아포·간균)를 정확히 외워야 한다.",
+"exam": "2025-기말",
 "exams": [
-"2022-기말",
-"2022-기말"
+"2025-기말"
 ],
-"freq": 2,
+"freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 179
+"id": 180
 },
 {
 "part": "21클로스트리디움",
@@ -1050,29 +1050,20 @@ const CORE = [
 },
 {
 "part": "22포도상구균",
-"unit": "22포도상구균-1",
+"unit": "22포도상구균-3",
 "cardOrder": 99,
 "origin": "jokbo",
-"type": "single",
-"topic": "대사성질병 문항 — Staphylococcosis 원인균 distractor(2024)",
-"q": "Which one is a correct statement about metabolic disease?",
-"choices": [
-"① Staphylococcosis is a systemic and __ disease by S.faecalis",
-"② White muscle disease is one of the clinical signs by Selenium deficiency",
-"③ Perosis is pathological conditions that is caused by accumulation of uric acid crystals in visceral organs or skeletal system",
-"④ Unique gross lesion of Camphylobacteriosis is formation of pseudomembrane in trachea",
-"⑤ C. botulinum generally not present in digestive tract of chicken"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n\n①배경: 본 문항은 대사성질병(metabolic disease) 종합문항으로, ①선지만 포도상구균과 관련된다. ②포인트: 5선지 중 옳은 진술 1개 고르기. ③정답근거: ②는 셀레늄 결핍의 임상증상으로 백근병(white muscle disease)이 나타난다는 것으로, 다른 챕터(대사성질병) 지식이나 정답이다. ④본 챕터 관련 선지(①) 판정: 포도상구균 감염증의 원인균은 S. aureus이지 **S. faecalis(장구균)가 아니다**(교재 p.253-254). 따라서 ① ✗. ③ Perosis(요산 결정 침착)·④ Campylobacter 기관 가성막·⑤ C. botulinum 소화관 부재 — 모두 본 강의안(22장) 밖 대사·기타세균 챕터 지식으로 ✗. ⑤함정: ①의 'S. faecalis'를 S. aureus로 바꾼 함정 — 포도상구균 원인균만 확실히 알면 ① 소거 가능.\n\n(교차 범위: 본 문항은 대사성질병 챕터 주제이나, 22장 강의안으로 ①선지가 명확히 오답임을 판정할 수 있어 정답 도출 가능. 정답 선지 ②의 확정 근거는 22장 밖이므로 주의.)",
-"exam": "2024-기말",
+"type": "short",
+"topic": "Staphylococcosis gross lesion·clinical sign 서술",
+"q": "Staphylococcosis의 gross lesion과 clinical sign을 적으시오. (2개 이상)",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 급성패혈증, 부종성 피부염, 관절염, 제대염, 지루 등 / **Claude 재판정(모범답안)**: 아래 강의안 근거 항목으로 작성 — 족보답은 일부 용어가 모호하므로 교재 기준으로 보완함\n\n①배경: 포도상구균은 뼈·힘줄집·관절에 병변을 잘 일으키며 일령별 호발 부위가 다르다(표 22-1, 교재 p.256). ②포인트: 육안병변(gross lesion)과 임상증상(clinical sign)을 각각 2개 이상 제시. ③모범답안 — **임상증상(clinical sign)**: 다리를 절뚝거림·파행(lameness), 깃털이 꺼칠해짐, 날개 늘어뜨림, 발열, 관절 통증으로 보행 기피, 침울, 폐사, 산란계의 갑작스런 급사(여름철), 운동 기피(교재 p.255). **육안병변(gross lesion)**: 무릎·발목 관절의 관절염·관절활막염과 종창·농양(그림 22-1), 골수염(골수 황색 병변, 골절; proximal tibiotarsus·femur), bumblefoot(발바닥 감염), 배꼽염·난황염(난황 흑갈색 변색·종대), 괴저성피부염(IBA 복합 시 blue wing disease), 패혈증 시 간·폐·비장·신장 괴사 및 맥관 충혈(교재 p.255-256). ④오답 소거: 서술형으로 선지 없음. ⑤함정: gross lesion(병변)과 clinical sign(증상)을 섞지 말 것 — 관절 종창·간 괴사는 병변, 파행·발열·침울은 증상이다.",
+"exam": "2022-기말",
 "exams": [
-"2024-기말",
-"2023-기말"
+"2022-기말"
 ],
-"freq": 2,
+"freq": 1,
 "flag": false,
 "flagReason": "",
 "id": 220
@@ -1108,6 +1099,35 @@ const CORE = [
 },
 {
 "part": "22포도상구균",
+"unit": "22포도상구균-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "대사성질병 문항 — Staphylococcosis 원인균 distractor(2024)",
+"q": "Which one is a correct statement about metabolic disease?",
+"choices": [
+"① Staphylococcosis is a systemic and __ disease by S.faecalis",
+"② White muscle disease is one of the clinical signs by Selenium deficiency",
+"③ Perosis is pathological conditions that is caused by accumulation of uric acid crystals in visceral organs or skeletal system",
+"④ Unique gross lesion of Camphylobacteriosis is formation of pseudomembrane in trachea",
+"⑤ C. botulinum generally not present in digestive tract of chicken"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n\n①배경: 본 문항은 대사성질병(metabolic disease) 종합문항으로, ①선지만 포도상구균과 관련된다. ②포인트: 5선지 중 옳은 진술 1개 고르기. ③정답근거: ②는 셀레늄 결핍의 임상증상으로 백근병(white muscle disease)이 나타난다는 것으로, 다른 챕터(대사성질병) 지식이나 정답이다. ④본 챕터 관련 선지(①) 판정: 포도상구균 감염증의 원인균은 S. aureus이지 **S. faecalis(장구균)가 아니다**(교재 p.253-254). 따라서 ① ✗. ③ Perosis(요산 결정 침착)·④ Campylobacter 기관 가성막·⑤ C. botulinum 소화관 부재 — 모두 본 강의안(22장) 밖 대사·기타세균 챕터 지식으로 ✗. ⑤함정: ①의 'S. faecalis'를 S. aureus로 바꾼 함정 — 포도상구균 원인균만 확실히 알면 ① 소거 가능.\n\n(교차 범위: 본 문항은 대사성질병 챕터 주제이나, 22장 강의안으로 ①선지가 명확히 오답임을 판정할 수 있어 정답 도출 가능. 정답 선지 ②의 확정 근거는 22장 밖이므로 주의.)",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말"
+],
+"freq": 2,
+"flag": false,
+"flagReason": "",
+"id": 222
+},
+{
+"part": "22포도상구균",
 "unit": "22포도상구균-3",
 "cardOrder": 99,
 "origin": "jokbo",
@@ -1125,26 +1145,6 @@ const CORE = [
 "exam": "2025-기말",
 "exams": [
 "2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 222
-},
-{
-"part": "22포도상구균",
-"unit": "22포도상구균-3",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "short",
-"topic": "Staphylococcosis gross lesion·clinical sign 서술",
-"q": "Staphylococcosis의 gross lesion과 clinical sign을 적으시오. (2개 이상)",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: 급성패혈증, 부종성 피부염, 관절염, 제대염, 지루 등 / **Claude 재판정(모범답안)**: 아래 강의안 근거 항목으로 작성 — 족보답은 일부 용어가 모호하므로 교재 기준으로 보완함\n\n①배경: 포도상구균은 뼈·힘줄집·관절에 병변을 잘 일으키며 일령별 호발 부위가 다르다(표 22-1, 교재 p.256). ②포인트: 육안병변(gross lesion)과 임상증상(clinical sign)을 각각 2개 이상 제시. ③모범답안 — **임상증상(clinical sign)**: 다리를 절뚝거림·파행(lameness), 깃털이 꺼칠해짐, 날개 늘어뜨림, 발열, 관절 통증으로 보행 기피, 침울, 폐사, 산란계의 갑작스런 급사(여름철), 운동 기피(교재 p.255). **육안병변(gross lesion)**: 무릎·발목 관절의 관절염·관절활막염과 종창·농양(그림 22-1), 골수염(골수 황색 병변, 골절; proximal tibiotarsus·femur), bumblefoot(발바닥 감염), 배꼽염·난황염(난황 흑갈색 변색·종대), 괴저성피부염(IBA 복합 시 blue wing disease), 패혈증 시 간·폐·비장·신장 괴사 및 맥관 충혈(교재 p.255-256). ④오답 소거: 서술형으로 선지 없음. ⑤함정: gross lesion(병변)과 clinical sign(증상)을 섞지 말 것 — 관절 종창·간 괴사는 병변, 파행·발열·침울은 증상이다.",
-"exam": "2022-기말",
-"exams": [
-"2022-기말"
 ],
 "freq": 1,
 "flag": false,
@@ -1559,34 +1559,6 @@ const CORE = [
 "unit": "25아스퍼질러스-1",
 "cardOrder": 99,
 "origin": "jokbo",
-"type": "single",
-"topic": "조류 aspergillus 옳지 않은 것(효모 원인)",
-"q": "조류의 aspergillus에 대해 옳지 않은 것은?",
-"choices": [
-"①폐, 기낭의 노랑 병변",
-"②소화상부기관 정상적 효모가 원인",
-"③A. fumigatis가 병변에서 주로 분리",
-"④SDA 배지로 증식 가능",
-"⑤면역 저하시 발생"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n\n①배경: aspergillosis는 *Aspergillus* spp.(곰팡이) 감염으로 폐·기낭에 노란색 결절을 만드는 질병이다(p.271). ②포인트: '옳지 않은 것'을 고르는 문항으로, 원인체가 곰팡이인지 효모인지를 판단해야 한다. ③정답근거: ②는 '소화상부기관의 정상적 효모(yeast)가 원인'이라 했으나, aspergillosis의 원인체는 곰팡이(mold)인 Aspergillus이며 정상 효모가 원인이 아니다(p.271~272). 효모성 정상균총 변화로 발생하는 것은 칸디다증 쪽 설명에 가깝다 → ②가 틀린 설명이므로 정답. ④오답 소거: ①폐·기낭 노란색 결절은 전형 육안병변으로 옳음(p.274~275). ③병변에서 주로 A. fumigatus가 분리됨—옳음(p.272). ④SDA(Sabouraud dextrose agar)에 쉽게 배양됨—옳음(p.272). ⑤면역억제 상태에서 더 쉽게 발생—옳음(p.274). ⑤함정: 같은 곰팡이병이라도 칸디다증은 효모(yeast)성, aspergillosis는 곰팡이(mold/균사)성이라는 점을 구분해야 함. ②의 '효모가 원인'은 aspergillus가 아닌 candida에 가까운 서술로 유도하는 함정이다.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 326
-},
-{
-"part": "25아스퍼질러스",
-"unit": "25아스퍼질러스-1",
-"cardOrder": 99,
-"origin": "jokbo",
 "type": "ox",
 "topic": "Aflatoxin은 A. flavus 생성 독소(O/X)",
 "q": "Aflatoxin is biological toxin generated from Aspergillus flavus.",
@@ -1605,7 +1577,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 327
+"id": 326
 },
 {
 "part": "25아스퍼질러스",
@@ -1618,6 +1590,34 @@ const CORE = [
 "choices": [],
 "answer": [],
 "explain": "**족보답**: (서술형, 원본 모범답안 없음) / **Claude 재판정**: 아래 모범답안 (강의안 기준)\n\n**모범답안 (p.273~274, p.279 근거)**\n\n[어린 일령(병아리)]\n- aspergillosis는 주로 어린 일령에서 발생빈도가 높으며, 부화 직후 발생 시 부화기 폐렴(brooder pneumonia)이라 부른다(p.271).\n- 급성형으로 진행되어 매우 높은 이병률과 폐사율(집단감염 시 ~50%)을 보이고, 계군단위 발병 형태를 띤다(p.273~274).\n- 감염원은 대부분 부화장과 관련되며, 부화장의 적절한 습도·온도가 곰팡이 증식에도 좋아 오염이 문제가 된다(p.279).\n- 특별한 치료법이 없어 감염개체는 도태하며, 부화장 위생관리가 예방의 핵심이다(p.279).\n\n[성계]\n- 만성형으로 발생하여 급성보다 낮은 폐사율을 보이고, 계군단위보다 개체발병 형태를 띤다(p.273).\n- 닭 성계는 주로 실내계사에서 위생적으로 관리되어 집단발생이 거의 없으나, 밀사·스트레스 등 환경이 나쁘면 발생할 수 있다(p.273).\n- 성계는 사육환경보다는 면역억제성 질병(IBD·닭 전염성 빈혈·마렉병·세망내피증 등) 감염에 의해 쉽게 발생하므로 이들 질병 예방이 중요하다(p.279).\n- (참고) 방목하는 칠면조는 성숙 개체에서 발생 시 집단폐사로 심각한 경제적 피해를 줄 수 있다(p.273).\n\n핵심 대비: 어린 일령=급성·고폐사·계군단위·부화장 관련 / 성계=만성·저폐사·개체발병·면역억제질병 관련.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 327
+},
+{
+"part": "25아스퍼질러스",
+"unit": "25아스퍼질러스-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "조류 aspergillus 옳지 않은 것(효모 원인)",
+"q": "조류의 aspergillus에 대해 옳지 않은 것은?",
+"choices": [
+"①폐, 기낭의 노랑 병변",
+"②소화상부기관 정상적 효모가 원인",
+"③A. fumigatis가 병변에서 주로 분리",
+"④SDA 배지로 증식 가능",
+"⑤면역 저하시 발생"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n\n①배경: aspergillosis는 *Aspergillus* spp.(곰팡이) 감염으로 폐·기낭에 노란색 결절을 만드는 질병이다(p.271). ②포인트: '옳지 않은 것'을 고르는 문항으로, 원인체가 곰팡이인지 효모인지를 판단해야 한다. ③정답근거: ②는 '소화상부기관의 정상적 효모(yeast)가 원인'이라 했으나, aspergillosis의 원인체는 곰팡이(mold)인 Aspergillus이며 정상 효모가 원인이 아니다(p.271~272). 효모성 정상균총 변화로 발생하는 것은 칸디다증 쪽 설명에 가깝다 → ②가 틀린 설명이므로 정답. ④오답 소거: ①폐·기낭 노란색 결절은 전형 육안병변으로 옳음(p.274~275). ③병변에서 주로 A. fumigatus가 분리됨—옳음(p.272). ④SDA(Sabouraud dextrose agar)에 쉽게 배양됨—옳음(p.272). ⑤면역억제 상태에서 더 쉽게 발생—옳음(p.274). ⑤함정: 같은 곰팡이병이라도 칸디다증은 효모(yeast)성, aspergillosis는 곰팡이(mold/균사)성이라는 점을 구분해야 함. ②의 '효모가 원인'은 aspergillus가 아닌 candida에 가까운 서술로 유도하는 함정이다.",
 "exam": "2025-기말",
 "exams": [
 "2025-기말"
@@ -2065,6 +2065,32 @@ const CORE = [
 },
 {
 "part": "27콕시듐",
+"unit": "27콕시듐-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "예방과 치료 — 백신·항콕시듐제",
+"q": "Rotation program is the most effective way against resistance of anticoccidal vaccines. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X (2023-기말) / **Claude 재판정**: X (일치)\n\n①배경: 교재 p.299는 항콕시듐'제(drug)'의 내성 지연 방법으로 rotation과 shuttle 두 가지를 함께 제시한다. ②포인트: rotation이 내성 대응의 '가장 효과적인 유일한' 방법인지, 그리고 대상이 'vaccine'인지. ③정답근거: X — (1) 교재는 rotation과 shuttle을 병렬로 소개할 뿐 rotation을 'the most effective(유일 최선)'로 단정하지 않으며, (2) 내성 관리는 '백신(vaccine)'이 아니라 '항콕시듐제(drug)'에 대한 전략이다. 문장이 'anticoccidial vaccines'의 내성을 말한 점도 부정확하다(p.299). 따라서 'most effective ~ vaccines' 진술은 틀리다(X). ④오답 소거: O로 보면 'rotation이 유일 최선'·'백신 내성'이라는 두 과장을 모두 인정하게 되어 교재와 어긋난다. ⑤함정: rotation 자체는 유효한 방법이지만 'the most effective'와 'vaccines' 두 단어가 함정이다. (2024-기말 족보는 답 미확정 'O? X?'으로 표기됨)",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말"
+],
+"freq": 2,
+"flag": false,
+"flagReason": "",
+"id": 416
+},
+{
+"part": "27콕시듐",
 "unit": "27콕시듐-1",
 "cardOrder": 99,
 "origin": "jokbo",
@@ -2089,7 +2115,36 @@ const CORE = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답②≠재판정답④ — 족보는 ②를 오답으로 보았으나 교재 p.290·297상 ④(포자화 안 된 oocyst 냉장 1~2년)가 틀린 설명",
-"id": 408
+"id": 422
+},
+{
+"part": "27콕시듐",
+"unit": "27콕시듐-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "종별 병원성과 기생부위",
+"q": "Which Eimeria spp. would be found from exceptional coccidiosis outbreak at 8-18 weeks of age flock?",
+"choices": [
+"①E. acervulina",
+"②E. necatrix",
+"③E. maxima",
+"④E. tenella",
+"⑤E. mitis"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n\n①배경: 대부분의 콕시듐은 어린 병아리(육계 발육기)에 발병하나, E. necatrix는 충란 증폭성이 낮아 비교적 큰 닭에서 발견된다(교재 p.292·293). ②포인트: 8~18주령의 예외적 발생 종. ③정답근거: ② E. necatrix — p.293 \"충란의 증폭성이 낮으므로 주로 9~14주령의 닭에서 발견\"되어 8~18주령 일령대 예외적 발생과 부합한다. ④오답 소거: ① acervulina·③ maxima·④ tenella·⑤ mitis는 주로 더 어린 일령(병아리·육계 발육단계)에 발병한다(p.293 \"어린 닭에서 매우 빈번\" 등). ⑤함정: 일반적 콕시듐은 어린 닭 호발이라는 통념 때문에 tenella를 고르기 쉽지만, '나이 든 일령의 예외적 발생'은 증폭성 낮은 necatrix의 특징이다.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말"
+],
+"freq": 2,
+"flag": false,
+"flagReason": "",
+"id": 426
 },
 {
 "part": "27콕시듐",
@@ -2119,62 +2174,7 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 412
-},
-{
-"part": "27콕시듐",
-"unit": "27콕시듐-3",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
-"topic": "종별 병원성과 기생부위",
-"q": "Which Eimeria spp. would be found from exceptional coccidiosis outbreak at 8-18 weeks of age flock?",
-"choices": [
-"①E. acervulina",
-"②E. necatrix",
-"③E. maxima",
-"④E. tenella",
-"⑤E. mitis"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n\n①배경: 대부분의 콕시듐은 어린 병아리(육계 발육기)에 발병하나, E. necatrix는 충란 증폭성이 낮아 비교적 큰 닭에서 발견된다(교재 p.292·293). ②포인트: 8~18주령의 예외적 발생 종. ③정답근거: ② E. necatrix — p.293 \"충란의 증폭성이 낮으므로 주로 9~14주령의 닭에서 발견\"되어 8~18주령 일령대 예외적 발생과 부합한다. ④오답 소거: ① acervulina·③ maxima·④ tenella·⑤ mitis는 주로 더 어린 일령(병아리·육계 발육단계)에 발병한다(p.293 \"어린 닭에서 매우 빈번\" 등). ⑤함정: 일반적 콕시듐은 어린 닭 호발이라는 통념 때문에 tenella를 고르기 쉽지만, '나이 든 일령의 예외적 발생'은 증폭성 낮은 necatrix의 특징이다.",
-"exam": "2024-기말",
-"exams": [
-"2024-기말",
-"2023-기말"
-],
-"freq": 2,
-"flag": false,
-"flagReason": "",
-"id": 422
-},
-{
-"part": "27콕시듐",
-"unit": "27콕시듐-5",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "ox",
-"topic": "예방과 치료 — 백신·항콕시듐제",
-"q": "Rotation program is the most effective way against resistance of anticoccidal vaccines. (O/X)",
-"choices": [
-"O (맞음)",
-"X (틀림)"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: X (2023-기말) / **Claude 재판정**: X (일치)\n\n①배경: 교재 p.299는 항콕시듐'제(drug)'의 내성 지연 방법으로 rotation과 shuttle 두 가지를 함께 제시한다. ②포인트: rotation이 내성 대응의 '가장 효과적인 유일한' 방법인지, 그리고 대상이 'vaccine'인지. ③정답근거: X — (1) 교재는 rotation과 shuttle을 병렬로 소개할 뿐 rotation을 'the most effective(유일 최선)'로 단정하지 않으며, (2) 내성 관리는 '백신(vaccine)'이 아니라 '항콕시듐제(drug)'에 대한 전략이다. 문장이 'anticoccidial vaccines'의 내성을 말한 점도 부정확하다(p.299). 따라서 'most effective ~ vaccines' 진술은 틀리다(X). ④오답 소거: O로 보면 'rotation이 유일 최선'·'백신 내성'이라는 두 과장을 모두 인정하게 되어 교재와 어긋난다. ⑤함정: rotation 자체는 유효한 방법이지만 'the most effective'와 'vaccines' 두 단어가 함정이다. (2024-기말 족보는 답 미확정 'O? X?'으로 표기됨)",
-"exam": "2024-기말",
-"exams": [
-"2024-기말",
-"2023-기말"
-],
-"freq": 2,
-"flag": false,
-"flagReason": "",
-"id": 435
+"id": 431
 },
 {
 "part": "27콕시듐",
@@ -2428,6 +2428,26 @@ const CORE = [
 "unit": "28히스토모나스-2",
 "cardOrder": 99,
 "origin": "jokbo",
+"type": "short",
+"topic": "히스토모나스 숙주 — 중간숙주·부숙주 빈칸(주관식)",
+"q": "Histomonas Meleagridis requires ( ) as a intermediate host and ( ) as a accessory host in its lifecycle.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Cecal worm, earth worm / **Claude 재판정**: Cecal worm(Heterakis gallinarum), Earthworm(지렁이) (일치)\n\n①배경: H. meleagridis의 생활사는 중간숙주(intermediate host)와 부숙주(accessory host)를 모두 요구한다 (교재 p.302).\n②문항 포인트: 중간숙주와 부숙주에 들어갈 두 생물을 각각 적는 빈칸 채우기.\n③모범답안: 중간숙주 = **맹장충 Cecal worm(Heterakis gallinarum)** — \"조류 맹장충으로 알려진 Heterakis gallinarum이 중간숙주 역할\"(교재 p.302). 부숙주 = **지렁이 Earthworm** — \"부숙주(accessory host)인 지렁이는 맹장충 유충을 오랜 기간 가지고 있을 수 있어 매개체 역할\"(교재 p.302).\n④유의: 둘의 자리를 바꿔 쓰면 안 된다. 맹장충=중간숙주, 지렁이=부숙주(매개체)로 명확히 구분한다.\n⑤함정: 지렁이를 중간숙주로 착각하기 쉬우나, 지렁이는 맹장충 유충을 옮기는 부숙주(vector)일 뿐 원충 자체의 발육이 일어나는 중간숙주는 맹장충이다.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 482
+},
+{
+"part": "28히스토모나스",
+"unit": "28히스토모나스-2",
+"cardOrder": 99,
+"origin": "jokbo",
 "type": "multi",
 "topic": "히스토모나스 일반 진술 — 맞는 것 모두(2024)",
 "q": "Choose all correct statement of Histomoniasis in poultry production",
@@ -2453,7 +2473,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 482
+"id": 483
 },
 {
 "part": "28히스토모나스",
@@ -2477,26 +2497,6 @@ const CORE = [
 "exam": "2023-기말",
 "exams": [
 "2023-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 483
-},
-{
-"part": "28히스토모나스",
-"unit": "28히스토모나스-2",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "short",
-"topic": "히스토모나스 숙주 — 중간숙주·부숙주 빈칸(주관식)",
-"q": "Histomonas Meleagridis requires ( ) as a intermediate host and ( ) as a accessory host in its lifecycle.",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: Cecal worm, earth worm / **Claude 재판정**: Cecal worm(Heterakis gallinarum), Earthworm(지렁이) (일치)\n\n①배경: H. meleagridis의 생활사는 중간숙주(intermediate host)와 부숙주(accessory host)를 모두 요구한다 (교재 p.302).\n②문항 포인트: 중간숙주와 부숙주에 들어갈 두 생물을 각각 적는 빈칸 채우기.\n③모범답안: 중간숙주 = **맹장충 Cecal worm(Heterakis gallinarum)** — \"조류 맹장충으로 알려진 Heterakis gallinarum이 중간숙주 역할\"(교재 p.302). 부숙주 = **지렁이 Earthworm** — \"부숙주(accessory host)인 지렁이는 맹장충 유충을 오랜 기간 가지고 있을 수 있어 매개체 역할\"(교재 p.302).\n④유의: 둘의 자리를 바꿔 쓰면 안 된다. 맹장충=중간숙주, 지렁이=부숙주(매개체)로 명확히 구분한다.\n⑤함정: 지렁이를 중간숙주로 착각하기 쉬우나, 지렁이는 맹장충 유충을 옮기는 부숙주(vector)일 뿐 원충 자체의 발육이 일어나는 중간숙주는 맹장충이다.",
-"exam": "2022-기말",
-"exams": [
-"2022-기말"
 ],
 "freq": 1,
 "flag": false,
@@ -2613,6 +2613,26 @@ const CORE = [
 "unit": "29류코사이토준-3",
 "cardOrder": 99,
 "origin": "jokbo",
+"type": "short",
+"topic": "닭 류코사이토준 원인체(주관식)",
+"q": "Leukocytozoonosis in chicken is caused by (        ).",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: L. caulleryi / **Claude 재판정**: L. caulleryi (Leucocytozoon caulleryi) — 일치\n\n①배경: 닭에서는 L. caulleryi·L. sabrazesi·L. andrewsi·L. schoutedeni가 보고되었으나, 이 중 닭에 고병원성으로 치명적 출혈을 일으키는 종은 L. caulleryi다(교재 p.305 \"닭에서는 ... 이 중 L. caulleryi가 고병원성으로 치명적인 출혈을 일으킨다\"). ②포인트: 닭(chicken) 류코사이토준병의 원인체를 묻는 빈칸 채우기다. ③정답근거: 교재 p.305·306 \"가금에서 ... 주요 류코사이토준 종은 L. caulleryi, L. simondi, L. smithi\"이며 \"L. caulleryi는 닭에 주로 감염되어 산란율 저하를 일으키고 어린 병아리를 폐사시킨다\" → 닭 원인체 = Leucocytozoon caulleryi. ④오답 소거(혼동 주의): L. simondi는 오리·거위, L. smithi는 칠면조의 원인체이므로 닭의 답이 아니다. ⑤함정: 숙주별 원인체 짝(닭=caulleryi / 오리·거위=simondi / 칠면조=smithi)을 정확히 구분해야 한다. 모범답안: L. caulleryi (Leucocytozoon caulleryi).",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 520
+},
+{
+"part": "29류코사이토준",
+"unit": "29류코사이토준-3",
+"cardOrder": 99,
+"origin": "jokbo",
 "type": "ox",
 "topic": "류코사이토준 매개체 — 맹장충 아님(O/X)",
 "q": "류코사이토준 감염은 맹장충에 의해 감염된다 (o/x)",
@@ -2627,26 +2647,6 @@ const CORE = [
 "exam": "2025-기말",
 "exams": [
 "2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 520
-},
-{
-"part": "29류코사이토준",
-"unit": "29류코사이토준-3",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "short",
-"topic": "닭 류코사이토준 원인체(주관식)",
-"q": "Leukocytozoonosis in chicken is caused by (        ).",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: L. caulleryi / **Claude 재판정**: L. caulleryi (Leucocytozoon caulleryi) — 일치\n\n①배경: 닭에서는 L. caulleryi·L. sabrazesi·L. andrewsi·L. schoutedeni가 보고되었으나, 이 중 닭에 고병원성으로 치명적 출혈을 일으키는 종은 L. caulleryi다(교재 p.305 \"닭에서는 ... 이 중 L. caulleryi가 고병원성으로 치명적인 출혈을 일으킨다\"). ②포인트: 닭(chicken) 류코사이토준병의 원인체를 묻는 빈칸 채우기다. ③정답근거: 교재 p.305·306 \"가금에서 ... 주요 류코사이토준 종은 L. caulleryi, L. simondi, L. smithi\"이며 \"L. caulleryi는 닭에 주로 감염되어 산란율 저하를 일으키고 어린 병아리를 폐사시킨다\" → 닭 원인체 = Leucocytozoon caulleryi. ④오답 소거(혼동 주의): L. simondi는 오리·거위, L. smithi는 칠면조의 원인체이므로 닭의 답이 아니다. ⑤함정: 숙주별 원인체 짝(닭=caulleryi / 오리·거위=simondi / 칠면조=smithi)을 정확히 구분해야 한다. 모범답안: L. caulleryi (Leucocytozoon caulleryi).",
-"exam": "2023-기말",
-"exams": [
-"2023-기말"
 ],
 "freq": 1,
 "flag": false,
@@ -2789,199 +2789,28 @@ const CORE = [
 },
 {
 "part": "구영양대사",
-"unit": "구영양대사-1",
+"unit": "구영양대사-4",
 "cardOrder": 99,
 "origin": "jokbo",
 "type": "ox",
-"topic": "셀레늄결핍과 비타민 E의 연관(O/X)",
-"q": "셀레늄 결핍은 비타민 E와 연관되어 있다. (O/X)",
+"topic": "FLHS 고칼로리·고단백 치료 가부(O/X)",
+"q": "Feeding with high calorie and protein can be useful to treatment Fatty liver hemorrhagic syndrome.",
 "choices": [
 "O (맞음)",
 "X (틀림)"
 ],
 "answer": [
-1
+2
 ],
-"explain": "**족보답**: O / **Claude 재판정**: O (일치)\n\n①배경: 강의안은 비타민 E 단원에서 \"셀레늄(selenium) 함량부족도 (비타민 E 결핍의) 간접적인 원인\"이라 하고, 비타민 E 역할 설명에서 \"셀레늄이 비타민 E 흡수에 역할\"을 한다고 명시한다 (교재 p.3, p.20). 셀레늄결핍증 단원에서도 셀레늄은 \"비타민 E와 지방의 소화흡수를 정상적으로 이루어지도록\" 하며 결핍 시 비타민 E 결핍과 같은 삼출성 소질을 일으킨다 (p.35).\n②포인트: Se와 Vit E가 항산화·흡수 측면에서 연결되는지 판단.\n③정답근거: 위 세 군데 모두 Se-Vit E의 직접 연관을 명시하므로 진술은 옳다 → O.\n④오답(X) 소거: X로 보려면 Se와 Vit E가 무관해야 하나 강의안과 정면 배치되어 성립하지 않는다.\n⑤함정: Se는 미네랄 단원, Vit E는 비타민 단원에 흩어져 있어 무관하다고 착각하기 쉽지만, 강의안은 둘을 명시적으로 묶는다.",
-"exam": "2025-기말",
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: FLHS는 과잉 에너지 섭취가 원인인 산란계 대사장애이며, 치료·예방은 **저칼로리** 사료에 조단백을 높이고 콜린·이노시톨을 첨가하는 것이다 (교재 p.49, p.51).\n②포인트: '고칼로리+고단백 급여가 FLHS 치료에 유용한가'를 판단.\n③정답근거: 고칼로리 급여는 과잉 에너지라는 원인을 악화시키므로 치료에 유용하지 않다 → X.\n④오답(O) 소거: O로 보려면 고칼로리가 도움이 되어야 하나 원인(과잉섭취)과 정면 배치된다.\n⑤함정: 강의안이 '고조단백'을 권하므로 '고단백'만 보고 O로 오인하기 쉽다. 그러나 핵심은 '저칼로리'이며 high calorie가 포함된 진술은 틀림. 족보 해설(과잉 섭취가 원인)도 동일 취지다.",
+"exam": "2022-기말",
 "exams": [
-"2025-기말"
+"2022-기말"
 ],
 "freq": 1,
 "flag": false,
 "flagReason": "",
 "id": 559
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-1",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "ox",
-"topic": "Thiamine·Vitamin A 결핍 증상 매칭(O/X)",
-"q": "Thiamine 결핍은 상피세포 재생불량, 비타민A 결핍은 신경증상과 관련이 있다. (O/X)",
-"choices": [
-"O (맞음)",
-"X (틀림)"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: 강의안에서 Thiamine(B1)은 탄수화물→ATP 효소·신경전달물질 합성에 관여하며 결핍 시 다발성신경염 등 신경증상이 특징이다 (교재 p.9-10). 반대로 비타민 A는 상피·점막 분화에 관여하며 결핍 시 상피·점막 병변(식도 농포, 각화 등)이 특징이다 (p.6-7).\n②포인트: 두 비타민의 결핍 증상이 서로 바뀌어 서술되었는지 판단.\n③정답근거: 진술은 Thiamine↔상피, Vit A↔신경으로 매칭을 정반대로 뒤집어 놓았다. 실제로는 Thiamine 결핍=신경증상, Vit A 결핍=상피세포 이상이므로 진술은 틀림 → X.\n④오답(O) 소거: O로 보려면 매칭이 맞아야 하나 강의안과 정확히 반대다.\n⑤함정: '재생불량/신경증상'이라는 그럴듯한 용어를 교차 배치해 혼동을 유도한다. 비타민별 역할을 역할표(p.2-3)로 잡아두면 즉시 걸러진다.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 560
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-1",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
-"topic": "비타민 A 결핍 정의 — 소화관·눈 병변",
-"q": "Choose a correct metabolic disease corresponding to the definition. Clinical signs are growth retardation, weakness, ruffled feather and reduced egg production. Digestive tract and eye lesions are characteristic of this disease",
-"choices": [
-"①Thiamine deficiency",
-"②Vitamin A deficiency",
-"③Riboflavin deficiency",
-"④Vitamin D deficiency",
-"⑤Zinc deficiency"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: 2 (Vitamin A deficiency) / **Claude 재판정**: 2 (일치)\n\n①배경: 비타민 A 결핍증은 성장불량·허약·거친 깃털·산란율 및 부화율 감소를 보이고, 비타민 A가 상피·점막 분화를 담당하므로 호흡기와 **눈의 병변**, 구강·인두·식도 등 **소화관 병변**(흰색 농포)이 특징이다 (교재 p.6-7).\n②포인트: '성장지연+허약+거친 깃털+산란감소+소화관·눈 병변' 정의에 맞는 결핍을 고름.\n③정답근거: 소화관(digestive tract)과 눈(eye) 병변을 동시에 특징으로 갖는 것은 비타민 A 결핍이다 → 정답 ②.\n④오답 소거: ①Thiamine은 다발성신경염(신경), ③Riboflavin은 curled-toe paralysis(다리), ④Vit D는 골격·난각, ⑤Zinc는 다리뼈 단축·깃털불량으로 '소화관+눈' 조합과 맞지 않는다.\n⑤함정: 여러 결핍이 '성장지연·거친 깃털'을 공유하지만, **소화관+눈 병변**이라는 상피 특이 단서가 비타민 A를 지목한다.",
-"exam": "2022-기말",
-"exams": [
-"2022-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 561
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-1",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "single",
-"topic": "칼슘·인 대사 연관 비타민 = Vit D",
-"q": "다음 중 칼슘 및 인의 대사작용과 밀접히 연관을 가지는 비타민은?",
-"choices": [
-"①Vitamin A",
-"②Vitamin E",
-"③Vitamin C",
-"④Vitamin K",
-"⑤Vitamin D"
-],
-"answer": [
-5
-],
-"explain": "**족보답**: 5 (Vitamin D) / **Claude 재판정**: 5 (일치)\n\n①배경: 비타민 D는 칼슘 및 인 대사에 역할을 하며, 결핍 시 골격발달·난각형성이 저하된다 (교재 p.3, p.17). 광물질 표에서도 칼슘·인 흡수에 비타민 D3가 필요하다고 명시한다 (p.23).\n②포인트: 다섯 비타민 중 Ca·P 대사와 직접 연관된 하나를 고름.\n③정답근거: Ca·P 대사 비타민은 비타민 D이므로 정답 ⑤.\n④오답 소거: ①Vit A는 시각·상피, ②Vit E는 항산화, ③Vit C는 항산화·스트레스 대응, ④Vit K는 혈액응고로 Ca·P 대사와 직접 연관이 약하다 (p.4 비타민 표).\n⑤함정: Vit K가 혈액응고에서 칼슘과 엮인다고 헷갈릴 수 있으나, 골격·난각의 Ca·P 대사를 직접 담당하는 것은 Vit D다.",
-"exam": "2021-기말",
-"exams": [
-"2021-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 562
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-2",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "short",
-"topic": "연골발육부진·perosis 치료(주관식)",
-"q": "계태아에서 chondrodytrophy, 어린 닭에서 다리 뼈 연하와 비후, perosis 등의 증상이 나타날 때 치료 방법에 대해 서술하시오.",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: 망간과 콜린 등 관계있는 비타민 보급 / **Claude 재판정**: 동일 (망간 결핍의 처치)\n\n**모범답안**: 제시된 증상(계태아 연골발육부진 chondrodystrophy, 어린 닭의 다리뼈 연화·비후, 비절증 perosis)은 모두 **망간(Mn) 결핍**의 특징이다 (교재 p.27). 따라서 치료·예방은 **망간이 풍부한 강(糠)·밀기울류를 사료에 충분히 포함시키거나 유산망간 등 첨가제를 사용**하고, 특히 **비절증이 발견되면 계군 전체에 망간과 콜린 등 관계있는 비타민을 보급**한다 (교재 p.28). 더불어 칼슘·인의 과잉은 망간 흡수를 저해해 증상을 악화시키므로 칼슘 과다 급여를 피한다 (p.27).\n\n①배경: chondrodystrophy·perosis는 망간 단원의 정의 그대로다. ②포인트: 어느 광물질 결핍인지 식별하고 그 처치를 답하는 문항. ③근거: 치료는 p.28의 망간·콜린 보급. ④함정: 비절증은 망간 외에도 콜린·아연·바이오틴·엽산 결핍과도 관련(p.58)되지만, 본 문항의 증상 조합(계태아 연골발육부진+다리뼈 연화비후)은 망간 결핍 단원을 정확히 가리킨다. ⑤족보답 '망간과 콜린 등 관계있는 비타민 보급'은 강의안과 일치한다.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 563
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-2",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "ox",
-"topic": "계태아 연골발육부진 = 망간 결핍(O/X)",
-"q": "chodrodytrophy of embryo can be caused by manganase deficiency.",
-"choices": [
-"O (맞음)",
-"X (틀림)"
-],
-"answer": [
-1
-],
-"explain": "**족보답**: O / **Claude 재판정**: O (일치)\n\n①배경: 망간 결핍증은 '계태아에서의 연골발육부진(chondrodystrophy)'을 특징으로 한다 (교재 p.27 \"계태아에서의 연골발육부진(Chondrodytrophy)... 비절증(perosis)을 특징으로 함\").\n②포인트: 배아(embryo)의 연골발육부진이 망간 결핍으로 생기는지 판단.\n③정답근거: 강의안이 계태아 연골발육부진을 망간 결핍의 대표 정의로 명시하므로 진술은 옳다 → O.\n④오답(X) 소거: X로 보려면 다른 영양소가 원인이어야 하나, 계태아 연골발육부진은 망간 단원의 정의 그 자체다.\n⑤함정: 비절증은 망간 외 콜린·아연·바이오틴·엽산 결핍과도 관련(p.58)되지만, 'embryo의 chondrodystrophy'는 특이적으로 망간 결핍을 가리킨다.",
-"exam": "2022-기말",
-"exams": [
-"2022-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 564
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-4",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "ox",
-"topic": "FLHS 유발 축종 — 산란계 vs 육계(O/X)",
-"q": "지방간 출혈 증후군은 육계의 과도한 성장으로 인해 유발되는 대사성 질환이다. (O, X)",
-"choices": [
-"O (맞음)",
-"X (틀림)"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: 강의안은 지방간출혈증후군(FLHS)을 \"산란계의 대사장애로 간장에 지방이 과잉 축적되어 산란율이 떨어지고 간에 출혈을 함으로써 갑자기 폐사\"하는 질환으로 정의한다 (교재 p.49).\n②포인트: FLHS의 발생 축종이 육계인지 산란계인지, 그리고 원인이 '과도한 성장'인지 '과잉 에너지 섭취'인지 판단.\n③정답근거: FLHS는 육계의 과도한 성장이 아니라 산란계의 과잉 에너지 섭취·제한된 활동으로 유발되므로 진술은 틀림 → X.\n④오답(O) 소거: O로 보려면 육계·과성장이 원인이어야 하나 강의안 정의와 배치된다.\n⑤함정: '과도한 성장으로 유발되는 대사성 질환'이라는 표현은 오히려 육계의 복수증(Asitis)이나 다리변형을 연상시킨다. FLHS는 산란계 질환임을 명확히 구분해야 한다.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 565
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-4",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "short",
-"topic": "통풍 — 요산이 관절에 축적(주관식)",
-"q": "통풍은 어떠한 대사산물이 제거되지 못해 각 조직에 쌓이는 대사 질환이다. 어떤 대사 산물이 어느 조직에 축적되는지 간단히 서술하시오.",
-"choices": [],
-"answer": [],
-"explain": "**족보답**: 통풍은 요산이 관절에 축적되어 생기는 질환이다 / **Claude 재판정**: 보강 — 요산염(uric acid)이 내장기 표면·건초·관절연골에 축적\n\n**모범답안**: 통풍(Gout)은 **요산(uric acid)** 이 신장기능장애로 제거되지 못해 각 조직에 축적되는 대사 질환으로, **요산염(uric acid crystals)이 내장기 표면이나 건초(tendon sheaths) 및 관절연골(articular cartilages)에 축적**되는 것이 특징이다 (교재 p.52). 침착 부위에 따라 내장성 통풍(신장·간·심장 표면)과 관절성 통풍(관절·발가락·발 변형)으로 나뉜다 (p.53-54).\n\n①배경: 과량 단백질이 퓨린 전구물질인 요산을 과생성하고, 신장기능장애로 요산이 제거되지 못해 축적된다 (p.52). ②포인트: '대사산물=요산', '축적 조직=관절·내장·건초'를 명시. ③근거: 정의 슬라이드 p.52 그대로. ④보강: 족보답은 '관절'만 들었으나 강의안은 내장기 표면·건초도 함께 명시하므로 답안에 포함하면 더 완전하다. ⑤함정: 요산(uric acid)과 요산염(urate crystals)을 함께 쓰면 정확하다.",
-"exam": "2025-기말",
-"exams": [
-"2025-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 566
 },
 {
 "part": "구영양대사",
@@ -3009,7 +2838,203 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
+"id": 560
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "FLHS 유발 축종 — 산란계 vs 육계(O/X)",
+"q": "지방간 출혈 증후군은 육계의 과도한 성장으로 인해 유발되는 대사성 질환이다. (O, X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: 강의안은 지방간출혈증후군(FLHS)을 \"산란계의 대사장애로 간장에 지방이 과잉 축적되어 산란율이 떨어지고 간에 출혈을 함으로써 갑자기 폐사\"하는 질환으로 정의한다 (교재 p.49).\n②포인트: FLHS의 발생 축종이 육계인지 산란계인지, 그리고 원인이 '과도한 성장'인지 '과잉 에너지 섭취'인지 판단.\n③정답근거: FLHS는 육계의 과도한 성장이 아니라 산란계의 과잉 에너지 섭취·제한된 활동으로 유발되므로 진술은 틀림 → X.\n④오답(O) 소거: O로 보려면 육계·과성장이 원인이어야 하나 강의안 정의와 배치된다.\n⑤함정: '과도한 성장으로 유발되는 대사성 질환'이라는 표현은 오히려 육계의 복수증(Asitis)이나 다리변형을 연상시킨다. FLHS는 산란계 질환임을 명확히 구분해야 한다.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 561
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "Thiamine·Vitamin A 결핍 증상 매칭(O/X)",
+"q": "Thiamine 결핍은 상피세포 재생불량, 비타민A 결핍은 신경증상과 관련이 있다. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: 강의안에서 Thiamine(B1)은 탄수화물→ATP 효소·신경전달물질 합성에 관여하며 결핍 시 다발성신경염 등 신경증상이 특징이다 (교재 p.9-10). 반대로 비타민 A는 상피·점막 분화에 관여하며 결핍 시 상피·점막 병변(식도 농포, 각화 등)이 특징이다 (p.6-7).\n②포인트: 두 비타민의 결핍 증상이 서로 바뀌어 서술되었는지 판단.\n③정답근거: 진술은 Thiamine↔상피, Vit A↔신경으로 매칭을 정반대로 뒤집어 놓았다. 실제로는 Thiamine 결핍=신경증상, Vit A 결핍=상피세포 이상이므로 진술은 틀림 → X.\n④오답(O) 소거: O로 보려면 매칭이 맞아야 하나 강의안과 정확히 반대다.\n⑤함정: '재생불량/신경증상'이라는 그럴듯한 용어를 교차 배치해 혼동을 유도한다. 비타민별 역할을 역할표(p.2-3)로 잡아두면 즉시 걸러진다.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 562
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "계태아 연골발육부진 = 망간 결핍(O/X)",
+"q": "chodrodytrophy of embryo can be caused by manganase deficiency.",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: O / **Claude 재판정**: O (일치)\n\n①배경: 망간 결핍증은 '계태아에서의 연골발육부진(chondrodystrophy)'을 특징으로 한다 (교재 p.27 \"계태아에서의 연골발육부진(Chondrodytrophy)... 비절증(perosis)을 특징으로 함\").\n②포인트: 배아(embryo)의 연골발육부진이 망간 결핍으로 생기는지 판단.\n③정답근거: 강의안이 계태아 연골발육부진을 망간 결핍의 대표 정의로 명시하므로 진술은 옳다 → O.\n④오답(X) 소거: X로 보려면 다른 영양소가 원인이어야 하나, 계태아 연골발육부진은 망간 단원의 정의 그 자체다.\n⑤함정: 비절증은 망간 외 콜린·아연·바이오틴·엽산 결핍과도 관련(p.58)되지만, 'embryo의 chondrodystrophy'는 특이적으로 망간 결핍을 가리킨다.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 563
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "비타민 A 결핍 정의 — 소화관·눈 병변",
+"q": "Choose a correct metabolic disease corresponding to the definition. Clinical signs are growth retardation, weakness, ruffled feather and reduced egg production. Digestive tract and eye lesions are characteristic of this disease",
+"choices": [
+"①Thiamine deficiency",
+"②Vitamin A deficiency",
+"③Riboflavin deficiency",
+"④Vitamin D deficiency",
+"⑤Zinc deficiency"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: 2 (Vitamin A deficiency) / **Claude 재판정**: 2 (일치)\n\n①배경: 비타민 A 결핍증은 성장불량·허약·거친 깃털·산란율 및 부화율 감소를 보이고, 비타민 A가 상피·점막 분화를 담당하므로 호흡기와 **눈의 병변**, 구강·인두·식도 등 **소화관 병변**(흰색 농포)이 특징이다 (교재 p.6-7).\n②포인트: '성장지연+허약+거친 깃털+산란감소+소화관·눈 병변' 정의에 맞는 결핍을 고름.\n③정답근거: 소화관(digestive tract)과 눈(eye) 병변을 동시에 특징으로 갖는 것은 비타민 A 결핍이다 → 정답 ②.\n④오답 소거: ①Thiamine은 다발성신경염(신경), ③Riboflavin은 curled-toe paralysis(다리), ④Vit D는 골격·난각, ⑤Zinc는 다리뼈 단축·깃털불량으로 '소화관+눈' 조합과 맞지 않는다.\n⑤함정: 여러 결핍이 '성장지연·거친 깃털'을 공유하지만, **소화관+눈 병변**이라는 상피 특이 단서가 비타민 A를 지목한다.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 564
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "셀레늄결핍과 비타민 E의 연관(O/X)",
+"q": "셀레늄 결핍은 비타민 E와 연관되어 있다. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: O / **Claude 재판정**: O (일치)\n\n①배경: 강의안은 비타민 E 단원에서 \"셀레늄(selenium) 함량부족도 (비타민 E 결핍의) 간접적인 원인\"이라 하고, 비타민 E 역할 설명에서 \"셀레늄이 비타민 E 흡수에 역할\"을 한다고 명시한다 (교재 p.3, p.20). 셀레늄결핍증 단원에서도 셀레늄은 \"비타민 E와 지방의 소화흡수를 정상적으로 이루어지도록\" 하며 결핍 시 비타민 E 결핍과 같은 삼출성 소질을 일으킨다 (p.35).\n②포인트: Se와 Vit E가 항산화·흡수 측면에서 연결되는지 판단.\n③정답근거: 위 세 군데 모두 Se-Vit E의 직접 연관을 명시하므로 진술은 옳다 → O.\n④오답(X) 소거: X로 보려면 Se와 Vit E가 무관해야 하나 강의안과 정면 배치되어 성립하지 않는다.\n⑤함정: Se는 미네랄 단원, Vit E는 비타민 단원에 흩어져 있어 무관하다고 착각하기 쉽지만, 강의안은 둘을 명시적으로 묶는다.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 565
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "연골발육부진·perosis 치료(주관식)",
+"q": "계태아에서 chondrodytrophy, 어린 닭에서 다리 뼈 연하와 비후, perosis 등의 증상이 나타날 때 치료 방법에 대해 서술하시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 망간과 콜린 등 관계있는 비타민 보급 / **Claude 재판정**: 동일 (망간 결핍의 처치)\n\n**모범답안**: 제시된 증상(계태아 연골발육부진 chondrodystrophy, 어린 닭의 다리뼈 연화·비후, 비절증 perosis)은 모두 **망간(Mn) 결핍**의 특징이다 (교재 p.27). 따라서 치료·예방은 **망간이 풍부한 강(糠)·밀기울류를 사료에 충분히 포함시키거나 유산망간 등 첨가제를 사용**하고, 특히 **비절증이 발견되면 계군 전체에 망간과 콜린 등 관계있는 비타민을 보급**한다 (교재 p.28). 더불어 칼슘·인의 과잉은 망간 흡수를 저해해 증상을 악화시키므로 칼슘 과다 급여를 피한다 (p.27).\n\n①배경: chondrodystrophy·perosis는 망간 단원의 정의 그대로다. ②포인트: 어느 광물질 결핍인지 식별하고 그 처치를 답하는 문항. ③근거: 치료는 p.28의 망간·콜린 보급. ④함정: 비절증은 망간 외에도 콜린·아연·바이오틴·엽산 결핍과도 관련(p.58)되지만, 본 문항의 증상 조합(계태아 연골발육부진+다리뼈 연화비후)은 망간 결핍 단원을 정확히 가리킨다. ⑤족보답 '망간과 콜린 등 관계있는 비타민 보급'은 강의안과 일치한다.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 566
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "칼슘·인 대사 연관 비타민 = Vit D",
+"q": "다음 중 칼슘 및 인의 대사작용과 밀접히 연관을 가지는 비타민은?",
+"choices": [
+"①Vitamin A",
+"②Vitamin E",
+"③Vitamin C",
+"④Vitamin K",
+"⑤Vitamin D"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: 5 (Vitamin D) / **Claude 재판정**: 5 (일치)\n\n①배경: 비타민 D는 칼슘 및 인 대사에 역할을 하며, 결핍 시 골격발달·난각형성이 저하된다 (교재 p.3, p.17). 광물질 표에서도 칼슘·인 흡수에 비타민 D3가 필요하다고 명시한다 (p.23).\n②포인트: 다섯 비타민 중 Ca·P 대사와 직접 연관된 하나를 고름.\n③정답근거: Ca·P 대사 비타민은 비타민 D이므로 정답 ⑤.\n④오답 소거: ①Vit A는 시각·상피, ②Vit E는 항산화, ③Vit C는 항산화·스트레스 대응, ④Vit K는 혈액응고로 Ca·P 대사와 직접 연관이 약하다 (p.4 비타민 표).\n⑤함정: Vit K가 혈액응고에서 칼슘과 엮인다고 헷갈릴 수 있으나, 골격·난각의 Ca·P 대사를 직접 담당하는 것은 Vit D다.",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
 "id": 567
+},
+{
+"part": "구영양대사",
+"unit": "구영양대사-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "통풍 — 요산이 관절에 축적(주관식)",
+"q": "통풍은 어떠한 대사산물이 제거되지 못해 각 조직에 쌓이는 대사 질환이다. 어떤 대사 산물이 어느 조직에 축적되는지 간단히 서술하시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 통풍은 요산이 관절에 축적되어 생기는 질환이다 / **Claude 재판정**: 보강 — 요산염(uric acid)이 내장기 표면·건초·관절연골에 축적\n\n**모범답안**: 통풍(Gout)은 **요산(uric acid)** 이 신장기능장애로 제거되지 못해 각 조직에 축적되는 대사 질환으로, **요산염(uric acid crystals)이 내장기 표면이나 건초(tendon sheaths) 및 관절연골(articular cartilages)에 축적**되는 것이 특징이다 (교재 p.52). 침착 부위에 따라 내장성 통풍(신장·간·심장 표면)과 관절성 통풍(관절·발가락·발 변형)으로 나뉜다 (p.53-54).\n\n①배경: 과량 단백질이 퓨린 전구물질인 요산을 과생성하고, 신장기능장애로 요산이 제거되지 못해 축적된다 (p.52). ②포인트: '대사산물=요산', '축적 조직=관절·내장·건초'를 명시. ③근거: 정의 슬라이드 p.52 그대로. ④보강: 족보답은 '관절'만 들었으나 강의안은 내장기 표면·건초도 함께 명시하므로 답안에 포함하면 더 완전하다. ⑤함정: 요산(uric acid)과 요산염(urate crystals)을 함께 쓰면 정확하다.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 568
 },
 {
 "part": "구영양대사",
@@ -3030,31 +3055,6 @@ const CORE = [
 3
 ],
 "explain": "**족보답**: 3 (Gout) / **Claude 재판정**: 3 (일치)\n\n①배경: 통풍(Gout)은 내장기 표면(guts)·건초(tendon sheaths)·관절연골(articular cartilages)에 요산염(uric acid crystals)이 축적되는 것을 특징으로 한다 (교재 p.52).\n②포인트: 발문이 통풍의 정의를 그대로 영어로 옮겼다 — 요산염이 어디에 쌓이는가가 핵심.\n③정답근거: 'uric acid crystals + guts/tendon sheaths/articular cartilages' 조합은 통풍 정의와 정확히 일치 → 정답 ③.\n④오답 소거: ①Asitis(복수증)는 복강 액체 저류, ②FLHS는 간 지방축적, ④Rickets(구루병)는 뼈 광화불량, ⑤Perosis(비절증)는 비복건 이탈로 요산염과 무관하다.\n⑤함정: 족보 해설에 '(O,X 문제)'라는 메모가 있으나 실제로는 5지선다 매칭 문항이며, 정의 키워드(uric acid)만 잡으면 명확하다.",
-"exam": "2022-기말",
-"exams": [
-"2022-기말"
-],
-"freq": 1,
-"flag": false,
-"flagReason": "",
-"id": 568
-},
-{
-"part": "구영양대사",
-"unit": "구영양대사-4",
-"cardOrder": 99,
-"origin": "jokbo",
-"type": "ox",
-"topic": "FLHS 고칼로리·고단백 치료 가부(O/X)",
-"q": "Feeding with high calorie and protein can be useful to treatment Fatty liver hemorrhagic syndrome.",
-"choices": [
-"O (맞음)",
-"X (틀림)"
-],
-"answer": [
-2
-],
-"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n\n①배경: FLHS는 과잉 에너지 섭취가 원인인 산란계 대사장애이며, 치료·예방은 **저칼로리** 사료에 조단백을 높이고 콜린·이노시톨을 첨가하는 것이다 (교재 p.49, p.51).\n②포인트: '고칼로리+고단백 급여가 FLHS 치료에 유용한가'를 판단.\n③정답근거: 고칼로리 급여는 과잉 에너지라는 원인을 악화시키므로 치료에 유용하지 않다 → X.\n④오답(O) 소거: O로 보려면 고칼로리가 도움이 되어야 하나 원인(과잉섭취)과 정면 배치된다.\n⑤함정: 강의안이 '고조단백'을 권하므로 '고단백'만 보고 O로 오인하기 쉽다. 그러나 핵심은 '저칼로리'이며 high calorie가 포함된 진술은 틀림. 족보 해설(과잉 섭취가 원인)도 동일 취지다.",
 "exam": "2022-기말",
 "exams": [
 "2022-기말"
