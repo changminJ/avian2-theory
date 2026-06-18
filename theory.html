@@ -284,19 +284,21 @@ function pwck(){var v=(document.getElementById('pwin').value||'').trim();if(v===
 <script>
 const QUESTIONS = LABQ;
 const CIRC=['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩'];
-const PARTORDER=['18가금콜레라','19코라이자','20마이코','21클로스트리디움','22포도상구균','23조류결핵','24ORT','25아스퍼질러스','26칸디다','00기생충총론','27콕시듐','28히스토모나스','29류코사이토준','구영양대사'];
-const PARTLBL={'18가금콜레라':'18 가금콜레라(Pasteurella)','19코라이자':'19 전염성코라이자(Avibacterium)','20마이코':'20 마이코플라즈마(MG·MS)','21클로스트리디움':'21 클로스트리디움','22포도상구균':'22 포도상구균','23조류결핵':'23 조류결핵','24ORT':'24 ORT','25아스퍼질러스':'25 아스퍼질러스증','26칸디다':'26 칸디다증','00기생충총론':'원충 총론(분류)','27콕시듐':'27 콕시듐증(Eimeria)','28히스토모나스':'28 히스토모나스(흑두병)','29류코사이토준':'29 류코사이토준','구영양대사':'(구)영양·대사성질병'};
-const PARTCOL={'18가금콜레라':'#ff6b6b','19코라이자':'#ffb74d','20마이코':'#4fc3f7','21클로스트리디움':'#81c784','22포도상구균':'#a884ff','23조류결핵':'#f47fb0','24ORT':'#bdbdbd','25아스퍼질러스':'#aed581','26칸디다':'#ba68c8','00기생충총론':'#90a4ae','27콕시듐':'#1ED760','28히스토모나스':'#ff8a65','29류코사이토준':'#26c6da','구영양대사':'#ffce54'};
+const PARTORDER=['16살모넬라','18가금콜레라','19코라이자','20마이코','21클로스트리디움','22포도상구균','23조류결핵','24ORT','25아스퍼질러스','26칸디다','00기생충총론','27콕시듐','28히스토모나스','29류코사이토준','구영양대사'];
+const PARTLBL={'16살모넬라':'Salmonella 살모넬라(추백리·가금티푸스)','18가금콜레라':'18 가금콜레라(Pasteurella)','19코라이자':'19 전염성코라이자(Avibacterium)','20마이코':'20 마이코플라즈마(MG·MS)','21클로스트리디움':'21 클로스트리디움','22포도상구균':'22 포도상구균','23조류결핵':'23 조류결핵','24ORT':'24 ORT','25아스퍼질러스':'25 아스퍼질러스증','26칸디다':'26 칸디다증','00기생충총론':'원충 총론(분류)','27콕시듐':'27 콕시듐증(Eimeria)','28히스토모나스':'28 히스토모나스(흑두병)','29류코사이토준':'29 류코사이토준','구영양대사':'(구)영양·대사성질병'};
+const PARTCOL={'16살모넬라':'#e0a526','18가금콜레라':'#ff6b6b','19코라이자':'#ffb74d','20마이코':'#4fc3f7','21클로스트리디움':'#81c784','22포도상구균':'#a884ff','23조류결핵':'#f47fb0','24ORT':'#bdbdbd','25아스퍼질러스':'#aed581','26칸디다':'#ba68c8','00기생충총론':'#90a4ae','27콕시듐':'#1ED760','28히스토모나스':'#ff8a65','29류코사이토준':'#26c6da','구영양대사':'#ffce54'};
 const NOSUM=q=>q.origin!=='summary'&&q.origin!=='preview';
 const FILTERS=[
   ['🔥 찐핵심 객관식 (주제별 1문항)','#ff3b30','CORE_MC'],
   ['✍️ 찐핵심 주관식 (주제별 1문항)','#ff8aae','CORE_SA'],
   ['🆕 2026자작 몰아풀기','#1ED760','EXAM'],
   ['📝 예제만 몰아풀기(한국어)','#7ee0c0','BASIC'],
+  ['📅 2025 기출 몰아풀기 (이번범위 동일)','#ffa726','Y2025'],
   ['⚡ 전체 ① 객관식','#ffd54f','MC'],
   ['⚡ 전체 ② 주관식','#ffce54','SA'],
   ['전체','#1DB954',q=>true],
   ['📚 학습모드 (개념+예제+자작·족보제외)','#1ED760',q=>q.origin!=='jokbo'],
+  ['Salmonella(추백리·가금티푸스)','#e0a526',q=>q.part==='16살모넬라'],
   ['18 가금콜레라','#ff6b6b',q=>q.part==='18가금콜레라'],
   ['19 전염성코라이자','#ffb74d',q=>q.part==='19코라이자'],
   ['20 마이코플라즈마(MG·MS)','#4fc3f7',q=>q.part==='20마이코'],
@@ -333,6 +335,7 @@ function soloListFor(m){
   if(m==='CORE_SA')return CORE.filter(q=>['short','calc','essay'].includes(q.type));
   if(m==='EXAM')return QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='exam'&&['ox','single','multi'].includes(q.type));
   if(m==='BASIC')return QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='basic'&&['ox','single','multi'].includes(q.type));
+  if(m==='Y2025')return QUESTIONS.filter(q=>q.origin==='jokbo'&&(q.exam||'').includes('2025'));
   return QUESTIONS.filter(q=>q.origin==='jokbo'&&(m==='SA'?['short','calc','essay']:['ox','single','multi']).includes(q.type));}
 function soloList(){return soloListFor(soloMode());}
 function save(){localStorage.setItem(LS,JSON.stringify(ST));}
