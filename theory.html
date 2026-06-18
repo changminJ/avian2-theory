@@ -196,6 +196,16 @@
   .explanation table.md-t th,.explanation table.md-t td{border:1px solid var(--border);padding:6px 9px;text-align:left;vertical-align:top;white-space:normal}
   .explanation table.md-t th{background:var(--tag-bg);font-weight:800;white-space:nowrap}
   .explanation .md-p:first-child{margin-top:0}
+  /* 비교표 셀조합형 — 질문(qtext) 내 표 스타일 */
+  .qtext table.md-t{border-collapse:collapse;width:100%;margin:12px 0 6px;font-size:13px;font-weight:600;display:block;overflow-x:auto;border-radius:8px}
+  .qtext table.md-t th,.qtext table.md-t td{border:1px solid var(--border);padding:8px 11px;text-align:left;vertical-align:top;white-space:normal;line-height:1.45}
+  .qtext table.md-t th{background:var(--accent);color:#0d1320;font-weight:800;white-space:nowrap;text-align:center}
+  .qtext table.md-t td:first-child{background:var(--tag-bg);font-weight:800;white-space:nowrap}
+  .qtext table.md-t tbody tr:nth-child(even) td{background:rgba(127,127,127,.06)}
+  .qtext table.md-t tbody tr:nth-child(even) td:first-child{background:var(--tag-bg)}
+  .qtext .md-p{margin:4px 0}
+  .qtext .md-h{font-weight:800;font-size:14.5px;margin:9px 0 4px;color:var(--accent)}
+  .qtext .md-u{margin:4px 0 4px 4px}
   .solo-prog{height:5px;background:var(--tag-bg);border-radius:999px;overflow:hidden;margin:6px 0 16px}
   .solo-prog>div{height:100%;background:var(--accent);transition:width .3s}
   .solo-nav{display:flex;gap:10px;justify-content:space-between;margin-top:18px;align-items:center}
