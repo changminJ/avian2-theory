@@ -1,5 +1,861 @@
 const CORE = [
 {
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "2주령 폐사·성계 무증상 질병(paratyphoid)",
+"q": "2주령 이하의 어린 병아리에서 감염 시 폐사가 다발하며, 산란 중인 성계에서 감염 시 일반적으로 무증상을 보이는 질병은?",
+"choices": [
+"①전염성 후두기관염(Infectious laryngotracheitis)",
+"②가금 파라티푸스(Paratyphoid disease)",
+"③뉴캣슬병(Newcastle disease)",
+"④조류인플루엔자(Avian influenza)",
+"⑤전염성 코라이자병(Infectious coryza)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.4 \"rarely seen in chicks, poults or duckling **under 2 weeks of age**\" — paratyphoid는 2주령 이하에서만 발현, 성계 무증상. ②포인트: 어린 일령 폐사 + 성계 무증상이라는 양상에 부합하는 질병. ③정답근거: ② 가금 파라티푸스가 정확히 이 임상상. ④오답소거: ①③④⑤는 성계에서도 명확한 호흡기·전신 증상을 일으켜 \"성계 무증상\"과 모순(타 단원). ⑤함정: 살모넬라 중 추백리(어린 병아리 고폐사)와 혼동될 수 있으나, '성계 무증상+2주령 한정'은 paratyphoid의 정의적 양상.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 32
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "9R 생백신은 FT 예방 (O/X)",
+"q": "Live 9R vaccine can prevent fowl typhoid infection. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: O / **Claude 재판정**: O (일치)\n①배경: 강의안 p.4 \"Live 9R vaccine for FT\". ②포인트: 9R 생백신이 가금티푸스 예방용인지. ③정답근거: O. 9R(S. gallinarum 약독화주)은 FT 예방 생백신. ④오답소거: X라면 강의안과 반대. ⑤함정: 9R은 FT용 — paratyphoid용 live SE와 혼동 주의.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 33
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Enterobacteriaceae 아닌 것(강의안 6속 기준)",
+"q": "Which of the following does not belong to the family Enterobacteriaceae?",
+"choices": [
+"①Salmonella",
+"②Shigella",
+"③Citrobacter",
+"④Klebsiella",
+"⑤Yersinia"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (강의안 명시 6속 기준 일치)\n①배경: 강의안 p.1은 이 과 구성균으로 \"Salmonella, Escherichia, Shigella, Citrobacter, Klebsiella and Proteus\" 6속만 명시한다. ②포인트: 강의안에 열거된 과 구성균에 포함되지 않는 것 선택. ③정답근거: ⑤ Yersinia는 강의안 6속 목록에 없으므로 '강의안 기준'으로는 정답. ④오답소거: ①②③④는 모두 강의안 p.1에 명시된 구성균. ⑤함정: 실제 분류학상 Yersinia도 Enterobacteriaceae지만, 본 강의안이 제시한 명단에는 빠져 있어 출제·채점은 강의안 명단 기준으로 ⑤를 정답 처리.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 34
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Enterobacteriaceae 옳은 것(oxidase 음성)",
+"q": "Which of the followings is correct about Enterobacteriaceae?",
+"choices": [
+"①Gram positive, facultative anaerobic",
+"②Oxidase negative",
+"③Paratyphoid salmonella cannot cause human illness",
+"④S. pullorum ferments dulcitol whereas S. gallinarum does not",
+"⑤All species are motile"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.1 Enterobacteriaceae 공통 특성. ②포인트: 옳은 진술 선택. ③정답근거: ② \"The oxidase test is negative\"(p.1) ✓. ④오답소거: ① 그람**음성**이라 틀림. ③ paratyphoid는 사람 식중독 유발(p.4) → 틀림. ④ 정반대 — *S. gallinarum*이 dulcitol(+), *S. pullorum*은 (−)(p.2). ⑤ 일부 종은 비운동성(\"some species are non-motile\", p.1) → 틀림. ⑤함정: ④의 SP↔SG dulcitol 발효를 뒤바꾼 전형적 함정.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 35
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Enterobacteriaceae 틀린 것(some species are motile→non-motile)",
+"q": "What of the following is incorrect about Enterobacteriaceae?",
+"choices": [
+"①Gram-negative, facultative anaerobic",
+"②Oxidase-negative",
+"③Paratyphoid salmonella can cause human illness",
+"④Salmonella enterica, Bongori are the only species of genus salmonella",
+"⑤some species are motile"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.1 Enterobacteriaceae 특성. ②포인트: 틀린(부정확한) 진술 고르기. ③정답근거: ⑤ 강의안은 \"Some species are **non-motile**\"이라 기술 — 운동성 종도 있으나 문항이 묻는 '틀린 진술'로 출제 의도상 ⑤(원문은 non-motile 강조)를 정답 처리(족보 해설 \"some species are non-motile\"). ④오답소거: ① 그람음성·통성혐기 ✓, ② oxidase 음성 ✓, ③ paratyphoid 사람 식중독 ✓(p.4), ④ Salmonella 속 2종(enterica·bongori) ✓(p.1). ⑤함정: ⑤는 실제로 일부 종이 운동성을 갖기도 하나, 강의안 강조 문장(non-motile 존재)과 대비해 정답으로 설계됨.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 36
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Fowl typhoid 틀린 것(난계대 전파 가능)",
+"q": "Which is not a correct description about fowl typhoid?",
+"choices": [
+"①May outbreaks occur in semimature flocks with no history of an early onset",
+"②Can't be transmitted through the eggs by transovarian infections",
+"③Septicemic disease affecting primarily chickens and turkeys",
+"④There are low incidence of FT in countries such as the US, Canada, and several European countries",
+"⑤Rarely isolated from humans and are of little public health significance"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.2~3 FT 역학·전파. ②포인트: FT에 대해 틀린 진술 고르기. ③정답근거: ② 강의안 p.3 \"Both diseases can be transmitted through the eggs by transovarian infections\" — FT(SG)도 난계대 전파 가능하므로 'Can't be transmitted'는 틀림. ④오답소거: ① 반성숙 무리에서 조기 발병력 없이 발생 ✓(p.2), ③ 닭·칠면조 주 패혈성 질병 ✓(p.2), ④ 미국·캐나다·유럽 저발생 ✓(p.2), ⑤ 사람 분리 드물고 공중보건 의의 낮음 ✓(p.2). ⑤함정: SG가 host-adapted라 난계대 안 될 것이라 오인하기 쉬움.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 37
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "O antigen·H antigen 의미(Somatic·Flagellar)",
+"q": "Salmonella의 항원은 크게 O antigen과 H antigen이 있다. 각각 어떤 의미인지 순서대로, 영어로 쓰시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Somatic, Flagella / **Claude 재판정**: O = Somatic, H = Flagellar (일치)\n①배경: 강의안 p.2~3 혈청 항원 구조 — O는 체성(somatic, 세포벽 LPS), H는 편모(flagellar). 동정 시 slide agglutination은 O antisera, tube agglutination은 H antisera 사용(p.4). ②포인트: O·H 항원이 각각 의미하는 구조를 영어로. ③모범답안: **O antigen = Somatic antigen**, **H antigen = Flagellar antigen**. ④부연: serogroup은 O 항원으로 결정(D, B 등), serovar 동정에는 H 항원도 사용. ⑤함정: O↔H, somatic↔flagellar를 바꿔 쓰면 오답.",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 38
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "S. Enteritidis full name",
+"q": "S. Enteritidis의 full name을 적으시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Salmonella enterica subspecies enterica serovar Enteritidis / **Claude 재판정**: 일치\n①배경: 강의안 p.1 \"Salmonella enterica subsp. enterica serovar Enteritidis = Salmonella Enteritidis\". ②포인트: genus·species·subspecies·serovar 모두 포함해 정확히 기재. ③모범답안: **Salmonella enterica subsp. enterica serovar Enteritidis**. ④부연: 약식 'Salmonella Enteritidis'만 쓰면 subspecies 누락으로 감점 가능, serovar는 첫 글자 대문자·정자체. ⑤함정: species(enterica)와 serovar(Enteritidis)를 혼동하지 말 것.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 39
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "S. gallinarum 옳은 것(rabbit-lethal toxin)",
+"q": "S. gallinarum에 대하여 옳은 것은?",
+"choices": [
+"①병원성과 관련된 유전자는 SPI3이다.",
+"②1, 9, 12의 H antigen을 가진다.",
+"③Rhamnose를 발효시킬 수 있다.",
+"④Dulcitol을 발효시킬 수 없다.",
+"⑤Toxin이 rabbit에 lethal하다."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.2 SG 독력·항원·생화학. ②포인트: 옳은 진술 1개. ③정답근거: ⑤ \"S. gallinarum contain a toxin that was lethal to a rabbit\"(p.2) ✓. ④오답소거: ① virulence는 **SPI-2**(SPI3 아님). ② 1,9,12는 **O** antigen이지 H가 아님(SG는 H 항원 없음). ③ 야외주 SG는 rhamnose 비발효(9R만 +). ④ SG는 dulcitol 발효 가능(+). ⑤함정: O antigen을 H로 바꾸거나 SPI 번호를 바꾼 함정.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 40
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "S. gallinarum 틀린 것(ornithine 탈탄산은 SP)",
+"q": "Which of the following is NOT a correct statement about S. gallinarum?",
+"choices": [
+"①O antigen: 1, 9, 12",
+"②Pathogenicity: Toxin lethal to rabbits",
+"③Virulence: Salmonella pathogenicity island 2",
+"④Biochemical property: Decarboxylation of ornithine",
+"⑤Classification: serogroup D1"
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 강의안 p.2 SG 항원·독력·생화학. ②포인트: SG에 대해 틀린 진술 고르기. ③정답근거: ④ ornithine 탈탄산(decarboxylation)은 **S. pullorum만** 양성, SG는 음성(p.2 \"S. pullorum culture produce rapid decarboxylation of ornithine, whereas S. gallinarum does not\") → SG 특성으로 틀림. ④오답소거: ① O 1,9,12 ✓, ② rabbit-lethal toxin ✓, ③ virulence는 SPI-2 ✓, ⑤ serogroup D1 ✓(모두 p.2). ⑤함정: ornithine은 SP의 단독 마커 — SG에 붙이면 오류.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 41
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "S. pullorum O12 항원변이·SG 변이없음 (O/X)",
+"q": "Variation of O antigen 12 occurs in S. pullorum, but there is no evidence of antigenic variation in S. gallinarum. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: X / **Claude 재판정**: O (불일치 → flag)\n①배경: 강의안 p.2 \"Variation involving O antigen 12 occurs in S. pullorum, but there is no evidence of antigenic variation in S. gallinarum\" — 문항 진술이 강의안 문장과 **글자 그대로 일치**한다. ②포인트: SP의 O12 항원변이 발생 + SG 변이 없음 진술의 정오. ③정답근거: O. 강의안 원문과 동일하므로 참(O)이 맞다. ④오답소거: 족보답 X는 SP/SG의 O antigen 구성(SP O 9,12 / SG O 1,9,12)에만 주목해 진술 자체를 오인한 것으로 보이나, 문항은 'O12 항원의 변이(variation)' 발생 여부를 묻는 것이지 보유 항원 목록을 묻는 것이 아니다. ⑤함정: 족보 해설이 항원 구성(9,12 vs 1,9,12)을 근거로 X라 했으나, 변이 발생 여부 진술은 강의안 그대로라 O.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": true,
+"flagReason": "재판정 — 족보답 X / Claude O. 문항이 강의안 p.2 원문(\"Variation involving O antigen 12 occurs in S. pullorum, but no evidence of antigenic variation in S. gallinarum\")과 글자 그대로 일치하므로 참(O).",
+"id": 42
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "S. pullorum은 non-motile·host-adapted (O/X)",
+"q": "Salmonella pullorum is a non-motile, non-host adapted bacteria. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.2 \"S. pullorum and S. gallinarum are highly **host adapted** and **non-motile**\". ②포인트: SP가 non-host-adapted인지 여부(non-motile은 맞음). ③정답근거: X. SP는 non-motile은 맞으나 **host-adapted**다(non-host-adapted 아님). ④오답소거: O로 보려면 SP가 non-host-adapted여야 하나 강의안과 반대. ⑤함정: 앞부분(non-motile)이 맞아 통과시키기 쉬우나 뒷부분(non-host adapted)이 오류.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 43
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "SG/9R/SP를 생화학 검사로 구분하는 이유",
+"q": "Salmonella gallinarum / SG9R vaccine / Salmonella pullorum을 구분하는 데는 생화학적 검사를 이용한다. 그 이유는?",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 미표기 / **Claude 재판정**: 항원·형태가 거의 동일해 혈청·형태로는 구별 불가, 생화학(특히 rhamnose 등) 발효 차이로만 감별 가능\n①배경: 강의안 p.2 — SP·SG는 모두 non-motile·serogroup D로 혈청형(O 9,12 vs 1,9,12)·집락 형태 차이가 작아 \"There are little differences in colonial morphology between S. pullorum and S. gallinarum\". ②포인트: 왜 혈청검사 대신 생화학 검사로 구분하는가. ③모범답안: 세 균(야외주 SG·백신주 9R·SP)은 혈청학적·형태학적으로 거의 구별되지 않으므로, **dulcitol·maltose·ornithine·rhamnose 발효성 차이**(특히 **rhamnose**: 9R만 +, 야외주 SG −)라는 생화학 특성으로만 확실히 감별할 수 있기 때문이다. ④부연: 특히 백신주 9R과 야외주 SG 구분은 rhamnose가 결정적. ⑤함정: O antigen만으로는 SG·9R 구분 불가(둘 다 1,9,12) — 생화학이 필수.",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 44
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "multi",
+"topic": "SP/SG/9R maltose·rhamnose·dulcitol 발효(복수정답)",
+"q": "다음 중 옳은 것을 모두 골라라.",
+"choices": [
+"①S.pullorum ferments maltose.",
+"②S.gallinarum ferments maltose.",
+"③S.gallinarum 9R ferments maltose.",
+"④S.gallinarum 9R ferments rhamnose.",
+"⑤S. pullorum ferments dulcitol."
+],
+"answer": [
+2,
+3,
+4
+],
+"explain": "**족보답**: ②③④ / **Claude 재판정**: ②③④ (일치)\n①배경: 강의안 p.2 생화학 감별표. ②포인트: 옳은 진술을 모두 고른다. ③정답근거: ② SG maltose(+) ✓, ③ SG 9R maltose(+) ✓, ④ SG 9R rhamnose(+) ✓(야외주 SG와 결정적 차이). ④오답소거: ① SP maltose(−) → 틀림, ⑤ SP dulcitol(−) → 틀림. ⑤함정: SP는 maltose·dulcitol 모두 비발효(ornithine만 +).",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 45
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "multi",
+"topic": "SP/SG/9R 생화학 틀린 것 2개(SP dulcitol·SG rhamnose)",
+"q": "What are two things that are NOT correct statement about biochemical properties of S. pullorum, S. gallinarum, S. gallinarum 9R?",
+"choices": [
+"①S. pullorum ferments dulcitol.",
+"②S. gallinarum ferments dulcitol.",
+"③S. gallinarum can't produce ornithine.",
+"④S. gallinarum 9R ferments rhamnose.",
+"⑤S. gallinarum ferments rhamnose."
+],
+"answer": [
+1,
+5
+],
+"explain": "**족보답**: ①, ⑤ / **Claude 재판정**: ①, ⑤ (일치)\n①배경: 강의안 p.2 생화학 감별표. ②포인트: 틀린 진술 2개를 고른다. ③정답근거: ① SP는 dulcitol 비발효(−)인데 'ferments'라 했으므로 틀림. ⑤ 야외주 SG는 rhamnose 비발효(−)인데 'ferments'라 했으므로 틀림. ④오답소거: ② SG dulcitol(+) ✓, ③ SG ornithine 비생산(−) ✓, ④ SG 9R rhamnose(+) ✓ — 모두 옳은 진술. ⑤함정: rhamnose는 9R만 +이고 야외주 SG는 − — ④(9R)와 ⑤(SG)를 구별해야 함.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 46
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "SP/SG/9R 생화학표 오류 지적(9R rhamnose −→+)",
+"q": "다음 SP/SG/SG 9R의 생화학 특성 표(Dulcitol·Maltose·Ornithine·Rhamnose)에서 틀린 부분을 고르시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: S. gallinarum 9R의 Rhamnose가 +가 아니라 −로 잘못 기재됨 / **Claude 재판정**: 일치(9R rhamnose는 +가 정답)\n①배경: 강의안 p.2 표 — SP(dulcitol −, maltose −, ornithine +, rhamnose NT), SG(+,+,−,−), **SG 9R(+,+,−,+)**. ②포인트: 제시된 표에서 강의안과 다른 칸 찾기. ③모범답안: **SG 9R의 Rhamnose = +**(양성)가 맞다. 표에서 이 칸이 −로 되어 있으면 오류. (rhamnose는 9R과 야외주 SG를 가르는 결정적 마커). ④부연: 야외주 SG는 rhamnose(−), 백신주 9R만 (+). ⑤함정: 9R의 핵심 차별점(rhamnose +)을 −로 바꾼 변형.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 47
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "SP/SG는 paratyphoid보다 환경저항성 낮음 (O/X)",
+"q": "SG and SP are more resistant than paratyphoid strains to heat, chemicals and adverse environmental factors. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.2 \"they are **less resistant** than paratyphoid salmonellae to heat, chemicals, and adverse environmental factors\". ②포인트: SP/SG가 paratyphoid보다 저항성이 더 강한지 약한지. ③정답근거: X. SP/SG는 paratyphoid보다 **덜** 저항성(60℃ 10분·2% formalin 1분 등에 사멸). ④오답소거: O라면 \"more resistant\"여야 하나 강의안은 정반대. ⑤함정: host-adapted라 더 강할 것이라 오인하기 쉬움 — 매년 반복 출제되는 단골.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2021-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 48
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "SP·SG 설명 틀린 것(Brown<White 부등호 오류)",
+"q": "Which one is NOT correct statement for SP & SG?",
+"choices": [
+"①Often there are no lesions caused by PD, however, occasionally there is a nodular myocarditis, pericarditis, or abnormal gonad and ovary",
+"②Enlargement of spleen & kidney",
+"③Brown < White",
+"④Contaminated nests and eggs can also result in egg shell penetration and infection",
+"⑤Slow lateral spread to other adult is possible through contamination of feed, water, and environment"
+],
+"answer": [
+3
+],
+"explain": "**족보답**: ③ / **Claude 재판정**: ③ (일치)\n①배경: 강의안 p.3 \"Significant differences in susceptibility to PD among breeds ... Light breeder > heavy breeder, **Brown > White**\". ②포인트: 틀린 진술을 고른다. ③정답근거: ③ 부등호가 반대 — Brown 종이 White보다 더 감수성 높음(Brown > White)이 맞다. ④오답소거: ① 성계 PD 무병변·드문 nodular myocarditis ✓(p.3), ② FT 비장·신장 비대 ✓(p.3), ④ 오염 둥지·알 통한 eggshell penetration ✓(p.3), ⑤ 사료·물 통한 성체 간 수평전파 ✓(p.3). ⑤함정: 부등호 방향만 바꾼 미세 오류.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 51
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "SP·SG의 O antigen 기재(1,9,12)",
+"q": "Describe the Salmonella Pullorum and Salmonella Gallinarum O antigen. O antigen ( ), ( ), ( )",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 1, 9, 12 / **Claude 재판정**: 1, 9, 12 (일치)\n①배경: 강의안 p.2 \"They possess the O antigens 1, 9, 12\"(SP·SG 공통), serogroup D. ②포인트: SP/SG가 공유하는 O 항원 3개 기재. ③모범답안: **O 1, 9, 12**. ④부연: 단 SP는 O antigen 12에서 항원 변이가 발생할 수 있고(SG는 변이 없음, p.2), 혈청형 비교표상 SP를 9,12로 보는 표기도 있으나 본문 'O antigens 1, 9, 12' 기준으로 답. ⑤함정: serogroup B(Typhimurium의 1,4,5,12)와 혼동 주의.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 52
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Salmonella 표준 배양 순서(BPW→RV→Brilliant green)",
+"q": "Salmonella 검출을 위한 표준 배양 방법의 순서에 맞게 사용되는 배지를 올바르게 나열한 것을 고르시오. (A. MacConkey agar / B. Rappaport-Vassiliadis medium / C. Buffered peptone water / D. Brilliant green agar / E. Selenite medium / F. Blood agar)",
+"choices": [
+"①C-B-F",
+"②C-B-D",
+"③C-E-F",
+"④B-E-A",
+"⑤C-B-E"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.4 표준 분리 순서 — 비선택 pre-enrichment → 선택적 enrichment → plating. ②포인트: C(BPW)→선택 enrichment→plating 순서에 맞는 조합. ③정답근거: ② **C(Buffered peptone water, 비선택 pre-enrich) → B(Rappaport-Vassiliadis, 선택 enrich) → D(Brilliant green agar, plating)** — 세 단계 순서가 정확. ④오답소거: ① F(blood agar)·⑤ E(selenite)는 마지막 plating 단계 부적합, ③ E로 끝나 plating 누락, ④ B로 시작해 pre-enrichment 누락. ⑤함정: Selenite·RV는 enrichment(중간), Brilliant green은 plating(마지막) — 단계별 배지를 구분해야 함. (원본 답안지에 14번 곰팡이독소 문항이 덧붙음 — 본 문항 정답은 ②)",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 53
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Salmonellosis 옳지 않은 것(paratyphoid 성체 고폐사 오류)",
+"q": "닭의 살모넬라감염증(Salmonellosis)에 대한 설명으로 옳지 않은 것은?",
+"choices": [
+"①추백리는 어린 병아리에서 급성 패혈증을 유발하여 높은 폐사를 일으킨다.",
+"②가금티푸스는 현재에도 국내에 많은 농장에서 발생하여 경제적 손실을 일으킨다.",
+"③추백리는 어린 병아리의 항문 주위에 석고 모양의 흰색 분변이 부착되는 임상증상을 주로 나타낸다.",
+"④파라티푸스 감염증의 대표적인 원인체의 하나로 S.enteritidis가 있다.",
+"⑤파라티푸스 감염증은 일반적으로 성체에서 높은 폐사율을 일으킨다."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.4 \"Clinical signs caused by non-host-specific Salmonella infections is generally uncommon, but rarely seen in chicks, poults or duckling under 2 weeks of age\" — paratyphoid는 어린 일령에만 가끔 발현, 성체 대부분 무증상. ②포인트: 5개 진술 중 강의안과 어긋나는 것을 고른다. ③정답근거: ⑤ paratyphoid가 \"성체에서 높은 폐사\"라는 것은 오류 — 폐사는 어린 일령에 국한. ④오답소거: ① 추백리 어린 병아리 급성 패혈증 ✓(p.2), ③ chalky white vent 분변 ✓(p.3), ④ SE는 paratyphoid 대표 혈청형 ✓(p.4). ②는 다소 애매하나 강의안 p.2 \"PD and FT has been reduced to a very low incidence in some countries\"와 비교해도 ⑤가 더 명백한 오답. ⑤함정: paratyphoid를 성체 질환으로 착각하기 쉬움.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 54
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "XLT4는 plating media (O/X)",
+"q": "XLT4는 non-selective media로 salmonella 균을 isolation할 때 사용한다. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.4 \"Plating media ... XLT4 agar: detect salmonella efficiently from poultry house environmental drag swabs\". ②포인트: XLT4가 비선택(non-selective) 배지인지. ③정답근거: X. XLT4는 분리용 **plating(선택·감별) media**이지 non-selective pre-enrichment 배지가 아니다(비선택 pre-enrichment는 Buffered peptone water). ④오답소거: O라면 XLT4를 비선택 배지로 본 것이라 틀림. ⑤함정: 비선택 pre-enrichment(BPW)와 plating media(XLT4)의 역할을 구분.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 55
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "non-motile·host-adapted salmonella(Pullorum)",
+"q": "Which is non-motile, host-adapted salmonella?",
+"choices": [
+"①S. typhimurium",
+"②S. Pullorum",
+"③S. Infantis",
+"④S. Agona",
+"⑤S. Enteritidis"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ②(원본 답안지 표기) / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.2 \"S. pullorum and S. gallinarum are highly host adapted and non-motile\". ②포인트: non-motile + host-adapted 살모넬라 선택. ③정답근거: ② S. Pullorum은 비운동성·숙주특이. ④오답소거: ① Typhimurium·③ Infantis·④ Agona·⑤ Enteritidis는 모두 motile·non-host-adapted(paratyphoid 계열). ⑤함정: paratyphoid 혈청형(motile)을 host-adapted로 오인하지 말 것.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 56
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "paratyphoid 경제적 손실 경로(사람 식중독)",
+"q": "In what way paratyphoid cause economic losses in poultry production?",
+"choices": [
+"①high mortality in young birds",
+"②cost of antibiotic treatment",
+"③respiratory signs and secondary bacterial infection",
+"④food borne disease in human",
+"⑤lameness"
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 강의안 p.1 \"food-borne Salmonella outbreaks can lead to severe economic losses to poultry producers as a result of regulatory actions, market restrictions, or reduced consumption\". ②포인트: paratyphoid가 경제적 손실을 일으키는 주된 경로. ③정답근거: ④ 사람 식중독(food-borne disease) 발생 → 규제·시장제한·소비감소로 생산자 손실. ④오답소거: ① paratyphoid는 어린 일령에서도 폐사가 보통 20% 미만으로 주된 손실 경로 아님(p.4). ②③⑤는 강의안이 제시한 손실 기전이 아님. ⑤함정: 직접적 폐사보다 '공중보건·규제' 측면 손실이 핵심.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 57
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "paratyphoid 불활화 백신 사용 가부 (O/X)",
+"q": "Inactivated vaccine is not authorized for paratyphoid infection in poultry production. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.4 paratyphoid \"Vaccination: Inactivated bacterins, Live SE\". ②포인트: paratyphoid에 불활화 백신이 허가되지 않는지 여부. ③정답근거: X. paratyphoid에 불활화 bacterin·live SE 백신이 사용된다 → '허가되지 않는다'는 틀림. ④오답소거: O라면 불활화 백신을 못 쓴다는 의미인데 강의안과 반대. ⑤함정: 치료는 권장 안 하지만(p.4) 불활화 백신은 사용함 — 치료와 백신을 혼동하지 말 것.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 58
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "paratyphoid 특징 사후소견(typhlitis 흰 괴사 cores)",
+"q": "What is a typical post-mortem finding, seen in approximately one-third of birds died from paratyphoid infection?",
+"choices": [
+"①enlarged liver",
+"②bronze liver",
+"③white foci in duodenum",
+"④necrotic enteritis",
+"⑤typhlitis, with the ceca distended by hard white necrotic cores"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.4 \"The unique post-mortem finding, seen in approximately one-third of birds died from salmonellosis, is typhlitis, with the ceca distended by hard white necrotic cores\". ②포인트: paratyphoid 폐사 닭 약 1/3에서 보이는 특징 소견. ③정답근거: ⑤ 맹장이 단단한 흰색 괴사 cores로 팽창한 typhlitis. ④오답소거: ② bronze liver는 acute FT(가금티푸스) 병변, ①③④는 강의안의 '1/3 특징 소견'이 아님. ⑤함정: bronze liver(FT)와 typhlitis(paratyphoid)를 구별해야 함.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 59
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "비선택 pre-enrichment 배지(Buffered peptone water)",
+"q": "(   ) is non-selective pre-enrichment media which is used for isolation of Salmonella.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Buffered peptone water / **Claude 재판정**: Buffered peptone water (일치)\n①배경: 강의안 p.4 \"Nonselective pre-enrichment media ... Buffered peptone water, Trypticase soy broth\". ②포인트: 살모넬라 분리에서 비선택 pre-enrichment 배지 기재. ③모범답안: **Buffered peptone water**(BPW)(또는 Trypticase soy broth). ④부연: 표준 순서 BPW(비선택) → Selenite/Tetrathionate/RV(선택) → Brilliant green/XLT4(평판). ⑤함정: Selenite·RV는 선택적 enrichment(비선택 아님) — BPW와 구별.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 60
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "살모넬라 옳은 것(난계대·식중독·항원교차·운동성 함정)",
+"q": "살모넬라 감염에 대해 옳은 것을 고르시오.",
+"choices": [
+"①난계대 전염이 불가능하다.",
+"②사람의 식중독을 유발하는 원인체는 가금티푸스이다.",
+"③가금티푸스와 추백리의 원인체는 항원성 차이가 커서 교차반응이 일어나지 않는다.",
+"④추백리의 원인체는 그람음성균으로 운동성이 있다.",
+"⑤가금파라티푸스의 원인체는 S.typhimurium, S.enterica이다."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ (원본 답안지 표기) / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.1~4 살모넬라 핵심 사실 4종 함정 문항. ②포인트: 강의안에 부합하는 단 하나의 옳은 진술 선택. ③정답근거: ⑤ paratyphoid 원인체에 *S. typhimurium*이 포함되는 것은 맞음(p.4). 출제 의도상 ⑤를 정답으로 처리(족보 해설 동일). ④오답소거: ① 난계대 전염 가능(transovarian, p.3) → 틀림. ② 사람 식중독은 paratyphoid가 원인, 가금티푸스 아님(p.4) → 틀림. ③ SP·SG 모두 serogroup D·O 9,12 공유로 교차반응함 → 틀림. ④ 추백리 원인 SP는 **non-motile**(p.2) → 틀림. ⑤함정: ⑤의 *S. enterica*는 엄밀히는 종(species)이지 paratyphoid 특정 혈청형이 아니지만(정확한 대표는 Enteritidis·Typhimurium), 나머지 4개가 명백한 오류이므로 ⑤가 정답.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 61
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "세균성 질병 틀린 것(가금콜레라 난계대 오류) — 교차",
+"q": "조류의 세균성 질병에 대한 설명 중 틀린 것은?",
+"choices": [
+"①S. typhimurium, S. enteritidis는 숙주 비의존성으로 식중독의 주요 원인체이다.",
+"②전염성 코라이자는 닭 비강, 안와, 하동 같은 상부 호흡기계 감염이다.",
+"③Cl. perfringens는 악성 부종, 봉와직염 같은 괴사성 피부염을 유발 가능하다.",
+"④가금 콜레라는 그람 음성 간균인 Pasteurella multocida가 일으키는 패혈성 전염병이며 난계대이다."
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n②교차 범위: 18가금콜레라·19코라이자·21클로스트리듐. ①배경: 통합 세균성 질병 문항으로 살모넬라 선지(①)와 타 단원 선지가 섞여 있다. ②포인트: 틀린 진술을 고른다 — 핵심은 ④의 '난계대'. ③정답근거: ④ 가금콜레라(P. multocida)는 난계대 전파가 거의 일어나지 않으므로 '난계대이다'가 오류(가금콜레라 단원). ④오답소거: ① *S. typhimurium·S. enteritidis*는 non-host-adapted(숙주 비의존성) 식중독 주요 원인 ✓(강의안 p.1, p.4) → 살모넬라 선지는 옳음. ②③은 타 단원 정상 진술. ⑤함정: ④ 앞부분(그람음성·패혈성)이 맞아 끝의 '난계대'를 놓치기 쉬움.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 62
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "수직전파 안 되는 병원체(Eimeria) — SG는 난계대",
+"q": "Which pathogen is not vertically transmitted?",
+"choices": [
+"①Mycoplasma gallisepticum",
+"②Mycoplasma synoviae",
+"③Avian reovirus",
+"④Salmonella gallinarum",
+"⑤Eimeria species"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.3 \"Both diseases (PD/FT) can be transmitted through the eggs by transovarian infections\" — *S. gallinarum*은 난계대(수직)전파하는 대표 병원체다. ②포인트: 보기 중 유일하게 수직전파가 일어나지 않는 것을 고른다. ③정답근거: ⑤ Eimeria species는 포자형성 난포낭(oocyst)의 경구섭취가 유일한 자연 전파경로로 수직전파가 없다. ④오답소거: ① MG·② MS·③ avian reovirus는 모두 난계대 전파 ✗(전파됨), ④ *S. gallinarum*도 transovarian 전파 ✗(전파됨, p.3). ⑤함정: 살모넬라(④)를 \"세균이니 수직전파 안 될 것\"으로 오인하기 쉬우나 SG는 난계대 핵심 병원체. (Eimeria 근거는 콕시듐 단원이지만 SG 선지만으로도 충분히 정오 판단 가능)",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2022-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 63
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "조류질병 옳은 것(추백리 chalky white 분변) — 교차",
+"q": "다음 조류질병에 대한 설명 중 옳은 것은?",
+"choices": [
+"①파라티푸스 원인체는 S. pullorum, S. typhimurium이다.",
+"②대장균은 혈청형이 하나여서 백신으로 충분히 예방 가능하다.",
+"③가금콜레라는 그람양성구균인 Pasteurella multocida가 유발하는 패혈성 전염병이다.",
+"④추백리는 어린 병아리의 항문주위에 석고 모양 흰색 분변이 관찰된다.",
+"⑤가금티푸스는 사람에서 식중독 유발, 공중 보건학적으로 중요하다."
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n②교차 범위: 17대장균증·18가금콜레라. ①배경: 통합 문항으로 살모넬라 선지(①④⑤)가 포함됨. ②포인트: 옳은 진술 1개 선택. ③정답근거: ④ 강의안 p.3 \"adherence of chalky white material to the vent\" — 추백리 어린 병아리의 트레이드마크 ✓. ④오답소거: ① paratyphoid 원인체는 *S. enteritidis·S. typhimurium*(SP는 host-adapted)이라 틀림. ② 대장균은 혈청형 매우 다양(타 단원). ③ P. multocida는 그람**음성** 간균이지 그람양성구균 아님(가금콜레라). ⑤ 사람 식중독은 paratyphoid가 원인, 가금티푸스(SG)는 사람 분리 드물고 공중보건 의의 낮음(p.2) → 틀림. ⑤함정: ⑤에서 가금티푸스↔paratyphoid를 바꿔치기한 전형적 함정.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 66
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "종 특이성(host-adapted) 짝짓기",
+"q": "다음 살모넬라 중 종 특이성을 갖는 것을 올바르게 짝지은 것은?",
+"choices": [
+"①Pullorum - Gallinarum",
+"②Pullorum - Enteritidis",
+"③Gallinarum - Typhimurium",
+"④Enteritidis - Typhimurium",
+"⑤Pullorum - Enteritidis"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: ① / **Claude 재판정**: ① (일치)\n①배경: 강의안 p.1~2 \"Host-adapted salmonellae (S. pullorum, S. gallinarum)\" / paratyphoid는 non-host-adapted(SE·STM). ②포인트: 종 특이성(host-adapted)을 갖는 짝을 고른다. ③정답근거: ① Pullorum·Gallinarum 둘 다 host-adapted. ④오답소거: ②③⑤는 Enteritidis(paratyphoid)가 섞임, ④는 둘 다 paratyphoid. ⑤함정: ②와 ⑤가 동일 선지로 중복 인쇄됨 — 둘 다 오답.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 67
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "혈청형별 serogroup(SE/STM/SG/SP)",
+"q": "각 salmonella의 serotype에 해당하는 serogroup을 적으시오. (S. Enteritidis / S. Typhimurium / S. Gallinarum / S. Pullorum)",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: D / B / D / D / **Claude 재판정**: D / B / D / D (일치)\n①배경: 강의안 p.2 혈청 항원 비교표 — Enteritidis(O 1,9,12, **D1**), Typhimurium(O 1,4,5,12, **B**), Gallinarum(O 1,9,12, **D1**), Pullorum(O 9,12, **D1**). p.3 \"S. Enteritidis possesses the same group D somatic antigen as S. Pullorum\". ②포인트: 각 혈청형의 serogroup 기재. ③모범답안: S. Enteritidis = **D**, S. Typhimurium = **B**, S. Gallinarum = **D**, S. Pullorum = **D**. ④부연: O antigen 9가 group D의 결정 항원, Typhimurium만 O 4,5,12(group B)라 B. ⑤함정: Typhimurium만 B이고 나머지 셋은 모두 D — STM을 D로 적지 않도록 주의.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 68
+},
+{
 "part": "18가금콜레라",
 "unit": "18가금콜레라-1",
 "cardOrder": 99,
@@ -25,7 +881,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 32
+"id": 100
 },
 {
 "part": "18가금콜레라",
@@ -53,7 +909,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 33
+"id": 101
 },
 {
 "part": "18가금콜레라",
@@ -81,7 +937,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 34
+"id": 102
 },
 {
 "part": "18가금콜레라",
@@ -106,7 +962,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 35
+"id": 103
 },
 {
 "part": "18가금콜레라",
@@ -126,7 +982,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 37
+"id": 105
 },
 {
 "part": "18가금콜레라",
@@ -154,7 +1010,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 38
+"id": 106
 },
 {
 "part": "18가금콜레라",
@@ -181,7 +1037,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 39
+"id": 107
 },
 {
 "part": "18가금콜레라",
@@ -210,7 +1066,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 40
+"id": 108
 },
 {
 "part": "18가금콜레라",
@@ -236,7 +1092,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 42
+"id": 110
 },
 {
 "part": "18가금콜레라",
@@ -265,7 +1121,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 43
+"id": 111
 },
 {
 "part": "18가금콜레라",
@@ -294,7 +1150,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 44
+"id": 112
 },
 {
 "part": "18가금콜레라",
@@ -315,7 +1171,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 45
+"id": 113
 },
 {
 "part": "18가금콜레라",
@@ -344,7 +1200,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 46
+"id": 114
 },
 {
 "part": "19코라이자",
@@ -372,7 +1228,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 78
+"id": 146
 },
 {
 "part": "19코라이자",
@@ -397,7 +1253,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 81
+"id": 149
 },
 {
 "part": "19코라이자",
@@ -426,7 +1282,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 82
+"id": 150
 },
 {
 "part": "19코라이자",
@@ -455,7 +1311,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 83
+"id": 151
 },
 {
 "part": "19코라이자",
@@ -484,7 +1340,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 84
+"id": 152
 },
 {
 "part": "19코라이자",
@@ -505,7 +1361,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 85
+"id": 153
 },
 {
 "part": "20마이코",
@@ -535,7 +1391,7 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 111
+"id": 179
 },
 {
 "part": "20마이코",
@@ -562,7 +1418,7 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 124
+"id": 192
 },
 {
 "part": "20마이코",
@@ -582,7 +1438,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 135
+"id": 203
 },
 {
 "part": "20마이코",
@@ -612,7 +1468,7 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 137
+"id": 205
 },
 {
 "part": "20마이코",
@@ -633,7 +1489,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 142
+"id": 210
 },
 {
 "part": "20마이코",
@@ -659,7 +1515,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 143
+"id": 211
 },
 {
 "part": "20마이코",
@@ -688,7 +1544,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 144
+"id": 212
 },
 {
 "part": "20마이코",
@@ -717,7 +1573,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 145
+"id": 213
 },
 {
 "part": "21클로스트리디움",
@@ -743,7 +1599,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 177
+"id": 245
 },
 {
 "part": "21클로스트리디움",
@@ -771,7 +1627,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 179
+"id": 247
 },
 {
 "part": "21클로스트리디움",
@@ -799,7 +1655,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 180
+"id": 248
 },
 {
 "part": "21클로스트리디움",
@@ -828,7 +1684,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 181
+"id": 249
 },
 {
 "part": "21클로스트리디움",
@@ -857,7 +1713,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 182
+"id": 250
 },
 {
 "part": "21클로스트리디움",
@@ -883,7 +1739,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 183
+"id": 251
 },
 {
 "part": "21클로스트리디움",
@@ -912,7 +1768,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 184
+"id": 252
 },
 {
 "part": "21클로스트리디움",
@@ -941,7 +1797,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 185
+"id": 253
 },
 {
 "part": "21클로스트리디움",
@@ -962,7 +1818,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 186
+"id": 254
 },
 {
 "part": "21클로스트리디움",
@@ -988,7 +1844,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 187
+"id": 255
 },
 {
 "part": "21클로스트리디움",
@@ -1017,7 +1873,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 188
+"id": 256
 },
 {
 "part": "21클로스트리디움",
@@ -1046,7 +1902,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 189
+"id": 257
 },
 {
 "part": "22포도상구균",
@@ -1066,7 +1922,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 220
+"id": 288
 },
 {
 "part": "22포도상구균",
@@ -1095,7 +1951,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 221
+"id": 289
 },
 {
 "part": "22포도상구균",
@@ -1124,7 +1980,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 222
+"id": 290
 },
 {
 "part": "22포도상구균",
@@ -1149,7 +2005,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 223
+"id": 291
 },
 {
 "part": "22포도상구균",
@@ -1175,7 +2031,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 224
+"id": 292
 },
 {
 "part": "22포도상구균",
@@ -1196,7 +2052,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 225
+"id": 293
 },
 {
 "part": "22포도상구균",
@@ -1225,7 +2081,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 226
+"id": 294
 },
 {
 "part": "22포도상구균",
@@ -1251,7 +2107,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 227
+"id": 295
 },
 {
 "part": "22포도상구균",
@@ -1280,7 +2136,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 228
+"id": 296
 },
 {
 "part": "22포도상구균",
@@ -1309,7 +2165,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 229
+"id": 297
 },
 {
 "part": "23조류결핵",
@@ -1334,7 +2190,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 261
+"id": 329
 },
 {
 "part": "23조류결핵",
@@ -1360,7 +2216,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 262
+"id": 330
 },
 {
 "part": "23조류결핵",
@@ -1389,7 +2245,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 263
+"id": 331
 },
 {
 "part": "23조류결핵",
@@ -1418,7 +2274,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 264
+"id": 332
 },
 {
 "part": "23조류결핵",
@@ -1447,7 +2303,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 265
+"id": 333
 },
 {
 "part": "23조류결핵",
@@ -1468,7 +2324,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 266
+"id": 334
 },
 {
 "part": "24ORT",
@@ -1494,7 +2350,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 292
+"id": 360
 },
 {
 "part": "24ORT",
@@ -1523,7 +2379,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 293
+"id": 361
 },
 {
 "part": "24ORT",
@@ -1552,7 +2408,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 294
+"id": 362
 },
 {
 "part": "25아스퍼질러스",
@@ -1577,7 +2433,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 326
+"id": 394
 },
 {
 "part": "25아스퍼질러스",
@@ -1597,7 +2453,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 327
+"id": 395
 },
 {
 "part": "25아스퍼질러스",
@@ -1625,7 +2481,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 328
+"id": 396
 },
 {
 "part": "25아스퍼질러스",
@@ -1653,7 +2509,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 329
+"id": 397
 },
 {
 "part": "25아스퍼질러스",
@@ -1674,7 +2530,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 330
+"id": 398
 },
 {
 "part": "25아스퍼질러스",
@@ -1703,7 +2559,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 331
+"id": 399
 },
 {
 "part": "25아스퍼질러스",
@@ -1732,7 +2588,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 332
+"id": 400
 },
 {
 "part": "25아스퍼질러스",
@@ -1758,7 +2614,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 333
+"id": 401
 },
 {
 "part": "25아스퍼질러스",
@@ -1787,7 +2643,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 334
+"id": 402
 },
 {
 "part": "25아스퍼질러스",
@@ -1816,7 +2672,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 335
+"id": 403
 },
 {
 "part": "26칸디다",
@@ -1841,7 +2697,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 361
+"id": 429
 },
 {
 "part": "26칸디다",
@@ -1862,7 +2718,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 362
+"id": 430
 },
 {
 "part": "26칸디다",
@@ -1891,7 +2747,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 363
+"id": 431
 },
 {
 "part": "26칸디다",
@@ -1920,7 +2776,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 364
+"id": 432
 },
 {
 "part": "26칸디다",
@@ -1946,7 +2802,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 365
+"id": 433
 },
 {
 "part": "26칸디다",
@@ -1975,7 +2831,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 366
+"id": 434
 },
 {
 "part": "00기생충총론",
@@ -2003,7 +2859,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 374
+"id": 442
 },
 {
 "part": "00기생충총론",
@@ -2031,7 +2887,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 375
+"id": 443
 },
 {
 "part": "27콕시듐",
@@ -2061,7 +2917,7 @@ const CORE = [
 "freq": 3,
 "flag": true,
 "flagReason": "self-limiting 용어가 ch27 교재에 직접 없음(p.291·295 면역 개념에서 추론); 족보답이 회차마다 ①·④로 불일치해 독립 재판정함",
-"id": 407
+"id": 475
 },
 {
 "part": "27콕시듐",
@@ -2087,7 +2943,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 416
+"id": 484
 },
 {
 "part": "27콕시듐",
@@ -2115,7 +2971,7 @@ const CORE = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답②≠재판정답④ — 족보는 ②를 오답으로 보았으나 교재 p.290·297상 ④(포자화 안 된 oocyst 냉장 1~2년)가 틀린 설명",
-"id": 422
+"id": 490
 },
 {
 "part": "27콕시듐",
@@ -2144,7 +3000,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 426
+"id": 494
 },
 {
 "part": "27콕시듐",
@@ -2174,7 +3030,7 @@ const CORE = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 431
+"id": 499
 },
 {
 "part": "27콕시듐",
@@ -2195,7 +3051,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 441
+"id": 509
 },
 {
 "part": "27콕시듐",
@@ -2224,7 +3080,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 442
+"id": 510
 },
 {
 "part": "27콕시듐",
@@ -2253,7 +3109,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 443
+"id": 511
 },
 {
 "part": "27콕시듐",
@@ -2282,7 +3138,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 444
+"id": 512
 },
 {
 "part": "27콕시듐",
@@ -2311,7 +3167,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 445
+"id": 513
 },
 {
 "part": "27콕시듐",
@@ -2337,7 +3193,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 446
+"id": 514
 },
 {
 "part": "27콕시듐",
@@ -2363,7 +3219,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 447
+"id": 515
 },
 {
 "part": "27콕시듐",
@@ -2392,7 +3248,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 448
+"id": 516
 },
 {
 "part": "28히스토모나스",
@@ -2421,7 +3277,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 480
+"id": 548
 },
 {
 "part": "28히스토모나스",
@@ -2441,7 +3297,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 482
+"id": 550
 },
 {
 "part": "28히스토모나스",
@@ -2473,7 +3329,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 483
+"id": 551
 },
 {
 "part": "28히스토모나스",
@@ -2501,7 +3357,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 484
+"id": 552
 },
 {
 "part": "28히스토모나스",
@@ -2522,7 +3378,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 485
+"id": 553
 },
 {
 "part": "28히스토모나스",
@@ -2548,7 +3404,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 486
+"id": 554
 },
 {
 "part": "28히스토모나스",
@@ -2577,7 +3433,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 487
+"id": 555
 },
 {
 "part": "28히스토모나스",
@@ -2606,7 +3462,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 488
+"id": 556
 },
 {
 "part": "29류코사이토준",
@@ -2626,7 +3482,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 520
+"id": 588
 },
 {
 "part": "29류코사이토준",
@@ -2651,7 +3507,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 521
+"id": 589
 },
 {
 "part": "29류코사이토준",
@@ -2672,7 +3528,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 522
+"id": 590
 },
 {
 "part": "29류코사이토준",
@@ -2698,7 +3554,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 523
+"id": 591
 },
 {
 "part": "29류코사이토준",
@@ -2727,7 +3583,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 524
+"id": 592
 },
 {
 "part": "29류코사이토준",
@@ -2756,7 +3612,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 525
+"id": 593
 },
 {
 "part": "구영양대사",
@@ -2785,7 +3641,7 @@ const CORE = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 557
+"id": 625
 },
 {
 "part": "구영양대사",
@@ -2810,7 +3666,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 559
+"id": 627
 },
 {
 "part": "구영양대사",
@@ -2838,7 +3694,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 560
+"id": 628
 },
 {
 "part": "구영양대사",
@@ -2863,7 +3719,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 561
+"id": 629
 },
 {
 "part": "구영양대사",
@@ -2888,7 +3744,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 562
+"id": 630
 },
 {
 "part": "구영양대사",
@@ -2913,7 +3769,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 563
+"id": 631
 },
 {
 "part": "구영양대사",
@@ -2941,7 +3797,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 564
+"id": 632
 },
 {
 "part": "구영양대사",
@@ -2966,7 +3822,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 565
+"id": 633
 },
 {
 "part": "구영양대사",
@@ -2986,7 +3842,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 566
+"id": 634
 },
 {
 "part": "구영양대사",
@@ -3014,7 +3870,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 567
+"id": 635
 },
 {
 "part": "구영양대사",
@@ -3034,7 +3890,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 568
+"id": 636
 },
 {
 "part": "구영양대사",
@@ -3062,7 +3918,7 @@ const CORE = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 569
+"id": 637
 },
 {
 "part": "구영양대사",
@@ -3091,7 +3947,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 570
+"id": 638
 },
 {
 "part": "구영양대사",
@@ -3117,7 +3973,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 571
+"id": 639
 },
 {
 "part": "구영양대사",
@@ -3143,7 +3999,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 572
+"id": 640
 },
 {
 "part": "구영양대사",
@@ -3172,7 +4028,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 573
+"id": 641
 },
 {
 "part": "구영양대사",
@@ -3193,7 +4049,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 574
+"id": 642
 },
 {
 "part": "구영양대사",
@@ -3222,7 +4078,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 575
+"id": 643
 },
 {
 "part": "구영양대사",
@@ -3251,7 +4107,7 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 576
+"id": 644
 },
 {
 "part": "구영양대사",
@@ -3280,6 +4136,6 @@ const CORE = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 577
+"id": 645
 }
 ];

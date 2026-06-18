@@ -1,5 +1,1804 @@
 const LABQ = [
 {
+"part": "16살모넬라",
+"unit": "16살모넬라0",
+"cardOrder": 0,
+"origin": "preview",
+"type": "summary",
+"topic": "Enterobacteriaceae·Salmonella — 큰 뼈대 + 구조도",
+"q": "",
+"choices": [],
+"answer": [],
+"explain": "<div class=\"pintro\"><b>Salmonella</b>는 <b>Enterobacteriaceae</b>(그람음성·oxidase 음성·glucose 발효 통성혐기성 간균) 과의 일원으로, 속(genus)에는 단 2종 — <b>S. enterica</b>·<b>S. bongori</b> — 만 존재한다. 가금에서 중요한 살모넬라는 <b>숙주특이성(host-adapted) 그룹</b>[추백리 S. Pullorum·가금티푸스 S. Gallinarum, 모두 non-motile·serogroup D·O 1,9,12]과 <b>비숙주특이성 paratyphoid 그룹</b>[motile, S. Enteritidis·S. Typhimurium, 인수공통 식중독]으로 갈린다 (p.1~2).</div><div class=\"ptree\"><div class=\"proot\">Salmonella (Enterobacteriaceae) <em>그람음성·oxidase(−)·glucose발효 간균 / genus 2종 S.enterica·S.bongori</em></div><div class=\"pbranches\"><div class=\"pb\"><div class=\"pc\">과·속 분류</div><div class=\"pls\"><span class=\"pl\"><b>Enterobacteriaceae</b> 그람음성·통성혐기·무아포 간균, oxidase(−)·nitrate→nitrite·glucose발효</span><span class=\"pl\"><b>속 구성균</b> Salmonella·Escherichia·Shigella·Citrobacter·Klebsiella·Proteus (Vibrio는 ✗)</span><span class=\"pl\"><b>Salmonella 2종</b> S.enterica(2321)·S.bongori(18)</span><span class=\"pl\"><b>S.enterica 6아종</b> enterica·salamae·arizonae·diarizonae·houtenae·indica</span><span class=\"pl\"><b>full name 예</b> Salmonella enterica subsp. enterica serovar Enteritidis</span></div></div><div class=\"pb\"><div class=\"pc\">추백리 (Pullorum disease, S. Pullorum)</div><div class=\"pls\"><span class=\"pl\"><b>숙주·운동성</b> host-adapted·non-motile·serogroup D, O 9,12(O12 변이有)</span><span class=\"pl\"><b>대상</b> 4주령 이하 어린 병아리·칠면조 급성 패혈증</span><span class=\"pl\"><b>임상</b> 항문주위 chalky white(석고양) 분변·고폐사(~100%), 성계 무증상 carrier</span><span class=\"pl\"><b>생화학</b> ornithine(+)·dulcitol(−)·maltose(−)</span><span class=\"pl\"><b>전파</b> transovarian(난계대)+수평</span></div></div><div class=\"pb\"><div class=\"pc\">가금티푸스 (Fowl typhoid, S. Gallinarum)</div><div class=\"pls\"><span class=\"pl\"><b>숙주·운동성</b> host-adapted·non-motile·serogroup D, O 1,9,12(변이無)</span><span class=\"pl\"><b>대상</b> 성계(growing/mature) 급·만성 패혈증</span><span class=\"pl\"><b>병변</b> bile-stained \"bronzed\" enlarged liver·비장/신장 비대·창백</span><span class=\"pl\"><b>생화학</b> dulcitol(+)·maltose(+)·ornithine(−)·rhamnose(−) / 9R백신주 rhamnose(+)</span><span class=\"pl\"><b>독소</b> rabbit-lethal toxin·SPI-2·85kb plasmid</span></div></div><div class=\"pb\"><div class=\"pc\">파라티푸스 (Paratyphoid, S. Enteritidis·Typhimurium)</div><div class=\"pls\"><span class=\"pl\"><b>숙주·운동성</b> non-host-adapted·motile</span><span class=\"pl\"><b>공중보건</b> 사람 식중독 주요 원인(껍데기 알·마요네즈)·인수공통</span><span class=\"pl\"><b>임상</b> 가금 대부분 무증상, 2주령 이하 어린 일령만 발현</span><span class=\"pl\"><b>병변</b> typhlitis(맹장 단단한 흰 괴사 cores, ~1/3)·perihepatitis</span><span class=\"pl\"><b>혈청형</b> Enteritidis(group D, O 1,9,12)·Typhimurium(group B, O 1,4,5,12)</span></div></div><div class=\"pb\"><div class=\"pc\">진단·방제</div><div class=\"pls\"><span class=\"pl\"><b>분리 순서</b> BPW(비선택 pre-enrich)→Selenite/Tetrathionate/RV(선택enrich,41~42℃)→Brilliant green/XLT4/MacConkey(평판)</span><span class=\"pl\"><b>혈청</b> WB test(NPIP 표준): 산란전 10%·최소300수, 이후 60~90일마다 30수, 혈청0.02+항원0.03ml, 양성→TA확진</span><span class=\"pl\"><b>위양성</b> oil emulsion·생백신 접종 후 4~8주</span><span class=\"pl\"><b>방제</b> test-and-slaughter(WB 양성 도태)·NPIP·9R생백신(FT)·all-in/all-out</span><span class=\"pl\"><b>저항성</b> SP/SG는 paratyphoid보다 열·화학·환경에 약함(less resistant)</span></div></div></div></div>",
+"gist": "Enterobacteriaceae 과의 Salmonella — 숙주특이 추백리(SP)·가금티푸스(SG) vs 비숙주특이 paratyphoid(SE·STM, 인수공통 식중독).",
+"chips": [],
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"exam": "",
+"id": 1
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 1,
+"origin": "summary",
+"type": "summary",
+"topic": "Enterobacteriaceae 특성·Salmonella 분류",
+"q": "",
+"choices": [],
+"answer": [],
+"explain": "## Enterobacteriaceae 일반 특성 & Salmonella 분류\n\n🔴**Family Enterobacteriaceae**는 인공배지에서 잘 자라는 **그람음성·호기성 또는 통성혐기성·무아포(asporogenous) 간균**의 모음이다 (p.1 \"Gram-negative aerobic or facultatively anaerobic, asporogenous rod-shaped bacteria\"). 운동성이 있는 종은 **주모성 편모(peritrichous flagella)**를 가지며, 🔴**일부 종은 비운동성(non-motile)**이다.\n\n공통 생화학 특성 (p.1):\n- Glucose를 **발효**하여 산 또는 산+가스 생성\n- 🔴**Oxidase test 음성**\n- **Nitrate → nitrite 환원**\n\n이 과에 포함되는 균: 🔴**Salmonella, Escherichia, Shigella, Citrobacter, Klebsiella, Proteus** (p.1). 족보에서 \"이 과에 속하지 않는 것\" 유형으로 반복 출제되며, **Vibrio**(별도 Vibrionaceae)가 단골 오답이다.\n\n### Salmonella 명명 체계 (p.1)\n\n| 단계 | 내용 |\n|---|---|\n| Genus | Salmonella |\n| 🔴Species | **단 2종** — *S. enterica*(2321 serovar) + *S. bongori*(18) |\n| Subspecies | (*S. enterica*만) enterica·salamae·arizonae·diarizonae·houtenae·indica |\n| Serovar | Enteritidis, Typhimurium, Pullorum, Gallinarum … |\n\n🔵 정식 학명 표기 예: **Salmonella enterica subsp. enterica serovar Enteritidis** (= 약식 *Salmonella* Enteritidis).\n\n가금 살모넬라의 임상 분류 (p.1):\n- 🔴**Host-adapted(숙주특이) 그룹**: *S. Pullorum*(추백리), *S. Gallinarum*(가금티푸스) → 심한 전신 패혈증\n- 🔴**Non-host-adapted paratyphoid 그룹**: *S. Enteritidis*, *S. Typhimurium* 등 → 가금 대부분 무증상 보균, **사람 식중독(인수공통)**\n",
+"gist": "Enterobacteriaceae=그람음성·oxidase(−)·glucose발효 간균; Salmonella 속은 S.enterica·S.bongori 2종, host-adapted vs paratyphoid 분류.",
+"chips": [
+"그람음성·oxidase(−)",
+"S.enterica·S.bongori 2종",
+"host-adapted vs paratyphoid",
+"Vibrio는 ✗"
+],
+"minitree": "<div class=\"ptree mini\"><div class=\"proot\">Enterobacteriaceae·Salmonella <em>그람음성·oxidase(−)·glucose발효</em></div><div class=\"pbranches\"><div class=\"pb\"><div class=\"pc\">과 공통특성</div><div class=\"pls\"><span class=\"pl\"><b>그람음성</b> 통성혐기·무아포 간균</span><span class=\"pl\"><b>oxidase(−)</b> nitrate→nitrite·glucose발효</span><span class=\"pl\"><b>운동성</b> 주모성 편모 or 비운동성</span><span class=\"pl\"><b>구성균</b> Salmonella·Escherichia·Shigella·Citrobacter·Klebsiella·Proteus (Vibrio ✗)</span></div></div><div class=\"pb\"><div class=\"pc\">Salmonella 명명</div><div class=\"pls\"><span class=\"pl\"><b>2종</b> S.enterica(2321)·S.bongori(18)</span><span class=\"pl\"><b>6아종</b> enterica·salamae·arizonae·diarizonae·houtenae·indica</span><span class=\"pl\"><b>full name</b> S. enterica subsp. enterica serovar Enteritidis</span></div></div><div class=\"pb\"><div class=\"pc\">가금 임상분류</div><div class=\"pls\"><span class=\"pl\"><b>host-adapted</b> Pullorum·Gallinarum</span><span class=\"pl\"><b>paratyphoid</b> Enteritidis·Typhimurium(인수공통)</span></div></div></div></div>",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"exam": "",
+"id": 2
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 1,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Enterobacteriaceae 특성·Salmonella 분류",
+"q": "Family Enterobacteriaceae의 공통 생화학적 특성으로 옳은 것은?",
+"choices": [
+"①Oxidase 음성·glucose 발효·nitrate를 nitrite로 환원",
+"②Oxidase 양성·glucose 비발효",
+"③Catalase 음성·glucose 비발효",
+"④Oxidase 양성·그람양성 간균",
+"⑤Glucose 산화적 이용·nitrate 환원 안 함"
+],
+"answer": [
+1
+],
+"explain": "정답 ①. 강의안 p.1 \"oxidase test is negative\", \"Glucose is utilized fermentatively\", \"Nitrates are reduced to nitrites\". ②④는 oxidase 양성이라 오류, ④는 그람양성도 오류(이 과는 그람음성). ③ catalase 음성·비발효 모두 부합 안 함. ⑤ glucose는 발효적 이용, nitrate 환원함.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 3
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 1,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Enterobacteriaceae 특성·Salmonella 분류",
+"q": "다음 중 family Enterobacteriaceae에 속하지 않는 것은?",
+"choices": [
+"①Salmonella",
+"②Shigella",
+"③Citrobacter",
+"④Klebsiella",
+"⑤Vibrio"
+],
+"answer": [
+5
+],
+"explain": "정답 ⑤. 강의안 p.1 \"include Salmonella, Escherichia, Shigella, Citrobacter, Klebsiella and Proteus\" — Vibrio는 별도 family(Vibrionaceae). 나머지 ①②③④는 모두 강의안에 명시된 Enterobacteriaceae 구성균.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 4
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 1,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Enterobacteriaceae 특성·Salmonella 분류",
+"q": "Salmonella 속(genus)을 구성하는 species로 옳은 것은?",
+"choices": [
+"①S. enterica 1종뿐",
+"②S. enterica·S. bongori 2종",
+"③S. enterica·S. arizonae 2종",
+"④S. enterica·S. bongori·S. typhi 3종",
+"⑤6개 subspecies가 각각 별개의 species"
+],
+"answer": [
+2
+],
+"explain": "정답 ②. 강의안 p.1 \"genus Salmonella consists of only 2 species: Salmonella enterica and Salmonella bongori\". arizonae·typhi 등은 종이 아니라 subspecies/serovar. 6 subspecies(enterica·salamae·arizonae·diarizonae·houtenae·indica)는 모두 S. enterica 아래.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 5
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 1,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Enterobacteriaceae 특성·Salmonella 분류",
+"q": "S. Enteritidis의 정식 학명(full name)을 genus·species·subspecies·serovar 순서로 옳게 표기한 것은?",
+"choices": [
+"①Salmonella enterica serovar Enteritidis",
+"②Salmonella Enteritidis",
+"③Salmonella enterica subsp. enterica serovar Enteritidis",
+"④Salmonella bongori subsp. enterica Enteritidis",
+"⑤Salmonella enteritidis subsp. enterica"
+],
+"answer": [
+3
+],
+"explain": "정답 ③. 강의안 p.1 \"Salmonella enterica subsp. enterica serovar Enteritidis = Salmonella Enteritidis\". ①은 subspecies 누락, ②는 약식 표기(감점 가능), ④는 species(bongori) 오류, ⑤는 species명을 enteritidis로 잘못 씀(Enteritidis는 serovar).",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 6
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 1,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Enterobacteriaceae 특성·Salmonella 분류",
+"q": "가금 살모넬라의 임상 분류에 대한 설명으로 옳은 것은?",
+"choices": [
+"①S. Pullorum·S. Gallinarum은 non-host-adapted이다",
+"②S. Enteritidis·S. Typhimurium은 host-adapted 그룹이다",
+"③Paratyphoid 그룹은 사람에게 전파되지 않는다",
+"④Host-adapted 그룹(SP·SG)은 심한 전신 패혈증을 일으킨다",
+"⑤추백리는 paratyphoid 그룹에 속한다"
+],
+"answer": [
+4
+],
+"explain": "정답 ④. 강의안 p.1 \"Host-adapted salmonellae (S. pullorum, S. gallinarum) are responsible for severe systemic disease\". ①②는 분류가 뒤바뀜(SP·SG=host-adapted, SE·STM=paratyphoid). ③ paratyphoid는 사람 식중독 주요 원인(p.4). ⑤ 추백리(SP)는 host-adapted.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 7
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 2,
+"origin": "summary",
+"type": "summary",
+"topic": "추백리 Pullorum disease (S. Pullorum)",
+"q": "",
+"choices": [],
+"answer": [],
+"explain": "## 추백리 Pullorum disease (S. Pullorum)\n\n🔴**추백리(Pullorum disease, PD)**는 *S. Pullorum*에 의한 **어린 병아리·칠면조의 급성 전신 패혈성 질병**이다. 동의어: White diarrhea, Bacillary white diarrhea (p.2).\n\n### 원인체 특성 (p.2)\n- 🔴**Host-adapted(숙주특이)·non-motile(비운동성)·serogroup D**\n- 그람음성·무아포·통성혐기성 가는 막대(1.0~2.5 µm)\n- O antigen **9, 12** (🔵 *S. pullorum*은 **O12에서 항원 변이** 발생; SG는 변이 없음, p.2)\n- 사람에서 분리 매우 드묾 → 공중보건학적 중요성 낮음\n- 생화학: 🔴**ornithine 탈탄산 양성(+)**, dulcitol(−)·maltose(−)\n\n### 임상·병변 (p.2~3)\n- 🔴**어린 병아리**: **항문 주위 chalky white(석고 모양) 분변** 부착, 식욕부진·발육부진·깃털 거침·열원 주위 모임·날카로운 울음, 일부 관절 종창/파행. 폐사 정점은 **2~3주령**, 폐사율 매우 높아 ~100%까지.\n- 🔴**성계**: 대부분 **무증상 carrier**. 드물게 nodular myocarditis·pericarditis·비정상 생식소.\n- 어린 병변: gray nodules(간·폐·근위·심장·맹장벽·비장·복막), 간 petechiae/focal necrosis, 비장 비대, ureter urate 충만.\n\n### 역학·전파 (p.3)\n- 🔴**Transovarian(난계대) 전파** + 부화 후 같은 hatch 내 수평 전파, 성계 carrier 분변 배설\n- 품종 감수성: 🔵**Light breeder > heavy breeder, Brown > White** (p.3)\n\n### 환경 저항성 (p.2)\n- 🔴*S. pullorum/gallinarum은 paratyphoid보다 열·화학·환경에 **덜 저항성(less resistant)***. 60℃ 10분, 2% formalin 1분 등에 사멸. → 매년 O/X 출제.\n",
+"gist": "S. Pullorum = host-adapted·non-motile·serogroup D, 어린 병아리 급성 패혈증·항문주위 흰 석고양 분변, 성계 무증상 carrier, 난계대.",
+"chips": [
+"S. Pullorum",
+"host-adapted·non-motile",
+"chalky white vent 분변",
+"ornithine(+)",
+"난계대"
+],
+"minitree": "<div class=\"ptree mini\"><div class=\"proot\">추백리 PD (S. Pullorum) <em>host-adapted·non-motile·serogroup D</em></div><div class=\"pbranches\"><div class=\"pb\"><div class=\"pc\">원인체</div><div class=\"pls\"><span class=\"pl\"><b>non-motile</b> 그람음성·무아포 간균</span><span class=\"pl\"><b>O 9,12</b> O12 항원변이 有(SG는 無)</span><span class=\"pl\"><b>생화학</b> ornithine(+)·dulcitol(−)·maltose(−)</span></div></div><div class=\"pb\"><div class=\"pc\">임상·병변</div><div class=\"pls\"><span class=\"pl\"><b>어린병아리</b> 항문주위 chalky white 분변·급성 패혈증·고폐사(~100%)</span><span class=\"pl\"><b>성계</b> 무증상 carrier</span><span class=\"pl\"><b>병변</b> gray nodules·비장비대·ureter urate</span></div></div><div class=\"pb\"><div class=\"pc\">역학·저항성</div><div class=\"pls\"><span class=\"pl\"><b>전파</b> 난계대(transovarian)+수평</span><span class=\"pl\"><b>감수성</b> Light&gt;heavy, Brown&gt;White</span><span class=\"pl\"><b>저항성</b> paratyphoid보다 less resistant</span></div></div></div></div>",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"exam": "",
+"id": 8
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 2,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "추백리 Pullorum disease (S. Pullorum)",
+"q": "S. pullorum의 미생물학적 특성으로 옳지 않은 것은?",
+"choices": [
+"①그람음성 간균이다",
+"②운동성(motile)이 있다",
+"③통성혐기성이다",
+"④무아포이다",
+"⑤serogroup D에 속한다"
+],
+"answer": [
+2
+],
+"explain": "정답 ②. 강의안 p.2 \"highly host adapted and non-motile, belong to the serogroup D\" — SP는 비운동성이 핵심. ①③④⑤는 모두 강의안과 일치. 운동성이 있는 것은 paratyphoid 그룹(motile Salmonella).",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 9
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 2,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "추백리 Pullorum disease (S. Pullorum)",
+"q": "어린 병아리 추백리(PD)의 가장 특징적인 임상증상은?",
+"choices": [
+"①창백한 볏과 육수",
+"②bile-stained bronzed liver",
+"③호흡곤란·비강 분비물",
+"④항문 주위 chalky white(석고 모양) 분변",
+"⑤신경증상과 마비"
+],
+"answer": [
+4
+],
+"explain": "정답 ④. 강의안 p.3 \"adherence of chalky white material to the vent\" — 어린 병아리 추백리의 트레이드마크. ①은 성계 FT 증상, ②는 acute FT 성계 병변, ③⑤는 추백리 임상에 없음.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 10
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 2,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "추백리 Pullorum disease (S. Pullorum)",
+"q": "S. pullorum의 생화학적 특성으로 옳은 것은?",
+"choices": [
+"①dulcitol을 발효한다",
+"②maltose를 발효한다",
+"③ornithine decarboxylation 양성이다",
+"④rhamnose를 발효한다",
+"⑤indole 양성이다"
+],
+"answer": [
+3
+],
+"explain": "정답 ③. 강의안 p.2 \"S. pullorum culture produce rapid decarboxylation of ornithine, whereas S. gallinarum does not\". ①②는 S. gallinarum의 특성(SP는 둘 다 −), ④ rhamnose 발효는 9R 백신주, ⑤ indole은 강의안 표에 없음.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 11
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 2,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "추백리 Pullorum disease (S. Pullorum)",
+"q": "성계(growing/mature fowl)에서 추백리(PD) 감염의 특징으로 옳은 것은?",
+"choices": [
+"①대부분 무증상이며 드물게 nodular myocarditis·pericarditis가 나타난다",
+"②bile-stained bronzed liver가 항상 관찰된다",
+"③100% 폐사한다",
+"④항문 주위 흰 분변이 가장 흔하다",
+"⑤항상 산란을 완전히 중단한다"
+],
+"answer": [
+1
+],
+"explain": "정답 ①. 강의안 p.3 \"Usually there are no clinical sign in the case of PD\", \"occasionally there is a nodular myocarditis, pericarditis, or abnormal gonads and ovary\". ②는 acute FT 성계 병변, ③④는 어린 병아리 양상, ⑤ 감염 산란계가 정상 산란할 수도 있음(p.3).",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 12
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 2,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "추백리 Pullorum disease (S. Pullorum)",
+"q": "추백리(PD)의 전파·역학에 대한 설명으로 옳지 않은 것은?",
+"choices": [
+"①감염 carrier 모계의 알을 통해 난계대(transovarian) 전파된다",
+"②부화한 감염 병아리가 같은 hatch 내 다른 병아리에게 수평 전파한다",
+"③성계 carrier는 분변으로 균을 배설한다",
+"④품종 감수성은 Brown > White, Light breeder > heavy breeder이다",
+"⑤S. pullorum은 알을 통한 전파가 절대 일어나지 않는다"
+],
+"answer": [
+5
+],
+"explain": "정답 ⑤. 강의안 p.3 \"Both diseases can be transmitted through the eggs by transovarian infections\" — 난계대 전파가 핵심 특성이므로 \"절대 일어나지 않는다\"는 틀림. ①②③④는 모두 강의안 p.3과 일치(품종 감수성 Light>heavy, Brown>White).",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 13
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 3,
+"origin": "summary",
+"type": "summary",
+"topic": "가금티푸스·생화학 감별 (S. Gallinarum / 9R)",
+"q": "",
+"choices": [],
+"answer": [],
+"explain": "## 가금티푸스 Fowl typhoid & 생화학 감별 (S. Gallinarum / 9R)\n\n🔴**가금티푸스(Fowl typhoid, FT)**는 *S. Gallinarum*에 의한 패혈성 질병으로, **추백리와 달리 성계(growing/mature)에서 더 자주** 발생하며 급성 또는 만성 경과를 보인다 (p.2). 단 어린 일령에서도 높은 폐사가 보고된다.\n\n### 원인체 특성 (p.2)\n- 🔴Host-adapted·**non-motile**·serogroup D, 🔴**O antigen 1, 9, 12**(SG는 항원 변이 없음)\n- 독력: 🔴**rabbit에 lethal한 toxin**, 내독소(정맥주사 시 수 시간 내 임상), **SPI-2**(세포내 생존·증식 필수), 85-kb plasmid(부착·침입)\n\n### 임상·병변 (p.3)\n- 성계 FT: 🔴**창백한 볏·육수(pale/shrunken comb·wattles)**, 설사, 노출 5~10일 내 폐사, 폐사율 10~93%\n- 🔴**Acute FT 병변(성계)**: **bile-stained(\"bronzed\") enlarged liver**(± necrotic foci), 비장·신장 비대, 사체 전체 창백 + 묽은 수양성 혈액, 전부 소장 enteritis(±궤양)\n- ⚠️ **bronzed liver는 acute FT 성계에서만** — 추백리·어린 일령엔 없음(단골 함정)\n\n### 🔴 생화학 감별표 (p.2) — 매년 출제\n\n| 시약 | S. pullorum | S. gallinarum | S. gallinarum 9R |\n|---|---|---|---|\n| 🔴Dulcitol | − | + | + |\n| 🔴Maltose | − | + | + |\n| 🔴Ornithine | + | − | − |\n| 🔴Rhamnose | NT | − | **+** |\n\n핵심: ①**Dulcitol·Maltose** → SG(+)/SP(−)로 **SP↔SG 감별**. ②**Ornithine** → **SP만 +**(SP 단독 마커). ③🔴**Rhamnose** → 야외주 SG(−), **백신주 SG 9R(+)** → **9R 백신과 야외주 SG 구별의 결정적 마커**.\n",
+"gist": "S. Gallinarum=성계 패혈증·bronzed liver·rabbit-lethal toxin·SPI-2; SP/SG/9R 감별은 dulcitol·maltose·ornithine·rhamnose(9R만 +).",
+"chips": [
+"S. Gallinarum",
+"bronzed liver",
+"rabbit-lethal toxin·SPI-2",
+"dulcitol/maltose/ornithine/rhamnose",
+"9R rhamnose(+)"
+],
+"minitree": "<div class=\"ptree mini\"><div class=\"proot\">가금티푸스 FT (S. Gallinarum) <em>host-adapted·non-motile·serogroup D·O 1,9,12</em></div><div class=\"pbranches\"><div class=\"pb\"><div class=\"pc\">원인체·독력</div><div class=\"pls\"><span class=\"pl\"><b>O 1,9,12</b> 항원변이 없음</span><span class=\"pl\"><b>독소</b> rabbit-lethal toxin·내독소</span><span class=\"pl\"><b>virulence</b> SPI-2·85kb plasmid</span></div></div><div class=\"pb\"><div class=\"pc\">임상·병변</div><div class=\"pls\"><span class=\"pl\"><b>대상</b> 성계 급·만성 패혈증(폐사 10~93%)</span><span class=\"pl\"><b>성계</b> 창백한 볏·육수·설사</span><span class=\"pl\"><b>acute FT</b> bronzed enlarged liver·비장/신장 비대·창백</span></div></div><div class=\"pb\"><div class=\"pc\">생화학 감별</div><div class=\"pls\"><span class=\"pl\"><b>SP</b> ornithine(+)·dulcitol(−)·maltose(−)</span><span class=\"pl\"><b>SG</b> dulcitol(+)·maltose(+)·ornithine(−)·rhamnose(−)</span><span class=\"pl\"><b>SG 9R</b> dulcitol(+)·maltose(+)·rhamnose(+)</span><span class=\"pl\"><b>결정마커</b> rhamnose=9R vs 야외주 SG 구별</span></div></div></div></div>",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"exam": "",
+"id": 14
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 3,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "가금티푸스·생화학 감별 (S. Gallinarum / 9R)",
+"q": "S. gallinarum에 대한 설명으로 옳은 것은?",
+"choices": [
+"①병원성 관련 유전자는 SPI-3이다",
+"②1, 9, 12의 H antigen을 가진다",
+"③rhamnose를 발효할 수 있다",
+"④dulcitol을 발효할 수 없다",
+"⑤toxin이 rabbit에 lethal하다"
+],
+"answer": [
+5
+],
+"explain": "정답 ⑤. 강의안 p.2 \"S. gallinarum contain a toxin that was lethal to a rabbit\". ① virulence는 SPI-2(p.2). ② 1,9,12는 H가 아니라 O antigen. ③ 야외주 SG는 rhamnose 비발효(9R만 +). ④ SG는 dulcitol 발효 가능(+).",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 15
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 3,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "가금티푸스·생화학 감별 (S. Gallinarum / 9R)",
+"q": "야외주 S. gallinarum과 백신주 S. gallinarum 9R을 감별하는 결정적 생화학 시약은?",
+"choices": [
+"①dulcitol",
+"②maltose",
+"③ornithine",
+"④rhamnose",
+"⑤glucose"
+],
+"answer": [
+4
+],
+"explain": "정답 ④. 강의안 p.2 표 — 야외주 SG는 rhamnose 음성(−), 백신주 9R은 양성(+)이므로 rhamnose 발효 여부가 둘을 가르는 결정적 마커. dulcitol·maltose는 SG와 9R 모두 +라 구별 불가, ornithine은 둘 다 −.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 16
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 3,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "가금티푸스·생화학 감별 (S. Gallinarum / 9R)",
+"q": "S. gallinarum 9R 백신주의 생화학 특성으로 모두 옳은 조합은?",
+"choices": [
+"①dulcitol(−)·maltose(−)·rhamnose(−)",
+"②dulcitol(+)·maltose(+)·rhamnose(+)",
+"③dulcitol(+)·maltose(−)·rhamnose(+)",
+"④dulcitol(−)·maltose(+)·rhamnose(−)",
+"⑤dulcitol(−)·maltose(−)·rhamnose(+)"
+],
+"answer": [
+2
+],
+"explain": "정답 ②. 강의안 p.2 표 — SG 9R은 dulcitol·maltose·rhamnose 모두 발효(+). 야외주 SG와 차이는 rhamnose뿐(SG는 −, 9R는 +). 나머지 조합은 표와 불일치.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 17
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 3,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "가금티푸스·생화학 감별 (S. Gallinarum / 9R)",
+"q": "성계에서 acute Fowl typhoid의 특징적 병변으로 옳지 않은 것은?",
+"choices": [
+"①bile-stained(\"bronzed\") enlarged liver",
+"②비장·신장 비대",
+"③사체 전체 창백·묽은 수양성 혈액",
+"④전부 소장 enteritis(±궤양)",
+"⑤항문 주위 chalky white 분변이 가장 특징적"
+],
+"answer": [
+5
+],
+"explain": "정답 ⑤. 강의안 p.3 acute FT 병변은 bronzed liver·비장/신장 비대·창백·전부 소장 enteritis. \"항문 주위 chalky white 분변\"은 어린 병아리 추백리(PD)의 임상증상이지 성계 FT 병변이 아니다. ①~④는 모두 강의안 p.3 FT 병변과 일치.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 18
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 3,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "가금티푸스·생화학 감별 (S. Gallinarum / 9R)",
+"q": "S. gallinarum·S. gallinarum 9R·S. pullorum의 생화학 특성에 대한 설명으로 틀린 것은?",
+"choices": [
+"①S. pullorum은 dulcitol을 발효하지 못한다",
+"②S. gallinarum은 maltose를 발효한다",
+"③S. gallinarum은 ornithine decarboxylase 양성이다",
+"④S. gallinarum 9R은 rhamnose를 발효한다",
+"⑤S. gallinarum은 rhamnose를 발효하지 못한다"
+],
+"answer": [
+3
+],
+"explain": "정답 ③. 강의안 p.2 \"S. pullorum culture produce rapid decarboxylation of ornithine, whereas S. gallinarum does not\" — ornithine 양성은 SP만, SG는 음성. ①②④⑤는 표와 일치(SP dulcitol −, SG maltose +, 9R rhamnose +, 야외주 SG rhamnose −).",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 19
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 4,
+"origin": "summary",
+"type": "summary",
+"topic": "Paratyphoid (S. Enteritidis / Typhimurium)",
+"q": "",
+"choices": [],
+"answer": [],
+"explain": "## Paratyphoid (S. Enteritidis · S. Typhimurium)\n\n🔴**Paratyphoid**는 **비숙주특이성(non-host-adapted)·운동성(motile) Salmonella**가 일으키는 가금 감염으로, 가금에서는 대부분 **무증상 잠복 감염**이지만 🔴**사람 식중독을 일으키는 공중보건학적으로 가장 중요한 가금 살모넬라**다 (p.1, p.4). Salmonella는 사람의 가장 흔한 식품 매개 질환 중 하나이며 오염된 가금 제품이 주요 감염원이다.\n\n### 대표 혈청형 (p.4)\n- 🔴***S. Enteritidis*** (group **D**, O 1,9,12) — 🔵*SP와 같은 group D 체성항원 공유* → WBT 등 추백리 진단법을 paratyphoid에 응용 가능(p.3)\n- 🔴***S. Typhimurium*** (group **B**, O 1,4,5,12), DT104 칠면조 증가\n- 영국 등에서 사람 식중독 1·2위 혈청형이 SE·STM\n\n### 임상·병변 (p.4)\n- 임상은 일반적으로 드묾, 🔴**2주령 이하** 어린 병아리·오리에서만 가끔 발현(성계 무증상)\n- 폐사율 보통 20% 미만(예외적 ~100%), 산란계 1.6%/월 + 산란 감소\n- 어린 일령: inflamed unabsorbed yolk sac\n- 🔵**특징 사후소견(~1/3): typhlitis — 맹장이 단단한 흰색 괴사 cores로 팽창**\n- 육계: pericarditis·perihepatitis / 산란계: ovarian lesion(SE)\n\n### 분리 표준 순서 (p.4)\n1. 🔵**비선택 pre-enrichment**: **Buffered peptone water**, Trypticase soy broth\n2. 🔵**선택적 enrichment**: Selenite, Tetrathionate, **Rappaport-Vassiliadis(RV)**(41~42℃, RV는 pre-enrich 후 1:100 subculture). EU 권장 MSRV·DIASSALM\n3. 🔵**Plating**: **Brilliant green agar**(가장 널리 사용)·**XLT4**(가금사육장 drag swab 효율)·MacConkey·DCA·XLD 등\n\n동정: slide agglutination(O) → tube agglutination(H) → 생화학(H₂S +, indole −) → phage typing. 항원: 🔴**O = somatic, H = flagellar**.\n",
+"gist": "Paratyphoid=non-host-adapted·motile(SE group D·STM group B), 가금 무증상·사람 식중독, typhlitis 흰 괴사 cores, BPW→RV→Brilliant green 분리.",
+"chips": [
+"S. Enteritidis·Typhimurium",
+"non-host-adapted·motile",
+"사람 식중독(인수공통)",
+"typhlitis",
+"BPW→RV→Brilliant green"
+],
+"minitree": "<div class=\"ptree mini\"><div class=\"proot\">Paratyphoid <em>non-host-adapted·motile·인수공통</em></div><div class=\"pbranches\"><div class=\"pb\"><div class=\"pc\">혈청형</div><div class=\"pls\"><span class=\"pl\"><b>S. Enteritidis</b> group D(O 1,9,12)·SP와 D 공유</span><span class=\"pl\"><b>S. Typhimurium</b> group B(O 1,4,5,12)·DT104</span><span class=\"pl\"><b>항원</b> O=somatic, H=flagellar</span></div></div><div class=\"pb\"><div class=\"pc\">임상·병변</div><div class=\"pls\"><span class=\"pl\"><b>가금</b> 대부분 무증상, 2주령 이하만 발현</span><span class=\"pl\"><b>사람</b> 식중독 주요 원인(껍데기 알·마요네즈)</span><span class=\"pl\"><b>typhlitis</b> 맹장 단단한 흰 괴사 cores(~1/3)</span></div></div><div class=\"pb\"><div class=\"pc\">분리 배양</div><div class=\"pls\"><span class=\"pl\"><b>pre-enrich</b> Buffered peptone water(비선택)</span><span class=\"pl\"><b>선택 enrich</b> Selenite·Tetrathionate·RV(41~42℃)</span><span class=\"pl\"><b>plating</b> Brilliant green·XLT4·MacConkey</span></div></div></div></div>",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"exam": "",
+"id": 20
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 4,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Paratyphoid (S. Enteritidis / Typhimurium)",
+"q": "Paratyphoid Salmonella의 공중보건학적 의의로 가장 옳은 것은?",
+"choices": [
+"①사람에게 전혀 전파되지 않는다",
+"②사람 식중독을 일으키는 주요 원인이며 오염된 가금 제품이 주 감염원이다",
+"③가금에서 항상 급성 고폐사를 일으킨다",
+"④S. pullorum과 함께 host-adapted 그룹이다",
+"⑤사람보다 가금에서 임상이 더 심하다"
+],
+"answer": [
+2
+],
+"explain": "정답 ②. 강의안 p.4 \"Salmonella is one of the most frequent foodborne diseases in humans, and contaminated poultry products are one of the major sources of infection\". ① 사람 식중독 주요 원인이라 틀림, ③ 가금은 대개 무증상, ④ paratyphoid는 non-host-adapted, ⑤ 가금은 대부분 무증상이라 반대.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 21
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 4,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Paratyphoid (S. Enteritidis / Typhimurium)",
+"q": "Paratyphoid의 대표 혈청형 2가지를 옳게 짝지은 것은?",
+"choices": [
+"①S. Pullorum·S. Gallinarum",
+"②S. Enteritidis·S. Typhimurium",
+"③S. Pullorum·S. Enteritidis",
+"④S. Gallinarum·S. Typhimurium",
+"⑤S. arizonae·S. Pullorum"
+],
+"answer": [
+2
+],
+"explain": "정답 ②. 강의안 p.4 \"the commonest serovars in man are currently S. Enteritidis and S. Typhimurium\". ①은 host-adapted(추백리·가금티푸스), 나머지 짝은 host-adapted가 섞여 있어 틀림.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 22
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 4,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Paratyphoid (S. Enteritidis / Typhimurium)",
+"q": "Paratyphoid 감염 닭의 약 1/3에서 관찰되는 특징적 사후소견(unique post-mortem finding)은?",
+"choices": [
+"①enlarged bronze liver",
+"②necrotic enteritis",
+"③white foci in duodenum",
+"④맹장이 단단한 흰색 괴사 cores로 팽창한 typhlitis",
+"⑤hemorrhagic ovary"
+],
+"answer": [
+4
+],
+"explain": "정답 ④. 강의안 p.4 \"The unique post-mortem finding, seen in approximately one-third of birds died from salmonellosis, is typhlitis, with the ceca distended by hard white necrotic cores\". ①은 acute FT(가금티푸스) 병변, ②③⑤는 paratyphoid의 특이 1/3 소견이 아님.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 23
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 4,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Paratyphoid (S. Enteritidis / Typhimurium)",
+"q": "Salmonella 분리를 위한 표준 배양 순서로 가장 적절한 것은?",
+"choices": [
+"①Buffered peptone water → Rappaport-Vassiliadis → Brilliant green agar",
+"②Selenite → Buffered peptone water → MacConkey",
+"③Blood agar → MacConkey → Selenite",
+"④MacConkey → Buffered peptone water → Brilliant green agar",
+"⑤Brilliant green agar → Selenite → Buffered peptone water"
+],
+"answer": [
+1
+],
+"explain": "정답 ①. 강의안 p.4 — 비선택 pre-enrichment(Buffered peptone water) → 선택적 enrichment(RV/Selenite/Tetrathionate) → plating(Brilliant green/XLT4/MacConkey) 순서. 나머지는 순서가 뒤바뀌었거나 비선택/선택 단계 배치가 틀림.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 24
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 4,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "Paratyphoid (S. Enteritidis / Typhimurium)",
+"q": "Salmonella의 O antigen과 H antigen이 의미하는 구조로 옳은 것은?",
+"choices": [
+"①O = capsular, H = flagellar",
+"②O = flagellar, H = somatic",
+"③O = somatic, H = flagellar",
+"④O = pilus, H = capsular",
+"⑤O = somatic, H = capsular"
+],
+"answer": [
+3
+],
+"explain": "정답 ③. 강의안 p.3 항원 구조 — O antigen = somatic(체성, 세포벽 LPS), H antigen = flagellar(편모). 동정 시 slide agglutination은 O antisera, tube agglutination은 H antisera 사용(p.4). 나머지는 O/H 배정이 틀림.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 25
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 5,
+"origin": "summary",
+"type": "summary",
+"topic": "진단·혈청검사·방제 (WBT·NPIP·9R)",
+"q": "",
+"choices": [],
+"answer": [],
+"explain": "## 진단·혈청검사·방제 (WBT·NPIP·9R)\n\n### 분리·동정 (p.3, p.4)\n전신 살모넬라증 검체는 경쟁 세균이 적어 비선택 배지 직접 평판으로도 분리 가능. 검체 부위: **간·비장·심장·심혈·난소/난황낭·활막·안구·뇌**(사경 시). 확정 진단은 **serotyping** 필수.\n\n### 🔴 Serology — Stained antigen Whole Blood(WB) test (NPIP 표준, p.3)\n- 🔴산란 개시 전 **계군의 10% 또는 최소 300수** 검사\n- 🔴이후 **60~90일마다 30수/계군** 추적\n- 🔵**혈청 0.02 mL + 항원 0.03 mL**을 glass plate에 혼합 → 1분 회전 → 가시적 응집 관찰\n- 🔵**WB 양성은 TA(tube agglutination) test로 확진**\n- ⚠️🔵**oil emulsion 또는 live 약독화 백신 접종 후 위양성**(4~8주 지속)\n- 기타: RS test, TA, MA, ELISA. SE는 SP와 같은 group D라 WBT를 paratyphoid 진단에도 응용.\n\n### 감별진단 (p.3)\n어린 일령 — chilling, omphalitis, typhoid·paratyphoid·colibacillosis.\n\n### 치료·백신·방제 (p.4)\n- 🔵치료: 여러 항생제 감수성 있으나 **eradication에는 권장 안 함**\n- 백신: 불활화 oil bacterin, 🔵**9R live vaccine(FT용)**, paratyphoid엔 불활화 bacterin·live SE\n- 🔵**Eradication·관리**: National PD-FT control program **NPIP(USA)**, HACCP, 강제접종(유럽·중동), 🔵**WB 양성 도태(Remove WB reactors = test-and-slaughter)**, all-in/all-out, biosecurity\n- paratyphoid: 환경 모니터링·**competitive exclusion(probiotics)**·prebiotics·organic acid·enzyme·bacteriophage\n",
+"gist": "WB test(NPIP): 산란전 10%·최소300수→60~90일 30수, 혈청0.02+항원0.03ml, 양성→TA확진, 백신 후 위양성; 방제는 WB양성 도태·9R·NPIP.",
+"chips": [
+"WB test(NPIP)",
+"10%·최소300수",
+"백신 후 위양성",
+"9R live vaccine",
+"WB 양성 도태"
+],
+"minitree": "<div class=\"ptree mini\"><div class=\"proot\">진단·방제 <em>WBT(NPIP)·serotyping·test-and-slaughter</em></div><div class=\"pbranches\"><div class=\"pb\"><div class=\"pc\">분리·동정</div><div class=\"pls\"><span class=\"pl\"><b>검체</b> 간·비장·심혈·난소/난황낭·활막·뇌</span><span class=\"pl\"><b>확진</b> serotyping 필수</span></div></div><div class=\"pb\"><div class=\"pc\">WB test</div><div class=\"pls\"><span class=\"pl\"><b>산란전</b> 10% or 최소 300수</span><span class=\"pl\"><b>이후</b> 60~90일마다 30수</span><span class=\"pl\"><b>혼합</b> 혈청0.02+항원0.03ml, 1분 회전</span><span class=\"pl\"><b>확진</b> 양성→TA test, 백신 후 위양성(4~8주)</span></div></div><div class=\"pb\"><div class=\"pc\">백신·방제</div><div class=\"pls\"><span class=\"pl\"><b>백신</b> 불활화 oil bacterin·9R live(FT)</span><span class=\"pl\"><b>방제</b> NPIP·WB 양성 도태·all-in/all-out</span><span class=\"pl\"><b>paratyphoid</b> competitive exclusion·bacteriophage</span></div></div></div></div>",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"exam": "",
+"id": 26
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 5,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "진단·혈청검사·방제 (WBT·NPIP·9R)",
+"q": "NPIP의 stained antigen whole blood(WB) test 절차로 옳은 것은?",
+"choices": [
+"①산란 개시 전 계군의 10% 또는 최소 300수를 검사하고 이후 60~90일마다 30수를 추적한다",
+"②산란 후에만 계군의 1%를 검사한다",
+"③혈청 0.3 mL과 항원 0.2 mL을 혼합한다",
+"④WB 양성은 추가 확진 없이 확정 진단한다",
+"⑤백신 접종 후에는 위양성이 전혀 없다"
+],
+"answer": [
+1
+],
+"explain": "정답 ①. 강의안 p.3 \"10% of the flock (or a minimum of 300 birds) is tested before the onset of egg production; 30 birds per flock are tested every 60-90 days thereafter\". ③ 실제는 혈청 0.02+항원 0.03 mL, ④ WB 양성은 TA test로 확진, ⑤ oil emulsion·생백신 후 4~8주 위양성 발생.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 27
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 5,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "진단·혈청검사·방제 (WBT·NPIP·9R)",
+"q": "PD/FT 검사에서 WB test 양성이 위양성일 가능성이 가장 높은 상황은?",
+"choices": [
+"①부화 직후",
+"②oil emulsion 또는 live 약독화 백신 접종 후 4~8주 이내",
+"③산란 정점기",
+"④항생제 투여 후 48시간 이내",
+"⑤절식 후"
+],
+"answer": [
+2
+],
+"explain": "정답 ②. 강의안 p.3 \"False positive reaction are commonly seen after oil emulsion vaccine or live modified vaccine vaccination (persist up to 4-8 weeks)\". 나머지 상황은 위양성의 강의안 근거가 없다.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 28
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 5,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "진단·혈청검사·방제 (WBT·NPIP·9R)",
+"q": "Fowl typhoid 예방에 사용하는 live 약독화 백신주는?",
+"choices": [
+"①F strain",
+"②SB-1",
+"③HVT",
+"④9R",
+"⑤Lukert"
+],
+"answer": [
+4
+],
+"explain": "정답 ④. 강의안 p.4 \"Live 9R vaccine for FT\" — S. gallinarum 약독화 변이주. ①은 MG, ②③은 마렉/HVT 계열, ⑤는 IBD 백신주로 모두 살모넬라와 무관.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 29
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 5,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "진단·혈청검사·방제 (WBT·NPIP·9R)",
+"q": "PD/FT의 eradication·관리 방법으로 옳지 않은 것은?",
+"choices": [
+"①National PD-FT control program(NPIP, USA) 운영",
+"②WB 양성 개체 도태(Remove WB reactors)",
+"③all-in/all-out·biosecurity 강화",
+"④유럽·중동에서 강제접종(compulsory vaccination)",
+"⑤항생제 치료를 eradication의 1차 수단으로 권장"
+],
+"answer": [
+5
+],
+"explain": "정답 ⑤. 강의안 p.4 \"Treatment ... Not recommended for eradication\" — 보균자 잔존·내성·잔류로 박멸 수단으로 부적합. ①②③④는 모두 강의안 p.4 \"Eradication and Management Procedures\"에 명시.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 30
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 5,
+"origin": "concept",
+"level": "basic",
+"type": "single",
+"topic": "진단·혈청검사·방제 (WBT·NPIP·9R)",
+"q": "paratyphoid 관리에 사용하는 방법으로 강의안에 명시된 것은?",
+"choices": [
+"①항생제를 주된 박멸 수단으로 사용",
+"②9R 생백신만 단독 사용",
+"③competitive exclusion(probiotics)·organic acid·bacteriophage 등 환경 관리",
+"④WB 양성 전수 도태가 유일한 방법",
+"⑤소독 없이 환기만 강화"
+],
+"answer": [
+3
+],
+"explain": "정답 ③. 강의안 p.4 paratyphoid \"Eradication and Management Procedures\": 환경 모니터링·probiotics(competitive exclusion)·prebiotics·organic acids·enzymes·herbs·essential oil·bacteriophage. ① 치료는 권장 안 함, ② 9R은 FT용, ④는 host-adapted 그룹 방제, ⑤ 강의안 근거 없음.",
+"exam": "기본예제",
+"freq": 0,
+"exams": [],
+"flag": false,
+"flagReason": "",
+"id": 31
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "2주령 폐사·성계 무증상 질병(paratyphoid)",
+"q": "2주령 이하의 어린 병아리에서 감염 시 폐사가 다발하며, 산란 중인 성계에서 감염 시 일반적으로 무증상을 보이는 질병은?",
+"choices": [
+"①전염성 후두기관염(Infectious laryngotracheitis)",
+"②가금 파라티푸스(Paratyphoid disease)",
+"③뉴캣슬병(Newcastle disease)",
+"④조류인플루엔자(Avian influenza)",
+"⑤전염성 코라이자병(Infectious coryza)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.4 \"rarely seen in chicks, poults or duckling **under 2 weeks of age**\" — paratyphoid는 2주령 이하에서만 발현, 성계 무증상. ②포인트: 어린 일령 폐사 + 성계 무증상이라는 양상에 부합하는 질병. ③정답근거: ② 가금 파라티푸스가 정확히 이 임상상. ④오답소거: ①③④⑤는 성계에서도 명확한 호흡기·전신 증상을 일으켜 \"성계 무증상\"과 모순(타 단원). ⑤함정: 살모넬라 중 추백리(어린 병아리 고폐사)와 혼동될 수 있으나, '성계 무증상+2주령 한정'은 paratyphoid의 정의적 양상.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 32
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "9R 생백신은 FT 예방 (O/X)",
+"q": "Live 9R vaccine can prevent fowl typhoid infection. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: O / **Claude 재판정**: O (일치)\n①배경: 강의안 p.4 \"Live 9R vaccine for FT\". ②포인트: 9R 생백신이 가금티푸스 예방용인지. ③정답근거: O. 9R(S. gallinarum 약독화주)은 FT 예방 생백신. ④오답소거: X라면 강의안과 반대. ⑤함정: 9R은 FT용 — paratyphoid용 live SE와 혼동 주의.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 33
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Enterobacteriaceae 아닌 것(강의안 6속 기준)",
+"q": "Which of the following does not belong to the family Enterobacteriaceae?",
+"choices": [
+"①Salmonella",
+"②Shigella",
+"③Citrobacter",
+"④Klebsiella",
+"⑤Yersinia"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (강의안 명시 6속 기준 일치)\n①배경: 강의안 p.1은 이 과 구성균으로 \"Salmonella, Escherichia, Shigella, Citrobacter, Klebsiella and Proteus\" 6속만 명시한다. ②포인트: 강의안에 열거된 과 구성균에 포함되지 않는 것 선택. ③정답근거: ⑤ Yersinia는 강의안 6속 목록에 없으므로 '강의안 기준'으로는 정답. ④오답소거: ①②③④는 모두 강의안 p.1에 명시된 구성균. ⑤함정: 실제 분류학상 Yersinia도 Enterobacteriaceae지만, 본 강의안이 제시한 명단에는 빠져 있어 출제·채점은 강의안 명단 기준으로 ⑤를 정답 처리.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 34
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Enterobacteriaceae 옳은 것(oxidase 음성)",
+"q": "Which of the followings is correct about Enterobacteriaceae?",
+"choices": [
+"①Gram positive, facultative anaerobic",
+"②Oxidase negative",
+"③Paratyphoid salmonella cannot cause human illness",
+"④S. pullorum ferments dulcitol whereas S. gallinarum does not",
+"⑤All species are motile"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.1 Enterobacteriaceae 공통 특성. ②포인트: 옳은 진술 선택. ③정답근거: ② \"The oxidase test is negative\"(p.1) ✓. ④오답소거: ① 그람**음성**이라 틀림. ③ paratyphoid는 사람 식중독 유발(p.4) → 틀림. ④ 정반대 — *S. gallinarum*이 dulcitol(+), *S. pullorum*은 (−)(p.2). ⑤ 일부 종은 비운동성(\"some species are non-motile\", p.1) → 틀림. ⑤함정: ④의 SP↔SG dulcitol 발효를 뒤바꾼 전형적 함정.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 35
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Enterobacteriaceae 틀린 것(some species are motile→non-motile)",
+"q": "What of the following is incorrect about Enterobacteriaceae?",
+"choices": [
+"①Gram-negative, facultative anaerobic",
+"②Oxidase-negative",
+"③Paratyphoid salmonella can cause human illness",
+"④Salmonella enterica, Bongori are the only species of genus salmonella",
+"⑤some species are motile"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.1 Enterobacteriaceae 특성. ②포인트: 틀린(부정확한) 진술 고르기. ③정답근거: ⑤ 강의안은 \"Some species are **non-motile**\"이라 기술 — 운동성 종도 있으나 문항이 묻는 '틀린 진술'로 출제 의도상 ⑤(원문은 non-motile 강조)를 정답 처리(족보 해설 \"some species are non-motile\"). ④오답소거: ① 그람음성·통성혐기 ✓, ② oxidase 음성 ✓, ③ paratyphoid 사람 식중독 ✓(p.4), ④ Salmonella 속 2종(enterica·bongori) ✓(p.1). ⑤함정: ⑤는 실제로 일부 종이 운동성을 갖기도 하나, 강의안 강조 문장(non-motile 존재)과 대비해 정답으로 설계됨.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 36
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Fowl typhoid 틀린 것(난계대 전파 가능)",
+"q": "Which is not a correct description about fowl typhoid?",
+"choices": [
+"①May outbreaks occur in semimature flocks with no history of an early onset",
+"②Can't be transmitted through the eggs by transovarian infections",
+"③Septicemic disease affecting primarily chickens and turkeys",
+"④There are low incidence of FT in countries such as the US, Canada, and several European countries",
+"⑤Rarely isolated from humans and are of little public health significance"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.2~3 FT 역학·전파. ②포인트: FT에 대해 틀린 진술 고르기. ③정답근거: ② 강의안 p.3 \"Both diseases can be transmitted through the eggs by transovarian infections\" — FT(SG)도 난계대 전파 가능하므로 'Can't be transmitted'는 틀림. ④오답소거: ① 반성숙 무리에서 조기 발병력 없이 발생 ✓(p.2), ③ 닭·칠면조 주 패혈성 질병 ✓(p.2), ④ 미국·캐나다·유럽 저발생 ✓(p.2), ⑤ 사람 분리 드물고 공중보건 의의 낮음 ✓(p.2). ⑤함정: SG가 host-adapted라 난계대 안 될 것이라 오인하기 쉬움.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 37
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "O antigen·H antigen 의미(Somatic·Flagellar)",
+"q": "Salmonella의 항원은 크게 O antigen과 H antigen이 있다. 각각 어떤 의미인지 순서대로, 영어로 쓰시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Somatic, Flagella / **Claude 재판정**: O = Somatic, H = Flagellar (일치)\n①배경: 강의안 p.2~3 혈청 항원 구조 — O는 체성(somatic, 세포벽 LPS), H는 편모(flagellar). 동정 시 slide agglutination은 O antisera, tube agglutination은 H antisera 사용(p.4). ②포인트: O·H 항원이 각각 의미하는 구조를 영어로. ③모범답안: **O antigen = Somatic antigen**, **H antigen = Flagellar antigen**. ④부연: serogroup은 O 항원으로 결정(D, B 등), serovar 동정에는 H 항원도 사용. ⑤함정: O↔H, somatic↔flagellar를 바꿔 쓰면 오답.",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 38
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "S. Enteritidis full name",
+"q": "S. Enteritidis의 full name을 적으시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Salmonella enterica subspecies enterica serovar Enteritidis / **Claude 재판정**: 일치\n①배경: 강의안 p.1 \"Salmonella enterica subsp. enterica serovar Enteritidis = Salmonella Enteritidis\". ②포인트: genus·species·subspecies·serovar 모두 포함해 정확히 기재. ③모범답안: **Salmonella enterica subsp. enterica serovar Enteritidis**. ④부연: 약식 'Salmonella Enteritidis'만 쓰면 subspecies 누락으로 감점 가능, serovar는 첫 글자 대문자·정자체. ⑤함정: species(enterica)와 serovar(Enteritidis)를 혼동하지 말 것.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 39
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "S. gallinarum 옳은 것(rabbit-lethal toxin)",
+"q": "S. gallinarum에 대하여 옳은 것은?",
+"choices": [
+"①병원성과 관련된 유전자는 SPI3이다.",
+"②1, 9, 12의 H antigen을 가진다.",
+"③Rhamnose를 발효시킬 수 있다.",
+"④Dulcitol을 발효시킬 수 없다.",
+"⑤Toxin이 rabbit에 lethal하다."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.2 SG 독력·항원·생화학. ②포인트: 옳은 진술 1개. ③정답근거: ⑤ \"S. gallinarum contain a toxin that was lethal to a rabbit\"(p.2) ✓. ④오답소거: ① virulence는 **SPI-2**(SPI3 아님). ② 1,9,12는 **O** antigen이지 H가 아님(SG는 H 항원 없음). ③ 야외주 SG는 rhamnose 비발효(9R만 +). ④ SG는 dulcitol 발효 가능(+). ⑤함정: O antigen을 H로 바꾸거나 SPI 번호를 바꾼 함정.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 40
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "S. gallinarum 틀린 것(ornithine 탈탄산은 SP)",
+"q": "Which of the following is NOT a correct statement about S. gallinarum?",
+"choices": [
+"①O antigen: 1, 9, 12",
+"②Pathogenicity: Toxin lethal to rabbits",
+"③Virulence: Salmonella pathogenicity island 2",
+"④Biochemical property: Decarboxylation of ornithine",
+"⑤Classification: serogroup D1"
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 강의안 p.2 SG 항원·독력·생화학. ②포인트: SG에 대해 틀린 진술 고르기. ③정답근거: ④ ornithine 탈탄산(decarboxylation)은 **S. pullorum만** 양성, SG는 음성(p.2 \"S. pullorum culture produce rapid decarboxylation of ornithine, whereas S. gallinarum does not\") → SG 특성으로 틀림. ④오답소거: ① O 1,9,12 ✓, ② rabbit-lethal toxin ✓, ③ virulence는 SPI-2 ✓, ⑤ serogroup D1 ✓(모두 p.2). ⑤함정: ornithine은 SP의 단독 마커 — SG에 붙이면 오류.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 41
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "S. pullorum O12 항원변이·SG 변이없음 (O/X)",
+"q": "Variation of O antigen 12 occurs in S. pullorum, but there is no evidence of antigenic variation in S. gallinarum. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: X / **Claude 재판정**: O (불일치 → flag)\n①배경: 강의안 p.2 \"Variation involving O antigen 12 occurs in S. pullorum, but there is no evidence of antigenic variation in S. gallinarum\" — 문항 진술이 강의안 문장과 **글자 그대로 일치**한다. ②포인트: SP의 O12 항원변이 발생 + SG 변이 없음 진술의 정오. ③정답근거: O. 강의안 원문과 동일하므로 참(O)이 맞다. ④오답소거: 족보답 X는 SP/SG의 O antigen 구성(SP O 9,12 / SG O 1,9,12)에만 주목해 진술 자체를 오인한 것으로 보이나, 문항은 'O12 항원의 변이(variation)' 발생 여부를 묻는 것이지 보유 항원 목록을 묻는 것이 아니다. ⑤함정: 족보 해설이 항원 구성(9,12 vs 1,9,12)을 근거로 X라 했으나, 변이 발생 여부 진술은 강의안 그대로라 O.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": true,
+"flagReason": "재판정 — 족보답 X / Claude O. 문항이 강의안 p.2 원문(\"Variation involving O antigen 12 occurs in S. pullorum, but no evidence of antigenic variation in S. gallinarum\")과 글자 그대로 일치하므로 참(O).",
+"id": 42
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "S. pullorum은 non-motile·host-adapted (O/X)",
+"q": "Salmonella pullorum is a non-motile, non-host adapted bacteria. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.2 \"S. pullorum and S. gallinarum are highly **host adapted** and **non-motile**\". ②포인트: SP가 non-host-adapted인지 여부(non-motile은 맞음). ③정답근거: X. SP는 non-motile은 맞으나 **host-adapted**다(non-host-adapted 아님). ④오답소거: O로 보려면 SP가 non-host-adapted여야 하나 강의안과 반대. ⑤함정: 앞부분(non-motile)이 맞아 통과시키기 쉬우나 뒷부분(non-host adapted)이 오류.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 43
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "SG/9R/SP를 생화학 검사로 구분하는 이유",
+"q": "Salmonella gallinarum / SG9R vaccine / Salmonella pullorum을 구분하는 데는 생화학적 검사를 이용한다. 그 이유는?",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 미표기 / **Claude 재판정**: 항원·형태가 거의 동일해 혈청·형태로는 구별 불가, 생화학(특히 rhamnose 등) 발효 차이로만 감별 가능\n①배경: 강의안 p.2 — SP·SG는 모두 non-motile·serogroup D로 혈청형(O 9,12 vs 1,9,12)·집락 형태 차이가 작아 \"There are little differences in colonial morphology between S. pullorum and S. gallinarum\". ②포인트: 왜 혈청검사 대신 생화학 검사로 구분하는가. ③모범답안: 세 균(야외주 SG·백신주 9R·SP)은 혈청학적·형태학적으로 거의 구별되지 않으므로, **dulcitol·maltose·ornithine·rhamnose 발효성 차이**(특히 **rhamnose**: 9R만 +, 야외주 SG −)라는 생화학 특성으로만 확실히 감별할 수 있기 때문이다. ④부연: 특히 백신주 9R과 야외주 SG 구분은 rhamnose가 결정적. ⑤함정: O antigen만으로는 SG·9R 구분 불가(둘 다 1,9,12) — 생화학이 필수.",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 44
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "multi",
+"topic": "SP/SG/9R maltose·rhamnose·dulcitol 발효(복수정답)",
+"q": "다음 중 옳은 것을 모두 골라라.",
+"choices": [
+"①S.pullorum ferments maltose.",
+"②S.gallinarum ferments maltose.",
+"③S.gallinarum 9R ferments maltose.",
+"④S.gallinarum 9R ferments rhamnose.",
+"⑤S. pullorum ferments dulcitol."
+],
+"answer": [
+2,
+3,
+4
+],
+"explain": "**족보답**: ②③④ / **Claude 재판정**: ②③④ (일치)\n①배경: 강의안 p.2 생화학 감별표. ②포인트: 옳은 진술을 모두 고른다. ③정답근거: ② SG maltose(+) ✓, ③ SG 9R maltose(+) ✓, ④ SG 9R rhamnose(+) ✓(야외주 SG와 결정적 차이). ④오답소거: ① SP maltose(−) → 틀림, ⑤ SP dulcitol(−) → 틀림. ⑤함정: SP는 maltose·dulcitol 모두 비발효(ornithine만 +).",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 45
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "multi",
+"topic": "SP/SG/9R 생화학 틀린 것 2개(SP dulcitol·SG rhamnose)",
+"q": "What are two things that are NOT correct statement about biochemical properties of S. pullorum, S. gallinarum, S. gallinarum 9R?",
+"choices": [
+"①S. pullorum ferments dulcitol.",
+"②S. gallinarum ferments dulcitol.",
+"③S. gallinarum can't produce ornithine.",
+"④S. gallinarum 9R ferments rhamnose.",
+"⑤S. gallinarum ferments rhamnose."
+],
+"answer": [
+1,
+5
+],
+"explain": "**족보답**: ①, ⑤ / **Claude 재판정**: ①, ⑤ (일치)\n①배경: 강의안 p.2 생화학 감별표. ②포인트: 틀린 진술 2개를 고른다. ③정답근거: ① SP는 dulcitol 비발효(−)인데 'ferments'라 했으므로 틀림. ⑤ 야외주 SG는 rhamnose 비발효(−)인데 'ferments'라 했으므로 틀림. ④오답소거: ② SG dulcitol(+) ✓, ③ SG ornithine 비생산(−) ✓, ④ SG 9R rhamnose(+) ✓ — 모두 옳은 진술. ⑤함정: rhamnose는 9R만 +이고 야외주 SG는 − — ④(9R)와 ⑤(SG)를 구별해야 함.",
+"exam": "2023-기말",
+"exams": [
+"2023-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 46
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "SP/SG/9R 생화학표 오류 지적(9R rhamnose −→+)",
+"q": "다음 SP/SG/SG 9R의 생화학 특성 표(Dulcitol·Maltose·Ornithine·Rhamnose)에서 틀린 부분을 고르시오.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: S. gallinarum 9R의 Rhamnose가 +가 아니라 −로 잘못 기재됨 / **Claude 재판정**: 일치(9R rhamnose는 +가 정답)\n①배경: 강의안 p.2 표 — SP(dulcitol −, maltose −, ornithine +, rhamnose NT), SG(+,+,−,−), **SG 9R(+,+,−,+)**. ②포인트: 제시된 표에서 강의안과 다른 칸 찾기. ③모범답안: **SG 9R의 Rhamnose = +**(양성)가 맞다. 표에서 이 칸이 −로 되어 있으면 오류. (rhamnose는 9R과 야외주 SG를 가르는 결정적 마커). ④부연: 야외주 SG는 rhamnose(−), 백신주 9R만 (+). ⑤함정: 9R의 핵심 차별점(rhamnose +)을 −로 바꾼 변형.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 47
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "SP/SG는 paratyphoid보다 환경저항성 낮음 (O/X)",
+"q": "SG and SP are more resistant than paratyphoid strains to heat, chemicals and adverse environmental factors. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.2 \"they are **less resistant** than paratyphoid salmonellae to heat, chemicals, and adverse environmental factors\". ②포인트: SP/SG가 paratyphoid보다 저항성이 더 강한지 약한지. ③정답근거: X. SP/SG는 paratyphoid보다 **덜** 저항성(60℃ 10분·2% formalin 1분 등에 사멸). ④오답소거: O라면 \"more resistant\"여야 하나 강의안은 정반대. ⑤함정: host-adapted라 더 강할 것이라 오인하기 쉬움 — 매년 반복 출제되는 단골.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2021-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 48
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "SP/SG는 paratyphoid보다 환경저항성 낮음 (O/X)",
+"q": "SG and SP are more resistant than paratyphoid strains to heat, chemicals and adverse environmental factors. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.2 \"less resistant than paratyphoid salmonellae\". ②포인트: SP/SG의 환경저항성 비교. ③정답근거: X(less resistant). ④오답소거: \"more resistant\"는 틀림. ⑤함정: 매년 동일 문장 O/X — 정답 항상 X.",
+"exam": "2023-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2021-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 49
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "SP/SG는 paratyphoid보다 환경저항성 낮음 (O/X)",
+"q": "S. pullorum and S. Gallinarum are more resistant than paratyphoid strains to heat, chemicals, and adverse environmental factors.",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ②(X) / **Claude 재판정**: X (일치)\n①배경: 강의안 p.2 \"less resistant than paratyphoid salmonellae to heat, chemicals, and adverse environmental factors\". ②포인트: SP/SG vs paratyphoid 저항성. ③정답근거: X — SP/SG가 더 약함. ④오답소거: O(①)는 강의안과 반대라 오답. ⑤함정: 4년 연속 동일 출제.",
+"exam": "2021-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2021-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 50
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "SP·SG 설명 틀린 것(Brown<White 부등호 오류)",
+"q": "Which one is NOT correct statement for SP & SG?",
+"choices": [
+"①Often there are no lesions caused by PD, however, occasionally there is a nodular myocarditis, pericarditis, or abnormal gonad and ovary",
+"②Enlargement of spleen & kidney",
+"③Brown < White",
+"④Contaminated nests and eggs can also result in egg shell penetration and infection",
+"⑤Slow lateral spread to other adult is possible through contamination of feed, water, and environment"
+],
+"answer": [
+3
+],
+"explain": "**족보답**: ③ / **Claude 재판정**: ③ (일치)\n①배경: 강의안 p.3 \"Significant differences in susceptibility to PD among breeds ... Light breeder > heavy breeder, **Brown > White**\". ②포인트: 틀린 진술을 고른다. ③정답근거: ③ 부등호가 반대 — Brown 종이 White보다 더 감수성 높음(Brown > White)이 맞다. ④오답소거: ① 성계 PD 무병변·드문 nodular myocarditis ✓(p.3), ② FT 비장·신장 비대 ✓(p.3), ④ 오염 둥지·알 통한 eggshell penetration ✓(p.3), ⑤ 사료·물 통한 성체 간 수평전파 ✓(p.3). ⑤함정: 부등호 방향만 바꾼 미세 오류.",
+"exam": "2024-기말",
+"exams": [
+"2024-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 51
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "SP·SG의 O antigen 기재(1,9,12)",
+"q": "Describe the Salmonella Pullorum and Salmonella Gallinarum O antigen. O antigen ( ), ( ), ( )",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: 1, 9, 12 / **Claude 재판정**: 1, 9, 12 (일치)\n①배경: 강의안 p.2 \"They possess the O antigens 1, 9, 12\"(SP·SG 공통), serogroup D. ②포인트: SP/SG가 공유하는 O 항원 3개 기재. ③모범답안: **O 1, 9, 12**. ④부연: 단 SP는 O antigen 12에서 항원 변이가 발생할 수 있고(SG는 변이 없음, p.2), 혈청형 비교표상 SP를 9,12로 보는 표기도 있으나 본문 'O antigens 1, 9, 12' 기준으로 답. ⑤함정: serogroup B(Typhimurium의 1,4,5,12)와 혼동 주의.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 52
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Salmonella 표준 배양 순서(BPW→RV→Brilliant green)",
+"q": "Salmonella 검출을 위한 표준 배양 방법의 순서에 맞게 사용되는 배지를 올바르게 나열한 것을 고르시오. (A. MacConkey agar / B. Rappaport-Vassiliadis medium / C. Buffered peptone water / D. Brilliant green agar / E. Selenite medium / F. Blood agar)",
+"choices": [
+"①C-B-F",
+"②C-B-D",
+"③C-E-F",
+"④B-E-A",
+"⑤C-B-E"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ② / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.4 표준 분리 순서 — 비선택 pre-enrichment → 선택적 enrichment → plating. ②포인트: C(BPW)→선택 enrichment→plating 순서에 맞는 조합. ③정답근거: ② **C(Buffered peptone water, 비선택 pre-enrich) → B(Rappaport-Vassiliadis, 선택 enrich) → D(Brilliant green agar, plating)** — 세 단계 순서가 정확. ④오답소거: ① F(blood agar)·⑤ E(selenite)는 마지막 plating 단계 부적합, ③ E로 끝나 plating 누락, ④ B로 시작해 pre-enrichment 누락. ⑤함정: Selenite·RV는 enrichment(중간), Brilliant green은 plating(마지막) — 단계별 배지를 구분해야 함. (원본 답안지에 14번 곰팡이독소 문항이 덧붙음 — 본 문항 정답은 ②)",
+"exam": "2021-기말",
+"exams": [
+"2021-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 53
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "Salmonellosis 옳지 않은 것(paratyphoid 성체 고폐사 오류)",
+"q": "닭의 살모넬라감염증(Salmonellosis)에 대한 설명으로 옳지 않은 것은?",
+"choices": [
+"①추백리는 어린 병아리에서 급성 패혈증을 유발하여 높은 폐사를 일으킨다.",
+"②가금티푸스는 현재에도 국내에 많은 농장에서 발생하여 경제적 손실을 일으킨다.",
+"③추백리는 어린 병아리의 항문 주위에 석고 모양의 흰색 분변이 부착되는 임상증상을 주로 나타낸다.",
+"④파라티푸스 감염증의 대표적인 원인체의 하나로 S.enteritidis가 있다.",
+"⑤파라티푸스 감염증은 일반적으로 성체에서 높은 폐사율을 일으킨다."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.4 \"Clinical signs caused by non-host-specific Salmonella infections is generally uncommon, but rarely seen in chicks, poults or duckling under 2 weeks of age\" — paratyphoid는 어린 일령에만 가끔 발현, 성체 대부분 무증상. ②포인트: 5개 진술 중 강의안과 어긋나는 것을 고른다. ③정답근거: ⑤ paratyphoid가 \"성체에서 높은 폐사\"라는 것은 오류 — 폐사는 어린 일령에 국한. ④오답소거: ① 추백리 어린 병아리 급성 패혈증 ✓(p.2), ③ chalky white vent 분변 ✓(p.3), ④ SE는 paratyphoid 대표 혈청형 ✓(p.4). ②는 다소 애매하나 강의안 p.2 \"PD and FT has been reduced to a very low incidence in some countries\"와 비교해도 ⑤가 더 명백한 오답. ⑤함정: paratyphoid를 성체 질환으로 착각하기 쉬움.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 54
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "XLT4는 plating media (O/X)",
+"q": "XLT4는 non-selective media로 salmonella 균을 isolation할 때 사용한다. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.4 \"Plating media ... XLT4 agar: detect salmonella efficiently from poultry house environmental drag swabs\". ②포인트: XLT4가 비선택(non-selective) 배지인지. ③정답근거: X. XLT4는 분리용 **plating(선택·감별) media**이지 non-selective pre-enrichment 배지가 아니다(비선택 pre-enrichment는 Buffered peptone water). ④오답소거: O라면 XLT4를 비선택 배지로 본 것이라 틀림. ⑤함정: 비선택 pre-enrichment(BPW)와 plating media(XLT4)의 역할을 구분.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 55
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "non-motile·host-adapted salmonella(Pullorum)",
+"q": "Which is non-motile, host-adapted salmonella?",
+"choices": [
+"①S. typhimurium",
+"②S. Pullorum",
+"③S. Infantis",
+"④S. Agona",
+"⑤S. Enteritidis"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: ②(원본 답안지 표기) / **Claude 재판정**: ② (일치)\n①배경: 강의안 p.2 \"S. pullorum and S. gallinarum are highly host adapted and non-motile\". ②포인트: non-motile + host-adapted 살모넬라 선택. ③정답근거: ② S. Pullorum은 비운동성·숙주특이. ④오답소거: ① Typhimurium·③ Infantis·④ Agona·⑤ Enteritidis는 모두 motile·non-host-adapted(paratyphoid 계열). ⑤함정: paratyphoid 혈청형(motile)을 host-adapted로 오인하지 말 것.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 56
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "paratyphoid 경제적 손실 경로(사람 식중독)",
+"q": "In what way paratyphoid cause economic losses in poultry production?",
+"choices": [
+"①high mortality in young birds",
+"②cost of antibiotic treatment",
+"③respiratory signs and secondary bacterial infection",
+"④food borne disease in human",
+"⑤lameness"
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n①배경: 강의안 p.1 \"food-borne Salmonella outbreaks can lead to severe economic losses to poultry producers as a result of regulatory actions, market restrictions, or reduced consumption\". ②포인트: paratyphoid가 경제적 손실을 일으키는 주된 경로. ③정답근거: ④ 사람 식중독(food-borne disease) 발생 → 규제·시장제한·소비감소로 생산자 손실. ④오답소거: ① paratyphoid는 어린 일령에서도 폐사가 보통 20% 미만으로 주된 손실 경로 아님(p.4). ②③⑤는 강의안이 제시한 손실 기전이 아님. ⑤함정: 직접적 폐사보다 '공중보건·규제' 측면 손실이 핵심.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 57
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-5",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "ox",
+"topic": "paratyphoid 불활화 백신 사용 가부 (O/X)",
+"q": "Inactivated vaccine is not authorized for paratyphoid infection in poultry production. (O/X)",
+"choices": [
+"O (맞음)",
+"X (틀림)"
+],
+"answer": [
+2
+],
+"explain": "**족보답**: X / **Claude 재판정**: X (일치)\n①배경: 강의안 p.4 paratyphoid \"Vaccination: Inactivated bacterins, Live SE\". ②포인트: paratyphoid에 불활화 백신이 허가되지 않는지 여부. ③정답근거: X. paratyphoid에 불활화 bacterin·live SE 백신이 사용된다 → '허가되지 않는다'는 틀림. ④오답소거: O라면 불활화 백신을 못 쓴다는 의미인데 강의안과 반대. ⑤함정: 치료는 권장 안 하지만(p.4) 불활화 백신은 사용함 — 치료와 백신을 혼동하지 말 것.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 58
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "paratyphoid 특징 사후소견(typhlitis 흰 괴사 cores)",
+"q": "What is a typical post-mortem finding, seen in approximately one-third of birds died from paratyphoid infection?",
+"choices": [
+"①enlarged liver",
+"②bronze liver",
+"③white foci in duodenum",
+"④necrotic enteritis",
+"⑤typhlitis, with the ceca distended by hard white necrotic cores"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.4 \"The unique post-mortem finding, seen in approximately one-third of birds died from salmonellosis, is typhlitis, with the ceca distended by hard white necrotic cores\". ②포인트: paratyphoid 폐사 닭 약 1/3에서 보이는 특징 소견. ③정답근거: ⑤ 맹장이 단단한 흰색 괴사 cores로 팽창한 typhlitis. ④오답소거: ② bronze liver는 acute FT(가금티푸스) 병변, ①③④는 강의안의 '1/3 특징 소견'이 아님. ⑤함정: bronze liver(FT)와 typhlitis(paratyphoid)를 구별해야 함.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 59
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "비선택 pre-enrichment 배지(Buffered peptone water)",
+"q": "(   ) is non-selective pre-enrichment media which is used for isolation of Salmonella.",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: Buffered peptone water / **Claude 재판정**: Buffered peptone water (일치)\n①배경: 강의안 p.4 \"Nonselective pre-enrichment media ... Buffered peptone water, Trypticase soy broth\". ②포인트: 살모넬라 분리에서 비선택 pre-enrichment 배지 기재. ③모범답안: **Buffered peptone water**(BPW)(또는 Trypticase soy broth). ④부연: 표준 순서 BPW(비선택) → Selenite/Tetrathionate/RV(선택) → Brilliant green/XLT4(평판). ⑤함정: Selenite·RV는 선택적 enrichment(비선택 아님) — BPW와 구별.",
+"exam": "2022-기말",
+"exams": [
+"2022-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 60
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-3",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "살모넬라 옳은 것(난계대·식중독·항원교차·운동성 함정)",
+"q": "살모넬라 감염에 대해 옳은 것을 고르시오.",
+"choices": [
+"①난계대 전염이 불가능하다.",
+"②사람의 식중독을 유발하는 원인체는 가금티푸스이다.",
+"③가금티푸스와 추백리의 원인체는 항원성 차이가 커서 교차반응이 일어나지 않는다.",
+"④추백리의 원인체는 그람음성균으로 운동성이 있다.",
+"⑤가금파라티푸스의 원인체는 S.typhimurium, S.enterica이다."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ (원본 답안지 표기) / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.1~4 살모넬라 핵심 사실 4종 함정 문항. ②포인트: 강의안에 부합하는 단 하나의 옳은 진술 선택. ③정답근거: ⑤ paratyphoid 원인체에 *S. typhimurium*이 포함되는 것은 맞음(p.4). 출제 의도상 ⑤를 정답으로 처리(족보 해설 동일). ④오답소거: ① 난계대 전염 가능(transovarian, p.3) → 틀림. ② 사람 식중독은 paratyphoid가 원인, 가금티푸스 아님(p.4) → 틀림. ③ SP·SG 모두 serogroup D·O 9,12 공유로 교차반응함 → 틀림. ④ 추백리 원인 SP는 **non-motile**(p.2) → 틀림. ⑤함정: ⑤의 *S. enterica*는 엄밀히는 종(species)이지 paratyphoid 특정 혈청형이 아니지만(정확한 대표는 Enteritidis·Typhimurium), 나머지 4개가 명백한 오류이므로 ⑤가 정답.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 61
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "세균성 질병 틀린 것(가금콜레라 난계대 오류) — 교차",
+"q": "조류의 세균성 질병에 대한 설명 중 틀린 것은?",
+"choices": [
+"①S. typhimurium, S. enteritidis는 숙주 비의존성으로 식중독의 주요 원인체이다.",
+"②전염성 코라이자는 닭 비강, 안와, 하동 같은 상부 호흡기계 감염이다.",
+"③Cl. perfringens는 악성 부종, 봉와직염 같은 괴사성 피부염을 유발 가능하다.",
+"④가금 콜레라는 그람 음성 간균인 Pasteurella multocida가 일으키는 패혈성 전염병이며 난계대이다."
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n②교차 범위: 18가금콜레라·19코라이자·21클로스트리듐. ①배경: 통합 세균성 질병 문항으로 살모넬라 선지(①)와 타 단원 선지가 섞여 있다. ②포인트: 틀린 진술을 고른다 — 핵심은 ④의 '난계대'. ③정답근거: ④ 가금콜레라(P. multocida)는 난계대 전파가 거의 일어나지 않으므로 '난계대이다'가 오류(가금콜레라 단원). ④오답소거: ① *S. typhimurium·S. enteritidis*는 non-host-adapted(숙주 비의존성) 식중독 주요 원인 ✓(강의안 p.1, p.4) → 살모넬라 선지는 옳음. ②③은 타 단원 정상 진술. ⑤함정: ④ 앞부분(그람음성·패혈성)이 맞아 끝의 '난계대'를 놓치기 쉬움.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 62
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "수직전파 안 되는 병원체(Eimeria) — SG는 난계대",
+"q": "Which pathogen is not vertically transmitted?",
+"choices": [
+"①Mycoplasma gallisepticum",
+"②Mycoplasma synoviae",
+"③Avian reovirus",
+"④Salmonella gallinarum",
+"⑤Eimeria species"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.3 \"Both diseases (PD/FT) can be transmitted through the eggs by transovarian infections\" — *S. gallinarum*은 난계대(수직)전파하는 대표 병원체다. ②포인트: 보기 중 유일하게 수직전파가 일어나지 않는 것을 고른다. ③정답근거: ⑤ Eimeria species는 포자형성 난포낭(oocyst)의 경구섭취가 유일한 자연 전파경로로 수직전파가 없다. ④오답소거: ① MG·② MS·③ avian reovirus는 모두 난계대 전파 ✗(전파됨), ④ *S. gallinarum*도 transovarian 전파 ✗(전파됨, p.3). ⑤함정: 살모넬라(④)를 \"세균이니 수직전파 안 될 것\"으로 오인하기 쉬우나 SG는 난계대 핵심 병원체. (Eimeria 근거는 콕시듐 단원이지만 SG 선지만으로도 충분히 정오 판단 가능)",
+"exam": "2024-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2022-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 63
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "수직전파 안 되는 병원체(Eimeria) — SG는 난계대",
+"q": "which pathogen is not vertically transmitted?",
+"choices": [
+"①mycoplasma gallisepticum",
+"②mycoplasma synoviae",
+"③avian reovirus",
+"④salmonella gallinarum",
+"⑤eimeria species"
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ⑤ (불일치 → flag)\n①배경: 강의안 p.3 \"Both diseases (PD/FT) can be transmitted through the eggs by transovarian infections\" — *S. gallinarum*은 난계대(수직)전파한다. ②포인트: 수직전파가 일어나지 **않는** 병원체를 고르는 문제. ③정답근거: ⑤ Eimeria spp.는 sporulated oocyst 경구섭취만이 유일한 자연 전파경로(수직전파 없음). ④오답소거: ④ *S. gallinarum*은 transovarian 전파하므로 \"수직전파 안 됨\"의 답이 될 수 없다 → 족보답 ④는 오류. ①②③도 난계대 전파됨. ⑤함정: 족보답이 ④로 잘못 기재됨 — 동일 문항의 2024·2022 회차 정답은 모두 ⑤(Eimeria)로 일관됨.",
+"exam": "2023-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2022-기말"
+],
+"freq": 3,
+"flag": true,
+"flagReason": "재판정 — 족보답 ④(S. gallinarum) / Claude ⑤(Eimeria). SG는 난계대(transovarian) 전파하므로 수직전파 안 되는 것은 Eimeria. 강의안 p.3 근거, 동일문항 타 회차 정답도 ⑤.",
+"id": 64
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "수직전파 안 되는 병원체(Eimeria) — SG는 난계대",
+"q": "Which pathogen is NOT vertically transmitted?",
+"choices": [
+"①Mycoplasma gallisepticum",
+"②Mycoplasma synoviae",
+"③Avian reovirus",
+"④Salmonella gallinarum",
+"⑤Eimeria spp."
+],
+"answer": [
+5
+],
+"explain": "**족보답**: ⑤ / **Claude 재판정**: ⑤ (일치)\n①배경: 강의안 p.3 *S. gallinarum*은 난계대(transovarian) 전파한다. ②포인트: 수직전파가 일어나지 않는 병원체 선택. ③정답근거: ⑤ Eimeria spp.는 oocyst 경구섭취만 자연 전파(족보 해설 \"Ingestion of viable sporulated oocysts is the only natural method of transmission\"). ④오답소거: ①②③④ 모두 난계대(수직) 전파 가능 → ④ SG도 transovarian 전파됨. ⑤함정: 세균(SG)이라고 수직전파를 배제하면 오답.",
+"exam": "2022-기말",
+"exams": [
+"2024-기말",
+"2023-기말",
+"2022-기말"
+],
+"freq": 3,
+"flag": false,
+"flagReason": "",
+"id": 65
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-2",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "조류질병 옳은 것(추백리 chalky white 분변) — 교차",
+"q": "다음 조류질병에 대한 설명 중 옳은 것은?",
+"choices": [
+"①파라티푸스 원인체는 S. pullorum, S. typhimurium이다.",
+"②대장균은 혈청형이 하나여서 백신으로 충분히 예방 가능하다.",
+"③가금콜레라는 그람양성구균인 Pasteurella multocida가 유발하는 패혈성 전염병이다.",
+"④추백리는 어린 병아리의 항문주위에 석고 모양 흰색 분변이 관찰된다.",
+"⑤가금티푸스는 사람에서 식중독 유발, 공중 보건학적으로 중요하다."
+],
+"answer": [
+4
+],
+"explain": "**족보답**: ④ / **Claude 재판정**: ④ (일치)\n②교차 범위: 17대장균증·18가금콜레라. ①배경: 통합 문항으로 살모넬라 선지(①④⑤)가 포함됨. ②포인트: 옳은 진술 1개 선택. ③정답근거: ④ 강의안 p.3 \"adherence of chalky white material to the vent\" — 추백리 어린 병아리의 트레이드마크 ✓. ④오답소거: ① paratyphoid 원인체는 *S. enteritidis·S. typhimurium*(SP는 host-adapted)이라 틀림. ② 대장균은 혈청형 매우 다양(타 단원). ③ P. multocida는 그람**음성** 간균이지 그람양성구균 아님(가금콜레라). ⑤ 사람 식중독은 paratyphoid가 원인, 가금티푸스(SG)는 사람 분리 드물고 공중보건 의의 낮음(p.2) → 틀림. ⑤함정: ⑤에서 가금티푸스↔paratyphoid를 바꿔치기한 전형적 함정.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 66
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-1",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "single",
+"topic": "종 특이성(host-adapted) 짝짓기",
+"q": "다음 살모넬라 중 종 특이성을 갖는 것을 올바르게 짝지은 것은?",
+"choices": [
+"①Pullorum - Gallinarum",
+"②Pullorum - Enteritidis",
+"③Gallinarum - Typhimurium",
+"④Enteritidis - Typhimurium",
+"⑤Pullorum - Enteritidis"
+],
+"answer": [
+1
+],
+"explain": "**족보답**: ① / **Claude 재판정**: ① (일치)\n①배경: 강의안 p.1~2 \"Host-adapted salmonellae (S. pullorum, S. gallinarum)\" / paratyphoid는 non-host-adapted(SE·STM). ②포인트: 종 특이성(host-adapted)을 갖는 짝을 고른다. ③정답근거: ① Pullorum·Gallinarum 둘 다 host-adapted. ④오답소거: ②③⑤는 Enteritidis(paratyphoid)가 섞임, ④는 둘 다 paratyphoid. ⑤함정: ②와 ⑤가 동일 선지로 중복 인쇄됨 — 둘 다 오답.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 67
+},
+{
+"part": "16살모넬라",
+"unit": "16살모넬라-4",
+"cardOrder": 99,
+"origin": "jokbo",
+"type": "short",
+"topic": "혈청형별 serogroup(SE/STM/SG/SP)",
+"q": "각 salmonella의 serotype에 해당하는 serogroup을 적으시오. (S. Enteritidis / S. Typhimurium / S. Gallinarum / S. Pullorum)",
+"choices": [],
+"answer": [],
+"explain": "**족보답**: D / B / D / D / **Claude 재판정**: D / B / D / D (일치)\n①배경: 강의안 p.2 혈청 항원 비교표 — Enteritidis(O 1,9,12, **D1**), Typhimurium(O 1,4,5,12, **B**), Gallinarum(O 1,9,12, **D1**), Pullorum(O 9,12, **D1**). p.3 \"S. Enteritidis possesses the same group D somatic antigen as S. Pullorum\". ②포인트: 각 혈청형의 serogroup 기재. ③모범답안: S. Enteritidis = **D**, S. Typhimurium = **B**, S. Gallinarum = **D**, S. Pullorum = **D**. ④부연: O antigen 9가 group D의 결정 항원, Typhimurium만 O 4,5,12(group B)라 B. ⑤함정: Typhimurium만 B이고 나머지 셋은 모두 D — STM을 D로 적지 않도록 주의.",
+"exam": "2025-기말",
+"exams": [
+"2025-기말"
+],
+"freq": 1,
+"flag": false,
+"flagReason": "",
+"id": 68
+},
+{
 "part": "18가금콜레라",
 "unit": "18가금콜레라0",
 "cardOrder": 0,
@@ -17,7 +1816,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 1
+"id": 69
 },
 {
 "part": "18가금콜레라",
@@ -43,7 +1842,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 2
+"id": 70
 },
 {
 "part": "18가금콜레라",
@@ -70,7 +1869,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 3
+"id": 71
 },
 {
 "part": "18가금콜레라",
@@ -97,7 +1896,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 4
+"id": 72
 },
 {
 "part": "18가금콜레라",
@@ -124,7 +1923,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 5
+"id": 73
 },
 {
 "part": "18가금콜레라",
@@ -151,7 +1950,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 6
+"id": 74
 },
 {
 "part": "18가금콜레라",
@@ -175,7 +1974,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 7
+"id": 75
 },
 {
 "part": "18가금콜레라",
@@ -201,7 +2000,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 8
+"id": 76
 },
 {
 "part": "18가금콜레라",
@@ -228,7 +2027,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 9
+"id": 77
 },
 {
 "part": "18가금콜레라",
@@ -255,7 +2054,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 10
+"id": 78
 },
 {
 "part": "18가금콜레라",
@@ -282,7 +2081,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 11
+"id": 79
 },
 {
 "part": "18가금콜레라",
@@ -309,7 +2108,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 12
+"id": 80
 },
 {
 "part": "18가금콜레라",
@@ -333,7 +2132,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 13
+"id": 81
 },
 {
 "part": "18가금콜레라",
@@ -359,7 +2158,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 14
+"id": 82
 },
 {
 "part": "18가금콜레라",
@@ -386,7 +2185,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 15
+"id": 83
 },
 {
 "part": "18가금콜레라",
@@ -413,7 +2212,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 16
+"id": 84
 },
 {
 "part": "18가금콜레라",
@@ -440,7 +2239,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 17
+"id": 85
 },
 {
 "part": "18가금콜레라",
@@ -467,7 +2266,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 18
+"id": 86
 },
 {
 "part": "18가금콜레라",
@@ -494,7 +2293,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 19
+"id": 87
 },
 {
 "part": "18가금콜레라",
@@ -520,7 +2319,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 20
+"id": 88
 },
 {
 "part": "18가금콜레라",
@@ -547,7 +2346,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 21
+"id": 89
 },
 {
 "part": "18가금콜레라",
@@ -574,7 +2373,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 22
+"id": 90
 },
 {
 "part": "18가금콜레라",
@@ -601,7 +2400,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 23
+"id": 91
 },
 {
 "part": "18가금콜레라",
@@ -628,7 +2427,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 24
+"id": 92
 },
 {
 "part": "18가금콜레라",
@@ -652,7 +2451,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 25
+"id": 93
 },
 {
 "part": "18가금콜레라",
@@ -678,7 +2477,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 26
+"id": 94
 },
 {
 "part": "18가금콜레라",
@@ -705,7 +2504,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 27
+"id": 95
 },
 {
 "part": "18가금콜레라",
@@ -732,7 +2531,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 28
+"id": 96
 },
 {
 "part": "18가금콜레라",
@@ -759,7 +2558,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 29
+"id": 97
 },
 {
 "part": "18가금콜레라",
@@ -786,7 +2585,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 30
+"id": 98
 },
 {
 "part": "18가금콜레라",
@@ -813,7 +2612,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 31
+"id": 99
 },
 {
 "part": "18가금콜레라",
@@ -841,7 +2640,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 32
+"id": 100
 },
 {
 "part": "18가금콜레라",
@@ -869,7 +2668,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 33
+"id": 101
 },
 {
 "part": "18가금콜레라",
@@ -897,7 +2696,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 34
+"id": 102
 },
 {
 "part": "18가금콜레라",
@@ -922,7 +2721,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 35
+"id": 103
 },
 {
 "part": "18가금콜레라",
@@ -947,7 +2746,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 36
+"id": 104
 },
 {
 "part": "18가금콜레라",
@@ -967,7 +2766,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 37
+"id": 105
 },
 {
 "part": "18가금콜레라",
@@ -995,7 +2794,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 38
+"id": 106
 },
 {
 "part": "18가금콜레라",
@@ -1022,7 +2821,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 39
+"id": 107
 },
 {
 "part": "18가금콜레라",
@@ -1051,7 +2850,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 40
+"id": 108
 },
 {
 "part": "18가금콜레라",
@@ -1080,7 +2879,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 41
+"id": 109
 },
 {
 "part": "18가금콜레라",
@@ -1106,7 +2905,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 42
+"id": 110
 },
 {
 "part": "18가금콜레라",
@@ -1135,7 +2934,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 43
+"id": 111
 },
 {
 "part": "18가금콜레라",
@@ -1164,7 +2963,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 44
+"id": 112
 },
 {
 "part": "18가금콜레라",
@@ -1185,7 +2984,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 45
+"id": 113
 },
 {
 "part": "18가금콜레라",
@@ -1214,7 +3013,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 46
+"id": 114
 },
 {
 "part": "19코라이자",
@@ -1234,7 +3033,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 47
+"id": 115
 },
 {
 "part": "19코라이자",
@@ -1261,7 +3060,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 48
+"id": 116
 },
 {
 "part": "19코라이자",
@@ -1288,7 +3087,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 49
+"id": 117
 },
 {
 "part": "19코라이자",
@@ -1315,7 +3114,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 50
+"id": 118
 },
 {
 "part": "19코라이자",
@@ -1342,7 +3141,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 51
+"id": 119
 },
 {
 "part": "19코라이자",
@@ -1369,7 +3168,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 52
+"id": 120
 },
 {
 "part": "19코라이자",
@@ -1396,7 +3195,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 53
+"id": 121
 },
 {
 "part": "19코라이자",
@@ -1423,7 +3222,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 54
+"id": 122
 },
 {
 "part": "19코라이자",
@@ -1450,7 +3249,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 55
+"id": 123
 },
 {
 "part": "19코라이자",
@@ -1477,7 +3276,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 56
+"id": 124
 },
 {
 "part": "19코라이자",
@@ -1504,7 +3303,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 57
+"id": 125
 },
 {
 "part": "19코라이자",
@@ -1531,7 +3330,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 58
+"id": 126
 },
 {
 "part": "19코라이자",
@@ -1558,7 +3357,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 59
+"id": 127
 },
 {
 "part": "19코라이자",
@@ -1585,7 +3384,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 60
+"id": 128
 },
 {
 "part": "19코라이자",
@@ -1612,7 +3411,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 61
+"id": 129
 },
 {
 "part": "19코라이자",
@@ -1639,7 +3438,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 62
+"id": 130
 },
 {
 "part": "19코라이자",
@@ -1666,7 +3465,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 63
+"id": 131
 },
 {
 "part": "19코라이자",
@@ -1693,7 +3492,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 64
+"id": 132
 },
 {
 "part": "19코라이자",
@@ -1720,7 +3519,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 65
+"id": 133
 },
 {
 "part": "19코라이자",
@@ -1747,7 +3546,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 66
+"id": 134
 },
 {
 "part": "19코라이자",
@@ -1774,7 +3573,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 67
+"id": 135
 },
 {
 "part": "19코라이자",
@@ -1801,7 +3600,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 68
+"id": 136
 },
 {
 "part": "19코라이자",
@@ -1828,7 +3627,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 69
+"id": 137
 },
 {
 "part": "19코라이자",
@@ -1855,7 +3654,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 70
+"id": 138
 },
 {
 "part": "19코라이자",
@@ -1882,7 +3681,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 71
+"id": 139
 },
 {
 "part": "19코라이자",
@@ -1909,7 +3708,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 72
+"id": 140
 },
 {
 "part": "19코라이자",
@@ -1936,7 +3735,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 73
+"id": 141
 },
 {
 "part": "19코라이자",
@@ -1963,7 +3762,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 74
+"id": 142
 },
 {
 "part": "19코라이자",
@@ -1990,7 +3789,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 75
+"id": 143
 },
 {
 "part": "19코라이자",
@@ -2017,7 +3816,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 76
+"id": 144
 },
 {
 "part": "19코라이자",
@@ -2044,7 +3843,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 77
+"id": 145
 },
 {
 "part": "19코라이자",
@@ -2072,7 +3871,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 78
+"id": 146
 },
 {
 "part": "19코라이자",
@@ -2092,7 +3891,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 79
+"id": 147
 },
 {
 "part": "19코라이자",
@@ -2117,7 +3916,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 80
+"id": 148
 },
 {
 "part": "19코라이자",
@@ -2142,7 +3941,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 81
+"id": 149
 },
 {
 "part": "19코라이자",
@@ -2171,7 +3970,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 82
+"id": 150
 },
 {
 "part": "19코라이자",
@@ -2200,7 +3999,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 83
+"id": 151
 },
 {
 "part": "19코라이자",
@@ -2229,7 +4028,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 84
+"id": 152
 },
 {
 "part": "19코라이자",
@@ -2250,7 +4049,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 85
+"id": 153
 },
 {
 "part": "20마이코",
@@ -2270,7 +4069,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 86
+"id": 154
 },
 {
 "part": "20마이코",
@@ -2297,7 +4096,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 87
+"id": 155
 },
 {
 "part": "20마이코",
@@ -2324,7 +4123,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 88
+"id": 156
 },
 {
 "part": "20마이코",
@@ -2351,7 +4150,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 89
+"id": 157
 },
 {
 "part": "20마이코",
@@ -2378,7 +4177,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 90
+"id": 158
 },
 {
 "part": "20마이코",
@@ -2405,7 +4204,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 91
+"id": 159
 },
 {
 "part": "20마이코",
@@ -2432,7 +4231,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 92
+"id": 160
 },
 {
 "part": "20마이코",
@@ -2459,7 +4258,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 93
+"id": 161
 },
 {
 "part": "20마이코",
@@ -2486,7 +4285,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 94
+"id": 162
 },
 {
 "part": "20마이코",
@@ -2513,7 +4312,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 95
+"id": 163
 },
 {
 "part": "20마이코",
@@ -2540,7 +4339,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 96
+"id": 164
 },
 {
 "part": "20마이코",
@@ -2567,7 +4366,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 97
+"id": 165
 },
 {
 "part": "20마이코",
@@ -2594,7 +4393,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 98
+"id": 166
 },
 {
 "part": "20마이코",
@@ -2621,7 +4420,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 99
+"id": 167
 },
 {
 "part": "20마이코",
@@ -2648,7 +4447,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 100
+"id": 168
 },
 {
 "part": "20마이코",
@@ -2675,7 +4474,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 101
+"id": 169
 },
 {
 "part": "20마이코",
@@ -2702,7 +4501,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 102
+"id": 170
 },
 {
 "part": "20마이코",
@@ -2729,7 +4528,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 103
+"id": 171
 },
 {
 "part": "20마이코",
@@ -2756,7 +4555,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 104
+"id": 172
 },
 {
 "part": "20마이코",
@@ -2783,7 +4582,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 105
+"id": 173
 },
 {
 "part": "20마이코",
@@ -2810,7 +4609,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 106
+"id": 174
 },
 {
 "part": "20마이코",
@@ -2837,7 +4636,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 107
+"id": 175
 },
 {
 "part": "20마이코",
@@ -2864,7 +4663,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 108
+"id": 176
 },
 {
 "part": "20마이코",
@@ -2891,7 +4690,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 109
+"id": 177
 },
 {
 "part": "20마이코",
@@ -2918,7 +4717,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 110
+"id": 178
 },
 {
 "part": "20마이코",
@@ -2948,7 +4747,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 111
+"id": 179
 },
 {
 "part": "20마이코",
@@ -2978,7 +4777,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 112
+"id": 180
 },
 {
 "part": "20마이코",
@@ -3007,7 +4806,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 113
+"id": 181
 },
 {
 "part": "20마이코",
@@ -3036,7 +4835,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 114
+"id": 182
 },
 {
 "part": "20마이코",
@@ -3066,7 +4865,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "variant": false,
-"id": 115
+"id": 183
 },
 {
 "part": "20마이코",
@@ -3094,7 +4893,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 116
+"id": 184
 },
 {
 "part": "20마이코",
@@ -3122,7 +4921,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답(①)≠재판정답(④) — MG 단독감염 폐사율은 무시할 정도이며(교재 p.230), 명확히 옳은 진술은 국내 생백신 사용(교재 p.232). 족보답 ①은 복합감염 한정 30% 폐사를 일반화한 오류.",
-"id": 117
+"id": 185
 },
 {
 "part": "20마이코",
@@ -3150,7 +4949,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답(④ Salmonella gallinarum)≠재판정답(⑤ Eimeria). S. gallinarum은 난계대 전파되므로 수직전파 안 되는 것은 Eimeria(경구 oocyst 섭취만 전파). 동일문항 타 회차 정답도 ⑤.",
-"id": 118
+"id": 186
 },
 {
 "part": "20마이코",
@@ -3175,7 +4974,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답(X)≠재판정답(O). 교재 p.229는 오리를 MG 자연감염 숙주로 명시(\"자연적으로 감염된 오리와 거위...에서도 분리 동정\"). 족보답 X는 '주된 숙주만 닭·칠면조'로 좁게 본 해석.",
-"id": 119
+"id": 187
 },
 {
 "part": "20마이코",
@@ -3203,7 +5002,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 120
+"id": 188
 },
 {
 "part": "20마이코",
@@ -3231,7 +5030,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "강의안 근거 부분 부족 — S6·A5969·R 균주가 교재 ch20에 없음. 정답 ④(F주는 칠면조 부적합)는 교재 p.230·p.232로 방향 확인 가능하나 균주 세부는 보충 의존.",
-"id": 121
+"id": 189
 },
 {
 "part": "20마이코",
@@ -3256,7 +5055,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답(X)≠재판정답(O). 교재 p.233 \"MS 감염에는 난계대 감염에 의한 수직전파가 중요하다\" — MS도 transovarian 전파하므로 MG·MS 둘 다 O. 족보 해설 'MG만'은 오류.",
-"id": 122
+"id": 190
 },
 {
 "part": "20마이코",
@@ -3284,7 +5083,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 123
+"id": 191
 },
 {
 "part": "20마이코",
@@ -3311,7 +5110,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 124
+"id": 192
 },
 {
 "part": "20마이코",
@@ -3338,7 +5137,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 125
+"id": 193
 },
 {
 "part": "20마이코",
@@ -3367,7 +5166,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 126
+"id": 194
 },
 {
 "part": "20마이코",
@@ -3396,7 +5195,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 127
+"id": 195
 },
 {
 "part": "20마이코",
@@ -3424,7 +5223,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 128
+"id": 196
 },
 {
 "part": "20마이코",
@@ -3449,7 +5248,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 129
+"id": 197
 },
 {
 "part": "20마이코",
@@ -3477,7 +5276,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 130
+"id": 198
 },
 {
 "part": "20마이코",
@@ -3502,7 +5301,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 131
+"id": 199
 },
 {
 "part": "20마이코",
@@ -3527,7 +5326,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 132
+"id": 200
 },
 {
 "part": "20마이코",
@@ -3555,7 +5354,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 133
+"id": 201
 },
 {
 "part": "20마이코",
@@ -3580,7 +5379,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 134
+"id": 202
 },
 {
 "part": "20마이코",
@@ -3600,7 +5399,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 135
+"id": 203
 },
 {
 "part": "20마이코",
@@ -3628,7 +5427,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 136
+"id": 204
 },
 {
 "part": "20마이코",
@@ -3658,7 +5457,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 137
+"id": 205
 },
 {
 "part": "20마이코",
@@ -3689,7 +5488,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "variant": false,
-"id": 138
+"id": 206
 },
 {
 "part": "20마이코",
@@ -3720,7 +5519,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "variant": false,
-"id": 139
+"id": 207
 },
 {
 "part": "20마이코",
@@ -3748,7 +5547,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 140
+"id": 208
 },
 {
 "part": "20마이코",
@@ -3773,7 +5572,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 141
+"id": 209
 },
 {
 "part": "20마이코",
@@ -3794,7 +5593,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 142
+"id": 210
 },
 {
 "part": "20마이코",
@@ -3820,7 +5619,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 143
+"id": 211
 },
 {
 "part": "20마이코",
@@ -3849,7 +5648,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 144
+"id": 212
 },
 {
 "part": "20마이코",
@@ -3878,7 +5677,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 145
+"id": 213
 },
 {
 "part": "21클로스트리디움",
@@ -3898,7 +5697,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 146
+"id": 214
 },
 {
 "part": "21클로스트리디움",
@@ -3924,7 +5723,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 147
+"id": 215
 },
 {
 "part": "21클로스트리디움",
@@ -3951,7 +5750,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 148
+"id": 216
 },
 {
 "part": "21클로스트리디움",
@@ -3978,7 +5777,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 149
+"id": 217
 },
 {
 "part": "21클로스트리디움",
@@ -4005,7 +5804,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 150
+"id": 218
 },
 {
 "part": "21클로스트리디움",
@@ -4032,7 +5831,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 151
+"id": 219
 },
 {
 "part": "21클로스트리디움",
@@ -4059,7 +5858,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 152
+"id": 220
 },
 {
 "part": "21클로스트리디움",
@@ -4086,7 +5885,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 153
+"id": 221
 },
 {
 "part": "21클로스트리디움",
@@ -4113,7 +5912,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 154
+"id": 222
 },
 {
 "part": "21클로스트리디움",
@@ -4140,7 +5939,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 155
+"id": 223
 },
 {
 "part": "21클로스트리디움",
@@ -4167,7 +5966,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 156
+"id": 224
 },
 {
 "part": "21클로스트리디움",
@@ -4194,7 +5993,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 157
+"id": 225
 },
 {
 "part": "21클로스트리디움",
@@ -4221,7 +6020,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 158
+"id": 226
 },
 {
 "part": "21클로스트리디움",
@@ -4248,7 +6047,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 159
+"id": 227
 },
 {
 "part": "21클로스트리디움",
@@ -4275,7 +6074,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 160
+"id": 228
 },
 {
 "part": "21클로스트리디움",
@@ -4302,7 +6101,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 161
+"id": 229
 },
 {
 "part": "21클로스트리디움",
@@ -4329,7 +6128,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 162
+"id": 230
 },
 {
 "part": "21클로스트리디움",
@@ -4356,7 +6155,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 163
+"id": 231
 },
 {
 "part": "21클로스트리디움",
@@ -4383,7 +6182,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 164
+"id": 232
 },
 {
 "part": "21클로스트리디움",
@@ -4410,7 +6209,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 165
+"id": 233
 },
 {
 "part": "21클로스트리디움",
@@ -4437,7 +6236,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 166
+"id": 234
 },
 {
 "part": "21클로스트리디움",
@@ -4464,7 +6263,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 167
+"id": 235
 },
 {
 "part": "21클로스트리디움",
@@ -4491,7 +6290,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 168
+"id": 236
 },
 {
 "part": "21클로스트리디움",
@@ -4518,7 +6317,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 169
+"id": 237
 },
 {
 "part": "21클로스트리디움",
@@ -4545,7 +6344,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 170
+"id": 238
 },
 {
 "part": "21클로스트리디움",
@@ -4572,7 +6371,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 171
+"id": 239
 },
 {
 "part": "21클로스트리디움",
@@ -4599,7 +6398,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 172
+"id": 240
 },
 {
 "part": "21클로스트리디움",
@@ -4626,7 +6425,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 173
+"id": 241
 },
 {
 "part": "21클로스트리디움",
@@ -4653,7 +6452,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 174
+"id": 242
 },
 {
 "part": "21클로스트리디움",
@@ -4680,7 +6479,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 175
+"id": 243
 },
 {
 "part": "21클로스트리디움",
@@ -4707,7 +6506,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 176
+"id": 244
 },
 {
 "part": "21클로스트리디움",
@@ -4733,7 +6532,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 177
+"id": 245
 },
 {
 "part": "21클로스트리디움",
@@ -4760,7 +6559,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "variant": true,
-"id": 178
+"id": 246
 },
 {
 "part": "21클로스트리디움",
@@ -4788,7 +6587,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 179
+"id": 247
 },
 {
 "part": "21클로스트리디움",
@@ -4816,7 +6615,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 180
+"id": 248
 },
 {
 "part": "21클로스트리디움",
@@ -4845,7 +6644,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 181
+"id": 249
 },
 {
 "part": "21클로스트리디움",
@@ -4874,7 +6673,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 182
+"id": 250
 },
 {
 "part": "21클로스트리디움",
@@ -4900,7 +6699,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 183
+"id": 251
 },
 {
 "part": "21클로스트리디움",
@@ -4929,7 +6728,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 184
+"id": 252
 },
 {
 "part": "21클로스트리디움",
@@ -4958,7 +6757,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 185
+"id": 253
 },
 {
 "part": "21클로스트리디움",
@@ -4979,7 +6778,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 186
+"id": 254
 },
 {
 "part": "21클로스트리디움",
@@ -5005,7 +6804,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 187
+"id": 255
 },
 {
 "part": "21클로스트리디움",
@@ -5034,7 +6833,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 188
+"id": 256
 },
 {
 "part": "21클로스트리디움",
@@ -5063,7 +6862,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 189
+"id": 257
 },
 {
 "part": "22포도상구균",
@@ -5083,7 +6882,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 190
+"id": 258
 },
 {
 "part": "22포도상구균",
@@ -5110,7 +6909,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 191
+"id": 259
 },
 {
 "part": "22포도상구균",
@@ -5137,7 +6936,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 192
+"id": 260
 },
 {
 "part": "22포도상구균",
@@ -5164,7 +6963,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 193
+"id": 261
 },
 {
 "part": "22포도상구균",
@@ -5191,7 +6990,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 194
+"id": 262
 },
 {
 "part": "22포도상구균",
@@ -5218,7 +7017,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 195
+"id": 263
 },
 {
 "part": "22포도상구균",
@@ -5243,7 +7042,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 196
+"id": 264
 },
 {
 "part": "22포도상구균",
@@ -5270,7 +7069,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 197
+"id": 265
 },
 {
 "part": "22포도상구균",
@@ -5297,7 +7096,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 198
+"id": 266
 },
 {
 "part": "22포도상구균",
@@ -5324,7 +7123,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 199
+"id": 267
 },
 {
 "part": "22포도상구균",
@@ -5351,7 +7150,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 200
+"id": 268
 },
 {
 "part": "22포도상구균",
@@ -5378,7 +7177,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 201
+"id": 269
 },
 {
 "part": "22포도상구균",
@@ -5406,7 +7205,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 202
+"id": 270
 },
 {
 "part": "22포도상구균",
@@ -5433,7 +7232,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 203
+"id": 271
 },
 {
 "part": "22포도상구균",
@@ -5460,7 +7259,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 204
+"id": 272
 },
 {
 "part": "22포도상구균",
@@ -5487,7 +7286,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 205
+"id": 273
 },
 {
 "part": "22포도상구균",
@@ -5514,7 +7313,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 206
+"id": 274
 },
 {
 "part": "22포도상구균",
@@ -5541,7 +7340,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 207
+"id": 275
 },
 {
 "part": "22포도상구균",
@@ -5568,7 +7367,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 208
+"id": 276
 },
 {
 "part": "22포도상구균",
@@ -5595,7 +7394,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 209
+"id": 277
 },
 {
 "part": "22포도상구균",
@@ -5622,7 +7421,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 210
+"id": 278
 },
 {
 "part": "22포도상구균",
@@ -5649,7 +7448,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 211
+"id": 279
 },
 {
 "part": "22포도상구균",
@@ -5676,7 +7475,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 212
+"id": 280
 },
 {
 "part": "22포도상구균",
@@ -5700,7 +7499,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 213
+"id": 281
 },
 {
 "part": "22포도상구균",
@@ -5727,7 +7526,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 214
+"id": 282
 },
 {
 "part": "22포도상구균",
@@ -5754,7 +7553,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 215
+"id": 283
 },
 {
 "part": "22포도상구균",
@@ -5781,7 +7580,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 216
+"id": 284
 },
 {
 "part": "22포도상구균",
@@ -5808,7 +7607,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 217
+"id": 285
 },
 {
 "part": "22포도상구균",
@@ -5835,7 +7634,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 218
+"id": 286
 },
 {
 "part": "22포도상구균",
@@ -5862,7 +7661,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 219
+"id": 287
 },
 {
 "part": "22포도상구균",
@@ -5882,7 +7681,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 220
+"id": 288
 },
 {
 "part": "22포도상구균",
@@ -5911,7 +7710,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 221
+"id": 289
 },
 {
 "part": "22포도상구균",
@@ -5940,7 +7739,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 222
+"id": 290
 },
 {
 "part": "22포도상구균",
@@ -5965,7 +7764,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 223
+"id": 291
 },
 {
 "part": "22포도상구균",
@@ -5991,7 +7790,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 224
+"id": 292
 },
 {
 "part": "22포도상구균",
@@ -6012,7 +7811,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 225
+"id": 293
 },
 {
 "part": "22포도상구균",
@@ -6041,7 +7840,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 226
+"id": 294
 },
 {
 "part": "22포도상구균",
@@ -6067,7 +7866,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 227
+"id": 295
 },
 {
 "part": "22포도상구균",
@@ -6096,7 +7895,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 228
+"id": 296
 },
 {
 "part": "22포도상구균",
@@ -6125,7 +7924,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 229
+"id": 297
 },
 {
 "part": "23조류결핵",
@@ -6145,7 +7944,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 230
+"id": 298
 },
 {
 "part": "23조류결핵",
@@ -6173,7 +7972,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 231
+"id": 299
 },
 {
 "part": "23조류결핵",
@@ -6200,7 +7999,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 232
+"id": 300
 },
 {
 "part": "23조류결핵",
@@ -6227,7 +8026,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 233
+"id": 301
 },
 {
 "part": "23조류결핵",
@@ -6254,7 +8053,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 234
+"id": 302
 },
 {
 "part": "23조류결핵",
@@ -6281,7 +8080,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 235
+"id": 303
 },
 {
 "part": "23조류결핵",
@@ -6308,7 +8107,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 236
+"id": 304
 },
 {
 "part": "23조류결핵",
@@ -6336,7 +8135,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 237
+"id": 305
 },
 {
 "part": "23조류결핵",
@@ -6363,7 +8162,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 238
+"id": 306
 },
 {
 "part": "23조류결핵",
@@ -6390,7 +8189,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 239
+"id": 307
 },
 {
 "part": "23조류결핵",
@@ -6417,7 +8216,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 240
+"id": 308
 },
 {
 "part": "23조류결핵",
@@ -6441,7 +8240,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 241
+"id": 309
 },
 {
 "part": "23조류결핵",
@@ -6468,7 +8267,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 242
+"id": 310
 },
 {
 "part": "23조류결핵",
@@ -6496,7 +8295,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 243
+"id": 311
 },
 {
 "part": "23조류결핵",
@@ -6523,7 +8322,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 244
+"id": 312
 },
 {
 "part": "23조류결핵",
@@ -6550,7 +8349,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 245
+"id": 313
 },
 {
 "part": "23조류결핵",
@@ -6577,7 +8376,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 246
+"id": 314
 },
 {
 "part": "23조류결핵",
@@ -6601,7 +8400,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 247
+"id": 315
 },
 {
 "part": "23조류결핵",
@@ -6628,7 +8427,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 248
+"id": 316
 },
 {
 "part": "23조류결핵",
@@ -6656,7 +8455,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 249
+"id": 317
 },
 {
 "part": "23조류결핵",
@@ -6683,7 +8482,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 250
+"id": 318
 },
 {
 "part": "23조류결핵",
@@ -6710,7 +8509,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 251
+"id": 319
 },
 {
 "part": "23조류결핵",
@@ -6737,7 +8536,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 252
+"id": 320
 },
 {
 "part": "23조류결핵",
@@ -6764,7 +8563,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 253
+"id": 321
 },
 {
 "part": "23조류결핵",
@@ -6791,7 +8590,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 254
+"id": 322
 },
 {
 "part": "23조류결핵",
@@ -6819,7 +8618,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 255
+"id": 323
 },
 {
 "part": "23조류결핵",
@@ -6846,7 +8645,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 256
+"id": 324
 },
 {
 "part": "23조류결핵",
@@ -6873,7 +8672,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 257
+"id": 325
 },
 {
 "part": "23조류결핵",
@@ -6900,7 +8699,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 258
+"id": 326
 },
 {
 "part": "23조류결핵",
@@ -6924,7 +8723,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 259
+"id": 327
 },
 {
 "part": "23조류결핵",
@@ -6951,7 +8750,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 260
+"id": 328
 },
 {
 "part": "23조류결핵",
@@ -6976,7 +8775,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 261
+"id": 329
 },
 {
 "part": "23조류결핵",
@@ -7002,7 +8801,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 262
+"id": 330
 },
 {
 "part": "23조류결핵",
@@ -7031,7 +8830,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 263
+"id": 331
 },
 {
 "part": "23조류결핵",
@@ -7060,7 +8859,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 264
+"id": 332
 },
 {
 "part": "23조류결핵",
@@ -7089,7 +8888,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 265
+"id": 333
 },
 {
 "part": "23조류결핵",
@@ -7110,7 +8909,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 266
+"id": 334
 },
 {
 "part": "24ORT",
@@ -7130,7 +8929,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 267
+"id": 335
 },
 {
 "part": "24ORT",
@@ -7156,7 +8955,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 268
+"id": 336
 },
 {
 "part": "24ORT",
@@ -7183,7 +8982,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 269
+"id": 337
 },
 {
 "part": "24ORT",
@@ -7210,7 +9009,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 270
+"id": 338
 },
 {
 "part": "24ORT",
@@ -7234,7 +9033,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 271
+"id": 339
 },
 {
 "part": "24ORT",
@@ -7261,7 +9060,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 272
+"id": 340
 },
 {
 "part": "24ORT",
@@ -7288,7 +9087,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 273
+"id": 341
 },
 {
 "part": "24ORT",
@@ -7314,7 +9113,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 274
+"id": 342
 },
 {
 "part": "24ORT",
@@ -7341,7 +9140,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 275
+"id": 343
 },
 {
 "part": "24ORT",
@@ -7368,7 +9167,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 276
+"id": 344
 },
 {
 "part": "24ORT",
@@ -7395,7 +9194,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 277
+"id": 345
 },
 {
 "part": "24ORT",
@@ -7419,7 +9218,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 278
+"id": 346
 },
 {
 "part": "24ORT",
@@ -7446,7 +9245,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 279
+"id": 347
 },
 {
 "part": "24ORT",
@@ -7472,7 +9271,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 280
+"id": 348
 },
 {
 "part": "24ORT",
@@ -7499,7 +9298,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 281
+"id": 349
 },
 {
 "part": "24ORT",
@@ -7526,7 +9325,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 282
+"id": 350
 },
 {
 "part": "24ORT",
@@ -7553,7 +9352,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 283
+"id": 351
 },
 {
 "part": "24ORT",
@@ -7577,7 +9376,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 284
+"id": 352
 },
 {
 "part": "24ORT",
@@ -7604,7 +9403,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 285
+"id": 353
 },
 {
 "part": "24ORT",
@@ -7631,7 +9430,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 286
+"id": 354
 },
 {
 "part": "24ORT",
@@ -7658,7 +9457,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 287
+"id": 355
 },
 {
 "part": "24ORT",
@@ -7685,7 +9484,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 288
+"id": 356
 },
 {
 "part": "24ORT",
@@ -7712,7 +9511,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 289
+"id": 357
 },
 {
 "part": "24ORT",
@@ -7736,7 +9535,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 290
+"id": 358
 },
 {
 "part": "24ORT",
@@ -7763,7 +9562,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 291
+"id": 359
 },
 {
 "part": "24ORT",
@@ -7789,7 +9588,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 292
+"id": 360
 },
 {
 "part": "24ORT",
@@ -7818,7 +9617,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 293
+"id": 361
 },
 {
 "part": "24ORT",
@@ -7847,7 +9646,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 294
+"id": 362
 },
 {
 "part": "25아스퍼질러스",
@@ -7867,7 +9666,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 295
+"id": 363
 },
 {
 "part": "25아스퍼질러스",
@@ -7894,7 +9693,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 296
+"id": 364
 },
 {
 "part": "25아스퍼질러스",
@@ -7921,7 +9720,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 297
+"id": 365
 },
 {
 "part": "25아스퍼질러스",
@@ -7948,7 +9747,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 298
+"id": 366
 },
 {
 "part": "25아스퍼질러스",
@@ -7975,7 +9774,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 299
+"id": 367
 },
 {
 "part": "25아스퍼질러스",
@@ -8002,7 +9801,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 300
+"id": 368
 },
 {
 "part": "25아스퍼질러스",
@@ -8029,7 +9828,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 301
+"id": 369
 },
 {
 "part": "25아스퍼질러스",
@@ -8056,7 +9855,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 302
+"id": 370
 },
 {
 "part": "25아스퍼질러스",
@@ -8083,7 +9882,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 303
+"id": 371
 },
 {
 "part": "25아스퍼질러스",
@@ -8110,7 +9909,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 304
+"id": 372
 },
 {
 "part": "25아스퍼질러스",
@@ -8134,7 +9933,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 305
+"id": 373
 },
 {
 "part": "25아스퍼질러스",
@@ -8161,7 +9960,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 306
+"id": 374
 },
 {
 "part": "25아스퍼질러스",
@@ -8188,7 +9987,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 307
+"id": 375
 },
 {
 "part": "25아스퍼질러스",
@@ -8215,7 +10014,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 308
+"id": 376
 },
 {
 "part": "25아스퍼질러스",
@@ -8242,7 +10041,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 309
+"id": 377
 },
 {
 "part": "25아스퍼질러스",
@@ -8269,7 +10068,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 310
+"id": 378
 },
 {
 "part": "25아스퍼질러스",
@@ -8296,7 +10095,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 311
+"id": 379
 },
 {
 "part": "25아스퍼질러스",
@@ -8323,7 +10122,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 312
+"id": 380
 },
 {
 "part": "25아스퍼질러스",
@@ -8350,7 +10149,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 313
+"id": 381
 },
 {
 "part": "25아스퍼질러스",
@@ -8377,7 +10176,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 314
+"id": 382
 },
 {
 "part": "25아스퍼질러스",
@@ -8404,7 +10203,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 315
+"id": 383
 },
 {
 "part": "25아스퍼질러스",
@@ -8431,7 +10230,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 316
+"id": 384
 },
 {
 "part": "25아스퍼질러스",
@@ -8458,7 +10257,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 317
+"id": 385
 },
 {
 "part": "25아스퍼질러스",
@@ -8485,7 +10284,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 318
+"id": 386
 },
 {
 "part": "25아스퍼질러스",
@@ -8512,7 +10311,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 319
+"id": 387
 },
 {
 "part": "25아스퍼질러스",
@@ -8539,7 +10338,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 320
+"id": 388
 },
 {
 "part": "25아스퍼질러스",
@@ -8566,7 +10365,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 321
+"id": 389
 },
 {
 "part": "25아스퍼질러스",
@@ -8593,7 +10392,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 322
+"id": 390
 },
 {
 "part": "25아스퍼질러스",
@@ -8620,7 +10419,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 323
+"id": 391
 },
 {
 "part": "25아스퍼질러스",
@@ -8644,7 +10443,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 324
+"id": 392
 },
 {
 "part": "25아스퍼질러스",
@@ -8671,7 +10470,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 325
+"id": 393
 },
 {
 "part": "25아스퍼질러스",
@@ -8696,7 +10495,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 326
+"id": 394
 },
 {
 "part": "25아스퍼질러스",
@@ -8716,7 +10515,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 327
+"id": 395
 },
 {
 "part": "25아스퍼질러스",
@@ -8744,7 +10543,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 328
+"id": 396
 },
 {
 "part": "25아스퍼질러스",
@@ -8772,7 +10571,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 329
+"id": 397
 },
 {
 "part": "25아스퍼질러스",
@@ -8793,7 +10592,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 330
+"id": 398
 },
 {
 "part": "25아스퍼질러스",
@@ -8822,7 +10621,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 331
+"id": 399
 },
 {
 "part": "25아스퍼질러스",
@@ -8851,7 +10650,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 332
+"id": 400
 },
 {
 "part": "25아스퍼질러스",
@@ -8877,7 +10676,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 333
+"id": 401
 },
 {
 "part": "25아스퍼질러스",
@@ -8906,7 +10705,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 334
+"id": 402
 },
 {
 "part": "25아스퍼질러스",
@@ -8935,7 +10734,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 335
+"id": 403
 },
 {
 "part": "26칸디다",
@@ -8955,7 +10754,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 336
+"id": 404
 },
 {
 "part": "26칸디다",
@@ -8980,7 +10779,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 337
+"id": 405
 },
 {
 "part": "26칸디다",
@@ -9007,7 +10806,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 338
+"id": 406
 },
 {
 "part": "26칸디다",
@@ -9034,7 +10833,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 339
+"id": 407
 },
 {
 "part": "26칸디다",
@@ -9061,7 +10860,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 340
+"id": 408
 },
 {
 "part": "26칸디다",
@@ -9085,7 +10884,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 341
+"id": 409
 },
 {
 "part": "26칸디다",
@@ -9112,7 +10911,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 342
+"id": 410
 },
 {
 "part": "26칸디다",
@@ -9137,7 +10936,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 343
+"id": 411
 },
 {
 "part": "26칸디다",
@@ -9164,7 +10963,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 344
+"id": 412
 },
 {
 "part": "26칸디다",
@@ -9191,7 +10990,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 345
+"id": 413
 },
 {
 "part": "26칸디다",
@@ -9215,7 +11014,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 346
+"id": 414
 },
 {
 "part": "26칸디다",
@@ -9242,7 +11041,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 347
+"id": 415
 },
 {
 "part": "26칸디다",
@@ -9269,7 +11068,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 348
+"id": 416
 },
 {
 "part": "26칸디다",
@@ -9294,7 +11093,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 349
+"id": 417
 },
 {
 "part": "26칸디다",
@@ -9321,7 +11120,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 350
+"id": 418
 },
 {
 "part": "26칸디다",
@@ -9348,7 +11147,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 351
+"id": 419
 },
 {
 "part": "26칸디다",
@@ -9375,7 +11174,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 352
+"id": 420
 },
 {
 "part": "26칸디다",
@@ -9399,7 +11198,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 353
+"id": 421
 },
 {
 "part": "26칸디다",
@@ -9426,7 +11225,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 354
+"id": 422
 },
 {
 "part": "26칸디다",
@@ -9451,7 +11250,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 355
+"id": 423
 },
 {
 "part": "26칸디다",
@@ -9478,7 +11277,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 356
+"id": 424
 },
 {
 "part": "26칸디다",
@@ -9505,7 +11304,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 357
+"id": 425
 },
 {
 "part": "26칸디다",
@@ -9532,7 +11331,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 358
+"id": 426
 },
 {
 "part": "26칸디다",
@@ -9556,7 +11355,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 359
+"id": 427
 },
 {
 "part": "26칸디다",
@@ -9583,7 +11382,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 360
+"id": 428
 },
 {
 "part": "26칸디다",
@@ -9608,7 +11407,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 361
+"id": 429
 },
 {
 "part": "26칸디다",
@@ -9629,7 +11428,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 362
+"id": 430
 },
 {
 "part": "26칸디다",
@@ -9658,7 +11457,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 363
+"id": 431
 },
 {
 "part": "26칸디다",
@@ -9687,7 +11486,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 364
+"id": 432
 },
 {
 "part": "26칸디다",
@@ -9713,7 +11512,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 365
+"id": 433
 },
 {
 "part": "26칸디다",
@@ -9742,7 +11541,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 366
+"id": 434
 },
 {
 "part": "00기생충총론",
@@ -9762,7 +11561,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 367
+"id": 435
 },
 {
 "part": "00기생충총론",
@@ -9791,7 +11590,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 368
+"id": 436
 },
 {
 "part": "00기생충총론",
@@ -9818,7 +11617,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 369
+"id": 437
 },
 {
 "part": "00기생충총론",
@@ -9845,7 +11644,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 370
+"id": 438
 },
 {
 "part": "00기생충총론",
@@ -9872,7 +11671,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 371
+"id": 439
 },
 {
 "part": "00기생충총론",
@@ -9899,7 +11698,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 372
+"id": 440
 },
 {
 "part": "00기생충총론",
@@ -9926,7 +11725,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 373
+"id": 441
 },
 {
 "part": "00기생충총론",
@@ -9954,7 +11753,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 374
+"id": 442
 },
 {
 "part": "00기생충총론",
@@ -9982,7 +11781,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 375
+"id": 443
 },
 {
 "part": "27콕시듐",
@@ -10002,7 +11801,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 376
+"id": 444
 },
 {
 "part": "27콕시듐",
@@ -10028,7 +11827,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 377
+"id": 445
 },
 {
 "part": "27콕시듐",
@@ -10055,7 +11854,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 378
+"id": 446
 },
 {
 "part": "27콕시듐",
@@ -10082,7 +11881,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 379
+"id": 447
 },
 {
 "part": "27콕시듐",
@@ -10109,7 +11908,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 380
+"id": 448
 },
 {
 "part": "27콕시듐",
@@ -10136,7 +11935,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 381
+"id": 449
 },
 {
 "part": "27콕시듐",
@@ -10160,7 +11959,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 382
+"id": 450
 },
 {
 "part": "27콕시듐",
@@ -10187,7 +11986,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 383
+"id": 451
 },
 {
 "part": "27콕시듐",
@@ -10214,7 +12013,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 384
+"id": 452
 },
 {
 "part": "27콕시듐",
@@ -10241,7 +12040,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 385
+"id": 453
 },
 {
 "part": "27콕시듐",
@@ -10268,7 +12067,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 386
+"id": 454
 },
 {
 "part": "27콕시듐",
@@ -10295,7 +12094,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 387
+"id": 455
 },
 {
 "part": "27콕시듐",
@@ -10322,7 +12121,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 388
+"id": 456
 },
 {
 "part": "27콕시듐",
@@ -10348,7 +12147,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 389
+"id": 457
 },
 {
 "part": "27콕시듐",
@@ -10375,7 +12174,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 390
+"id": 458
 },
 {
 "part": "27콕시듐",
@@ -10402,7 +12201,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 391
+"id": 459
 },
 {
 "part": "27콕시듐",
@@ -10429,7 +12228,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 392
+"id": 460
 },
 {
 "part": "27콕시듐",
@@ -10456,7 +12255,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 393
+"id": 461
 },
 {
 "part": "27콕시듐",
@@ -10483,7 +12282,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 394
+"id": 462
 },
 {
 "part": "27콕시듐",
@@ -10510,7 +12309,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 395
+"id": 463
 },
 {
 "part": "27콕시듐",
@@ -10537,7 +12336,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 396
+"id": 464
 },
 {
 "part": "27콕시듐",
@@ -10564,7 +12363,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 397
+"id": 465
 },
 {
 "part": "27콕시듐",
@@ -10591,7 +12390,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 398
+"id": 466
 },
 {
 "part": "27콕시듐",
@@ -10615,7 +12414,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 399
+"id": 467
 },
 {
 "part": "27콕시듐",
@@ -10642,7 +12441,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 400
+"id": 468
 },
 {
 "part": "27콕시듐",
@@ -10669,7 +12468,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 401
+"id": 469
 },
 {
 "part": "27콕시듐",
@@ -10696,7 +12495,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 402
+"id": 470
 },
 {
 "part": "27콕시듐",
@@ -10723,7 +12522,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 403
+"id": 471
 },
 {
 "part": "27콕시듐",
@@ -10750,7 +12549,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 404
+"id": 472
 },
 {
 "part": "27콕시듐",
@@ -10777,7 +12576,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 405
+"id": 473
 },
 {
 "part": "27콕시듐",
@@ -10804,7 +12603,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 406
+"id": 474
 },
 {
 "part": "27콕시듐",
@@ -10834,7 +12633,7 @@ const LABQ = [
 "freq": 3,
 "flag": true,
 "flagReason": "self-limiting 용어가 ch27 교재에 직접 없음(p.291·295 면역 개념에서 추론); 족보답이 회차마다 ①·④로 불일치해 독립 재판정함",
-"id": 407
+"id": 475
 },
 {
 "part": "27콕시듐",
@@ -10864,7 +12663,7 @@ const LABQ = [
 "freq": 3,
 "flag": true,
 "flagReason": "self-limiting 용어가 ch27 교재에 직접 없음(p.295 면역 개념 추론); 족보답이 회차마다 ①·④로 불일치해 독립 재판정",
-"id": 408
+"id": 476
 },
 {
 "part": "27콕시듐",
@@ -10894,7 +12693,7 @@ const LABQ = [
 "freq": 3,
 "flag": true,
 "flagReason": "self-limiting 용어가 ch27 교재에 직접 없음(p.295 면역 개념 추론), 족보 답 미표기 — 독립 재판정 ③",
-"id": 409
+"id": 477
 },
 {
 "part": "27콕시듐",
@@ -10915,7 +12714,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 410
+"id": 478
 },
 {
 "part": "27콕시듐",
@@ -10936,7 +12735,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 411
+"id": 479
 },
 {
 "part": "27콕시듐",
@@ -10957,7 +12756,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 412
+"id": 480
 },
 {
 "part": "27콕시듐",
@@ -10985,7 +12784,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 413
+"id": 481
 },
 {
 "part": "27콕시듐",
@@ -11005,7 +12804,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 414
+"id": 482
 },
 {
 "part": "27콕시듐",
@@ -11033,7 +12832,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 415
+"id": 483
 },
 {
 "part": "27콕시듐",
@@ -11059,7 +12858,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 416
+"id": 484
 },
 {
 "part": "27콕시듐",
@@ -11085,7 +12884,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 417
+"id": 485
 },
 {
 "part": "27콕시듐",
@@ -11110,7 +12909,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "'novel administration technique' 문구가 ch27 교재에 직접 명시되지 않음 — 다양한 접종법 열거(p.299)에서 정황적으로 O 판정",
-"id": 418
+"id": 486
 },
 {
 "part": "27콕시듐",
@@ -11138,7 +12937,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "⑤(litter oocyst 3-5주령 최다) 수치가 ch27 교재에 없음; ②를 정답으로 보되 백신 접종 대상은 p.300 정황 근거에 의존",
-"id": 419
+"id": 487
 },
 {
 "part": "27콕시듐",
@@ -11166,7 +12965,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 420
+"id": 488
 },
 {
 "part": "27콕시듐",
@@ -11186,7 +12985,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 421
+"id": 489
 },
 {
 "part": "27콕시듐",
@@ -11214,7 +13013,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답②≠재판정답④ — 족보는 ②를 오답으로 보았으나 교재 p.290·297상 ④(포자화 안 된 oocyst 냉장 1~2년)가 틀린 설명",
-"id": 422
+"id": 490
 },
 {
 "part": "27콕시듐",
@@ -11242,7 +13041,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 423
+"id": 491
 },
 {
 "part": "27콕시듐",
@@ -11270,7 +13069,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "self-limiting nature 용어가 ch27 교재에 직접 명시되지 않음 — 자연감염 면역 개념(p.291·295)에서 추론, 근거 부분적",
-"id": 424
+"id": 492
 },
 {
 "part": "27콕시듐",
@@ -11298,7 +13097,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답②④≠재판정답③ — Apicomplexa는 세포내 기생(intracellular)이 특징, 족보답(extracellular·egg transmitted)은 오류",
-"id": 425
+"id": 493
 },
 {
 "part": "27콕시듐",
@@ -11327,7 +13126,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 426
+"id": 494
 },
 {
 "part": "27콕시듐",
@@ -11356,7 +13155,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 427
+"id": 495
 },
 {
 "part": "27콕시듐",
@@ -11384,7 +13183,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 428
+"id": 496
 },
 {
 "part": "27콕시듐",
@@ -11404,7 +13203,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 429
+"id": 497
 },
 {
 "part": "27콕시듐",
@@ -11429,7 +13228,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 430
+"id": 498
 },
 {
 "part": "27콕시듐",
@@ -11459,7 +13258,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 431
+"id": 499
 },
 {
 "part": "27콕시듐",
@@ -11489,7 +13288,7 @@ const LABQ = [
 "freq": 3,
 "flag": false,
 "flagReason": "",
-"id": 432
+"id": 500
 },
 {
 "part": "27콕시듐",
@@ -11518,7 +13317,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 433
+"id": 501
 },
 {
 "part": "27콕시듐",
@@ -11539,7 +13338,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 434
+"id": 502
 },
 {
 "part": "27콕시듐",
@@ -11559,7 +13358,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 435
+"id": 503
 },
 {
 "part": "27콕시듐",
@@ -11587,7 +13386,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답③(short life cycle)≠재판정답②(저항성) — 교재 p.288 충란의 환경·소독제 저항성이 편재성의 근거",
-"id": 436
+"id": 504
 },
 {
 "part": "27콕시듐",
@@ -11612,7 +13411,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 437
+"id": 505
 },
 {
 "part": "27콕시듐",
@@ -11637,7 +13436,7 @@ const LABQ = [
 "freq": 1,
 "flag": true,
 "flagReason": "족보답X≠재판정답O — 교재 p.288·290상 oocyst는 일반 소독제에 강한 저항성(O)",
-"id": 438
+"id": 506
 },
 {
 "part": "27콕시듐",
@@ -11657,7 +13456,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 439
+"id": 507
 },
 {
 "part": "27콕시듐",
@@ -11685,7 +13484,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 440
+"id": 508
 },
 {
 "part": "27콕시듐",
@@ -11706,7 +13505,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 441
+"id": 509
 },
 {
 "part": "27콕시듐",
@@ -11735,7 +13534,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 442
+"id": 510
 },
 {
 "part": "27콕시듐",
@@ -11764,7 +13563,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 443
+"id": 511
 },
 {
 "part": "27콕시듐",
@@ -11793,7 +13592,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 444
+"id": 512
 },
 {
 "part": "27콕시듐",
@@ -11822,7 +13621,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 445
+"id": 513
 },
 {
 "part": "27콕시듐",
@@ -11848,7 +13647,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 446
+"id": 514
 },
 {
 "part": "27콕시듐",
@@ -11874,7 +13673,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 447
+"id": 515
 },
 {
 "part": "27콕시듐",
@@ -11903,7 +13702,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 448
+"id": 516
 },
 {
 "part": "28히스토모나스",
@@ -11923,7 +13722,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 449
+"id": 517
 },
 {
 "part": "28히스토모나스",
@@ -11949,7 +13748,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 450
+"id": 518
 },
 {
 "part": "28히스토모나스",
@@ -11976,7 +13775,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 451
+"id": 519
 },
 {
 "part": "28히스토모나스",
@@ -12003,7 +13802,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 452
+"id": 520
 },
 {
 "part": "28히스토모나스",
@@ -12030,7 +13829,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 453
+"id": 521
 },
 {
 "part": "28히스토모나스",
@@ -12057,7 +13856,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 454
+"id": 522
 },
 {
 "part": "28히스토모나스",
@@ -12084,7 +13883,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 455
+"id": 523
 },
 {
 "part": "28히스토모나스",
@@ -12111,7 +13910,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 456
+"id": 524
 },
 {
 "part": "28히스토모나스",
@@ -12138,7 +13937,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 457
+"id": 525
 },
 {
 "part": "28히스토모나스",
@@ -12165,7 +13964,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 458
+"id": 526
 },
 {
 "part": "28히스토모나스",
@@ -12192,7 +13991,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 459
+"id": 527
 },
 {
 "part": "28히스토모나스",
@@ -12219,7 +14018,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 460
+"id": 528
 },
 {
 "part": "28히스토모나스",
@@ -12246,7 +14045,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 461
+"id": 529
 },
 {
 "part": "28히스토모나스",
@@ -12273,7 +14072,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 462
+"id": 530
 },
 {
 "part": "28히스토모나스",
@@ -12300,7 +14099,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 463
+"id": 531
 },
 {
 "part": "28히스토모나스",
@@ -12327,7 +14126,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 464
+"id": 532
 },
 {
 "part": "28히스토모나스",
@@ -12354,7 +14153,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 465
+"id": 533
 },
 {
 "part": "28히스토모나스",
@@ -12381,7 +14180,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 466
+"id": 534
 },
 {
 "part": "28히스토모나스",
@@ -12408,7 +14207,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 467
+"id": 535
 },
 {
 "part": "28히스토모나스",
@@ -12435,7 +14234,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 468
+"id": 536
 },
 {
 "part": "28히스토모나스",
@@ -12462,7 +14261,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 469
+"id": 537
 },
 {
 "part": "28히스토모나스",
@@ -12489,7 +14288,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 470
+"id": 538
 },
 {
 "part": "28히스토모나스",
@@ -12516,7 +14315,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 471
+"id": 539
 },
 {
 "part": "28히스토모나스",
@@ -12543,7 +14342,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 472
+"id": 540
 },
 {
 "part": "28히스토모나스",
@@ -12567,7 +14366,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 473
+"id": 541
 },
 {
 "part": "28히스토모나스",
@@ -12594,7 +14393,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 474
+"id": 542
 },
 {
 "part": "28히스토모나스",
@@ -12621,7 +14420,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 475
+"id": 543
 },
 {
 "part": "28히스토모나스",
@@ -12648,7 +14447,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 476
+"id": 544
 },
 {
 "part": "28히스토모나스",
@@ -12675,7 +14474,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 477
+"id": 545
 },
 {
 "part": "28히스토모나스",
@@ -12699,7 +14498,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 478
+"id": 546
 },
 {
 "part": "28히스토모나스",
@@ -12726,7 +14525,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 479
+"id": 547
 },
 {
 "part": "28히스토모나스",
@@ -12755,7 +14554,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 480
+"id": 548
 },
 {
 "part": "28히스토모나스",
@@ -12784,7 +14583,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 481
+"id": 549
 },
 {
 "part": "28히스토모나스",
@@ -12804,7 +14603,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 482
+"id": 550
 },
 {
 "part": "28히스토모나스",
@@ -12836,7 +14635,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 483
+"id": 551
 },
 {
 "part": "28히스토모나스",
@@ -12864,7 +14663,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 484
+"id": 552
 },
 {
 "part": "28히스토모나스",
@@ -12885,7 +14684,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 485
+"id": 553
 },
 {
 "part": "28히스토모나스",
@@ -12911,7 +14710,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 486
+"id": 554
 },
 {
 "part": "28히스토모나스",
@@ -12940,7 +14739,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 487
+"id": 555
 },
 {
 "part": "28히스토모나스",
@@ -12969,7 +14768,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 488
+"id": 556
 },
 {
 "part": "29류코사이토준",
@@ -12989,7 +14788,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 489
+"id": 557
 },
 {
 "part": "29류코사이토준",
@@ -13016,7 +14815,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 490
+"id": 558
 },
 {
 "part": "29류코사이토준",
@@ -13043,7 +14842,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 491
+"id": 559
 },
 {
 "part": "29류코사이토준",
@@ -13070,7 +14869,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 492
+"id": 560
 },
 {
 "part": "29류코사이토준",
@@ -13097,7 +14896,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 493
+"id": 561
 },
 {
 "part": "29류코사이토준",
@@ -13124,7 +14923,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 494
+"id": 562
 },
 {
 "part": "29류코사이토준",
@@ -13148,7 +14947,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 495
+"id": 563
 },
 {
 "part": "29류코사이토준",
@@ -13175,7 +14974,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 496
+"id": 564
 },
 {
 "part": "29류코사이토준",
@@ -13202,7 +15001,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 497
+"id": 565
 },
 {
 "part": "29류코사이토준",
@@ -13229,7 +15028,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 498
+"id": 566
 },
 {
 "part": "29류코사이토준",
@@ -13256,7 +15055,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 499
+"id": 567
 },
 {
 "part": "29류코사이토준",
@@ -13283,7 +15082,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 500
+"id": 568
 },
 {
 "part": "29류코사이토준",
@@ -13310,7 +15109,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 501
+"id": 569
 },
 {
 "part": "29류코사이토준",
@@ -13337,7 +15136,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 502
+"id": 570
 },
 {
 "part": "29류코사이토준",
@@ -13364,7 +15163,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 503
+"id": 571
 },
 {
 "part": "29류코사이토준",
@@ -13391,7 +15190,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 504
+"id": 572
 },
 {
 "part": "29류코사이토준",
@@ -13418,7 +15217,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 505
+"id": 573
 },
 {
 "part": "29류코사이토준",
@@ -13445,7 +15244,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 506
+"id": 574
 },
 {
 "part": "29류코사이토준",
@@ -13472,7 +15271,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 507
+"id": 575
 },
 {
 "part": "29류코사이토준",
@@ -13499,7 +15298,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 508
+"id": 576
 },
 {
 "part": "29류코사이토준",
@@ -13526,7 +15325,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 509
+"id": 577
 },
 {
 "part": "29류코사이토준",
@@ -13553,7 +15352,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 510
+"id": 578
 },
 {
 "part": "29류코사이토준",
@@ -13580,7 +15379,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 511
+"id": 579
 },
 {
 "part": "29류코사이토준",
@@ -13607,7 +15406,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 512
+"id": 580
 },
 {
 "part": "29류코사이토준",
@@ -13631,7 +15430,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 513
+"id": 581
 },
 {
 "part": "29류코사이토준",
@@ -13658,7 +15457,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 514
+"id": 582
 },
 {
 "part": "29류코사이토준",
@@ -13685,7 +15484,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 515
+"id": 583
 },
 {
 "part": "29류코사이토준",
@@ -13712,7 +15511,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 516
+"id": 584
 },
 {
 "part": "29류코사이토준",
@@ -13739,7 +15538,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 517
+"id": 585
 },
 {
 "part": "29류코사이토준",
@@ -13766,7 +15565,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 518
+"id": 586
 },
 {
 "part": "29류코사이토준",
@@ -13790,7 +15589,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 519
+"id": 587
 },
 {
 "part": "29류코사이토준",
@@ -13810,7 +15609,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 520
+"id": 588
 },
 {
 "part": "29류코사이토준",
@@ -13835,7 +15634,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 521
+"id": 589
 },
 {
 "part": "29류코사이토준",
@@ -13856,7 +15655,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 522
+"id": 590
 },
 {
 "part": "29류코사이토준",
@@ -13882,7 +15681,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 523
+"id": 591
 },
 {
 "part": "29류코사이토준",
@@ -13911,7 +15710,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 524
+"id": 592
 },
 {
 "part": "29류코사이토준",
@@ -13940,7 +15739,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 525
+"id": 593
 },
 {
 "part": "구영양대사",
@@ -13960,7 +15759,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 526
+"id": 594
 },
 {
 "part": "구영양대사",
@@ -13987,7 +15786,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 527
+"id": 595
 },
 {
 "part": "구영양대사",
@@ -14014,7 +15813,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 528
+"id": 596
 },
 {
 "part": "구영양대사",
@@ -14041,7 +15840,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 529
+"id": 597
 },
 {
 "part": "구영양대사",
@@ -14068,7 +15867,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 530
+"id": 598
 },
 {
 "part": "구영양대사",
@@ -14095,7 +15894,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 531
+"id": 599
 },
 {
 "part": "구영양대사",
@@ -14122,7 +15921,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 532
+"id": 600
 },
 {
 "part": "구영양대사",
@@ -14149,7 +15948,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 533
+"id": 601
 },
 {
 "part": "구영양대사",
@@ -14176,7 +15975,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 534
+"id": 602
 },
 {
 "part": "구영양대사",
@@ -14203,7 +16002,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 535
+"id": 603
 },
 {
 "part": "구영양대사",
@@ -14230,7 +16029,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 536
+"id": 604
 },
 {
 "part": "구영양대사",
@@ -14257,7 +16056,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 537
+"id": 605
 },
 {
 "part": "구영양대사",
@@ -14284,7 +16083,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 538
+"id": 606
 },
 {
 "part": "구영양대사",
@@ -14310,7 +16109,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 539
+"id": 607
 },
 {
 "part": "구영양대사",
@@ -14337,7 +16136,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 540
+"id": 608
 },
 {
 "part": "구영양대사",
@@ -14364,7 +16163,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 541
+"id": 609
 },
 {
 "part": "구영양대사",
@@ -14391,7 +16190,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 542
+"id": 610
 },
 {
 "part": "구영양대사",
@@ -14418,7 +16217,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 543
+"id": 611
 },
 {
 "part": "구영양대사",
@@ -14442,7 +16241,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 544
+"id": 612
 },
 {
 "part": "구영양대사",
@@ -14469,7 +16268,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 545
+"id": 613
 },
 {
 "part": "구영양대사",
@@ -14496,7 +16295,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 546
+"id": 614
 },
 {
 "part": "구영양대사",
@@ -14523,7 +16322,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 547
+"id": 615
 },
 {
 "part": "구영양대사",
@@ -14550,7 +16349,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 548
+"id": 616
 },
 {
 "part": "구영양대사",
@@ -14577,7 +16376,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 549
+"id": 617
 },
 {
 "part": "구영양대사",
@@ -14604,7 +16403,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 550
+"id": 618
 },
 {
 "part": "구영양대사",
@@ -14630,7 +16429,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "exam": "",
-"id": 551
+"id": 619
 },
 {
 "part": "구영양대사",
@@ -14657,7 +16456,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 552
+"id": 620
 },
 {
 "part": "구영양대사",
@@ -14684,7 +16483,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 553
+"id": 621
 },
 {
 "part": "구영양대사",
@@ -14711,7 +16510,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 554
+"id": 622
 },
 {
 "part": "구영양대사",
@@ -14738,7 +16537,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 555
+"id": 623
 },
 {
 "part": "구영양대사",
@@ -14765,7 +16564,7 @@ const LABQ = [
 "exams": [],
 "flag": false,
 "flagReason": "",
-"id": 556
+"id": 624
 },
 {
 "part": "구영양대사",
@@ -14794,7 +16593,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 557
+"id": 625
 },
 {
 "part": "구영양대사",
@@ -14823,7 +16622,7 @@ const LABQ = [
 "freq": 2,
 "flag": false,
 "flagReason": "",
-"id": 558
+"id": 626
 },
 {
 "part": "구영양대사",
@@ -14848,7 +16647,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 559
+"id": 627
 },
 {
 "part": "구영양대사",
@@ -14876,7 +16675,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 560
+"id": 628
 },
 {
 "part": "구영양대사",
@@ -14901,7 +16700,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 561
+"id": 629
 },
 {
 "part": "구영양대사",
@@ -14926,7 +16725,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 562
+"id": 630
 },
 {
 "part": "구영양대사",
@@ -14951,7 +16750,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 563
+"id": 631
 },
 {
 "part": "구영양대사",
@@ -14979,7 +16778,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 564
+"id": 632
 },
 {
 "part": "구영양대사",
@@ -15004,7 +16803,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 565
+"id": 633
 },
 {
 "part": "구영양대사",
@@ -15024,7 +16823,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 566
+"id": 634
 },
 {
 "part": "구영양대사",
@@ -15052,7 +16851,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 567
+"id": 635
 },
 {
 "part": "구영양대사",
@@ -15072,7 +16871,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 568
+"id": 636
 },
 {
 "part": "구영양대사",
@@ -15100,7 +16899,7 @@ const LABQ = [
 "freq": 1,
 "flag": false,
 "flagReason": "",
-"id": 569
+"id": 637
 },
 {
 "part": "구영양대사",
@@ -15129,7 +16928,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 570
+"id": 638
 },
 {
 "part": "구영양대사",
@@ -15155,7 +16954,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 571
+"id": 639
 },
 {
 "part": "구영양대사",
@@ -15181,7 +16980,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 572
+"id": 640
 },
 {
 "part": "구영양대사",
@@ -15210,7 +17009,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 573
+"id": 641
 },
 {
 "part": "구영양대사",
@@ -15231,7 +17030,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 574
+"id": 642
 },
 {
 "part": "구영양대사",
@@ -15260,7 +17059,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 575
+"id": 643
 },
 {
 "part": "구영양대사",
@@ -15289,7 +17088,7 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 576
+"id": 644
 },
 {
 "part": "구영양대사",
@@ -15318,6 +17117,6 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "unit": "",
-"id": 577
+"id": 645
 }
 ];
