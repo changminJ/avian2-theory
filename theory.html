@@ -294,6 +294,7 @@ const FILTERS=[
   ['🆕 2026자작 몰아풀기','#1ED760','EXAM'],
   ['📝 예제만 몰아풀기(한국어)','#7ee0c0','BASIC'],
   ['📅 2025 기출 몰아풀기 (이번범위 동일)','#ffa726','Y2025'],
+  ['📊 비교표 몰아풀기 (셀조합형·신유형)','#26c6da','TABLE'],
   ['⚡ 전체 ① 객관식','#ffd54f','MC'],
   ['⚡ 전체 ② 주관식','#ffce54','SA'],
   ['전체','#1DB954',q=>true],
@@ -336,6 +337,7 @@ function soloListFor(m){
   if(m==='EXAM')return QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='exam'&&['ox','single','multi'].includes(q.type));
   if(m==='BASIC')return QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='basic'&&['ox','single','multi'].includes(q.type));
   if(m==='Y2025')return QUESTIONS.filter(q=>q.origin==='jokbo'&&(q.exam||'').includes('2025'));
+  if(m==='TABLE')return QUESTIONS.filter(q=>/\n\s*\|[\s:|\-]+\|/.test(q.q||''));
   return QUESTIONS.filter(q=>q.origin==='jokbo'&&(m==='SA'?['short','calc','essay']:['ox','single','multi']).includes(q.type));}
 function soloList(){return soloListFor(soloMode());}
 function save(){localStorage.setItem(LS,JSON.stringify(ST));}
